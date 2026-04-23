@@ -1,0 +1,32 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "837901",
+                         "content":  "\u003ccolor=#ebcaa2\u003eAll Sinners\u003c/color\u003e \u003ccolor=#fe4b48\u003etake {0} SP damage\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "837902_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#e30000\u003etakes {1} HP damage\u003c/color\u003e, and \u003ccolor=#80c9ff\u003eheals {2} SP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "837902_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e gains %{2} [{1}]/% every turn"
+                     },
+                     {
+                         "id":  "837601_success_1_1",
+                         "content":  "The Rose Hunter gains \u003ccolor=#e30000\u003e3 Offense Level Down and 3 Defense Level Down\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "837601_success_1_2",
+                         "content":  "The Rose Hunter gains \u003ccolor=#e30000\u003e3 Offense Level Down and 3 Defense Level Down\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "837601_failure_1_1",
+                         "content":  "{0} takes \u003ccolor=#e30000\u003edamage equal to 15% of their max HP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "837601_failure_1_2",
+                         "content":  "The Rose Hunter gains \u003ccolor=#f8c200\u003e3 Offense Level Up and 3 Defense Level Up\u003c/color\u003e"
+                     }
+                 ]
+}

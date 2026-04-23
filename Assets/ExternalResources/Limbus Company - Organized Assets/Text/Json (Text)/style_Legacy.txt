@@ -1,0 +1,1250 @@
+{
+  "dataList": [
+    {
+      "id": "show_image_only_legacy",
+      "values": [
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "lobby_presenter_icon_bg",
+      "values": [
+        {
+          "category": 7,
+          "value": 1
+        },
+        {
+          "category": 8,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "lobby_presenter_page_indicator_off",
+      "values": [
+        {
+          "category": 102,
+          "value": 161
+        },
+        {
+          "category": 103,
+          "value": 106
+        },
+        {
+          "category": 104,
+          "value": 59
+        }
+      ]
+    },
+    {
+      "id": "lobby_presenter_page_indicator_on",
+      "values": [
+        {
+          "category": 102,
+          "value": 235
+        },
+        {
+          "category": 103,
+          "value": 202
+        },
+        {
+          "category": 104,
+          "value": 162
+        }
+      ]
+    },
+    {
+      "id": "lobby_presenter_frame_selected",
+      "values": [
+        {
+          "category": 102,
+          "value": 255
+        },
+        {
+          "category": 103,
+          "value": 255
+        },
+        {
+          "category": 104,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "lobby_presenter_frame_non_selected",
+      "values": [
+        {
+          "category": 102,
+          "value": 114
+        },
+        {
+          "category": 103,
+          "value": 92
+        },
+        {
+          "category": 104,
+          "value": 84
+        }
+      ]
+    },
+    {
+      "id": "lower_control_exp_gauge",
+      "values": [
+        {
+          "category": 102,
+          "value": 163
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "lower_control_level_label",
+      "values": [
+        {
+          "category": 302,
+          "value": 235
+        },
+        {
+          "category": 303,
+          "value": 202
+        },
+        {
+          "category": 304,
+          "value": 162
+        }
+      ]
+    },
+    {
+      "id": "lower_control_lunacy_image_tag",
+      "values": [
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "lower_control_lunacy_text_tag",
+      "values": [
+        {
+          "category": 305,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "lower_control_button_non_pressed",
+      "values": [
+        {
+          "category": 2,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "lower_control_button_pressed",
+      "values": [
+        {
+          "category": 2,
+          "value": 7.5
+        }
+      ]
+    },
+    {
+      "id": "lower_control_button_non_pressed_icon",
+      "values": [
+        {
+          "category": 102,
+          "value": 161
+        },
+        {
+          "category": 103,
+          "value": 106
+        },
+        {
+          "category": 104,
+          "value": 59
+        },
+        {
+          "category": 105,
+          "value": 178
+        },
+        {
+          "category": 2,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "lower_control_button_pressed_icon",
+      "values": [
+        {
+          "category": 102,
+          "value": 248
+        },
+        {
+          "category": 103,
+          "value": 194
+        },
+        {
+          "category": 104,
+          "value": 0
+        },
+        {
+          "category": 105,
+          "value": 178
+        },
+        {
+          "category": 2,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "lower_control_button_non_pressed_text",
+      "values": [
+        {
+          "category": 301,
+          "value": 1
+        },
+        {
+          "category": 302,
+          "value": 161
+        },
+        {
+          "category": 303,
+          "value": 106
+        },
+        {
+          "category": 304,
+          "value": 59
+        },
+        {
+          "category": 305,
+          "value": 255
+        },
+        {
+          "category": 2,
+          "value": -40
+        }
+      ]
+    },
+    {
+      "id": "lower_control_button_pressed_text",
+      "values": [
+        {
+          "category": 301,
+          "value": 1
+        },
+        {
+          "category": 302,
+          "value": 248
+        },
+        {
+          "category": 303,
+          "value": 194
+        },
+        {
+          "category": 304,
+          "value": 0
+        },
+        {
+          "category": 305,
+          "value": 255
+        },
+        {
+          "category": 2,
+          "value": -40
+        }
+      ]
+    },
+    {
+      "id": "lower_control_inventory_text_default",
+      "values": [
+        {
+          "category": 301,
+          "value": 1
+        },
+        {
+          "category": 302,
+          "value": 161
+        },
+        {
+          "category": 303,
+          "value": 106
+        },
+        {
+          "category": 304,
+          "value": 59
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "lower_control_inventory_text_highlight",
+      "values": [
+        {
+          "category": 301,
+          "value": 1
+        },
+        {
+          "category": 302,
+          "value": 248
+        },
+        {
+          "category": 303,
+          "value": 194
+        },
+        {
+          "category": 304,
+          "value": 0
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "toggle_base_text_color_normal",
+      "values": [
+        {
+          "category": 302,
+          "value": 4
+        },
+        {
+          "category": 303,
+          "value": 0
+        },
+        {
+          "category": 304,
+          "value": 1
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "toggle_base_text_color_highlight",
+      "values": [
+        {
+          "category": 302,
+          "value": 235
+        },
+        {
+          "category": 303,
+          "value": 202
+        },
+        {
+          "category": 304,
+          "value": 162
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "popup_content_text_base_color",
+      "values": [
+        {
+          "category": 302,
+          "value": 4
+        },
+        {
+          "category": 303,
+          "value": 0
+        },
+        {
+          "category": 304,
+          "value": 1
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "popup_separator_image_color",
+      "values": [
+        {
+          "category": 102,
+          "value": 4
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "settings_toggle_background",
+      "values": [
+        {
+          "category": 102,
+          "value": 4
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "settings_toggle_dark_background",
+      "values": [
+        {
+          "category": 102,
+          "value": 255
+        },
+        {
+          "category": 103,
+          "value": 255
+        },
+        {
+          "category": 104,
+          "value": 255
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "settings_toggle_checked",
+      "values": [
+        {
+          "category": 13,
+          "value": 55
+        },
+        {
+          "category": 14,
+          "value": 55
+        },
+        {
+          "category": 102,
+          "value": 235
+        },
+        {
+          "category": 103,
+          "value": 202
+        },
+        {
+          "category": 104,
+          "value": 162
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "settings_sound_icon",
+      "values": [
+        {
+          "category": 102,
+          "value": 4
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "formation_ui_trash_can_icon_normal",
+      "values": [
+        {
+          "category": 102,
+          "value": 4
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "formation_ui_trash_can_icon_highlight",
+      "values": [
+        {
+          "category": 102,
+          "value": 241
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 9
+        }
+      ]
+    },
+    {
+      "id": "vending_banner_frame_normal",
+      "values": [
+        {
+          "category": 13,
+          "value": 650
+        }
+      ]
+    },
+    {
+      "id": "vending_banner_frame_fes",
+      "values": [
+        {
+          "category": 13,
+          "value": 650
+        }
+      ]
+    },
+    {
+      "id": "formation_view_additional_toggle_image_normal",
+      "values": [
+        {
+          "category": 102,
+          "value": 4
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "formation_view_additional_toggle_image_highlight",
+      "values": [
+        {
+          "category": 102,
+          "value": 235
+        },
+        {
+          "category": 103,
+          "value": 202
+        },
+        {
+          "category": 104,
+          "value": 162
+        }
+      ]
+    },
+    {
+      "id": "formation_view_additional_toggle_text_normal",
+      "values": [
+        {
+          "category": 302,
+          "value": 4
+        },
+        {
+          "category": 303,
+          "value": 0
+        },
+        {
+          "category": 304,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "formation_view_additional_toggle_image_normal",
+      "values": [
+        {
+          "category": 102,
+          "value": 4
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "formation_view_additional_toggle_text_highlight",
+      "values": [
+        {
+          "category": 302,
+          "value": 235
+        },
+        {
+          "category": 303,
+          "value": 202
+        },
+        {
+          "category": 304,
+          "value": 162
+        }
+      ]
+    },
+    {
+      "id": "formation_view_additional_toggle_image_highlight",
+      "values": [
+        {
+          "category": 102,
+          "value": 235
+        },
+        {
+          "category": 103,
+          "value": 202
+        },
+        {
+          "category": 104,
+          "value": 162
+        }
+      ]
+    },
+    {
+      "id": "light_button_normal_color",
+      "values": [
+        {
+          "category": 102,
+          "value": 4
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "light_button_normal_highlight",
+      "values": [
+        {
+          "category": 102,
+          "value": 235
+        },
+        {
+          "category": 103,
+          "value": 202
+        },
+        {
+          "category": 104,
+          "value": 162
+        }
+      ]
+    },
+    {
+      "id": "model_title_image",
+      "values": [
+        {
+          "category": 102,
+          "value": 161
+        },
+        {
+          "category": 103,
+          "value": 106
+        },
+        {
+          "category": 104,
+          "value": 59
+        }
+      ]
+    },
+    {
+      "id": "story_ui_panel_other_story_locked_text",
+      "values": [
+        {
+          "category": 302,
+          "value": 4
+        },
+        {
+          "category": 303,
+          "value": 0
+        },
+        {
+          "category": 304,
+          "value": 1
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "story_ui_panel_other_story_unlocked_text",
+      "values": [
+        {
+          "category": 302,
+          "value": 4
+        },
+        {
+          "category": 303,
+          "value": 0
+        },
+        {
+          "category": 304,
+          "value": 1
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "apple_icon",
+      "values": [
+        {
+          "category": 102,
+          "value": 4
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "formation_button_default_color",
+      "values": [
+        {
+          "category": 102,
+          "value": 235
+        },
+        {
+          "category": 103,
+          "value": 202
+        },
+        {
+          "category": 104,
+          "value": 162
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "door_ui_image_number_text",
+      "values": [
+        {
+          "category": 302,
+          "value": 161
+        },
+        {
+          "category": 303,
+          "value": 106
+        },
+        {
+          "category": 304,
+          "value": 59
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "stage_slot_frame",
+      "values": [
+        {
+          "category": 13,
+          "value": 715.54
+        },
+        {
+          "category": 14,
+          "value": 344.79
+        },
+        {
+          "category": 2,
+          "value": 131
+        }
+      ]
+    },
+    {
+      "id": "stage_icon_ui_slot_illustration_mask",
+      "values": [
+        {
+          "category": 21,
+          "value": -55
+        },
+        {
+          "category": 22,
+          "value": -55
+        }
+      ]
+    },
+    {
+      "id": "stage_icon_ui_slot_info_rect",
+      "values": [
+        {
+          "category": 2,
+          "value": -100
+        },
+        {
+          "category": 14,
+          "value": 102.76
+        }
+      ]
+    },
+    {
+      "id": "stage_icon_ui_slot_text_bg",
+      "values": [
+        {
+          "category": 21,
+          "value": -50
+        },
+        {
+          "category": 22,
+          "value": -50
+        }
+      ]
+    },
+    {
+      "id": "dui_reward_dungeon_panel_label",
+      "values": [
+        {
+          "category": 302,
+          "value": 161
+        },
+        {
+          "category": 303,
+          "value": 106
+        },
+        {
+          "category": 304,
+          "value": 59
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "dui_exp_dungeon_tab_label",
+      "values": [
+        {
+          "category": 302,
+          "value": 161
+        },
+        {
+          "category": 303,
+          "value": 106
+        },
+        {
+          "category": 304,
+          "value": 59
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "dui_exp_dungeon_tab_object",
+      "values": [
+        {
+          "category": 14,
+          "value": 100
+        }
+      ]
+    },
+    {
+      "id": "dui_counter_min_max_button_icon",
+      "values": [
+        {
+          "category": 102,
+          "value": 4
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "dui_formation_default_button",
+      "values": [
+        {
+          "category": 102,
+          "value": 235
+        },
+        {
+          "category": 103,
+          "value": 202
+        },
+        {
+          "category": 104,
+          "value": 162
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "dui_mail_history_item_bg",
+      "values": [
+        {
+          "category": 21,
+          "value": 0
+        },
+        {
+          "category": 22,
+          "value": 0
+        },
+        {
+          "category": 23,
+          "value": 0
+        },
+        {
+          "category": 24,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "dui_mail_history_item_bg_hover",
+      "values": [
+        {
+          "category": 21,
+          "value": 0
+        },
+        {
+          "category": 22,
+          "value": 0
+        },
+        {
+          "category": 23,
+          "value": 0
+        },
+        {
+          "category": 24,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "dui_gacha_main_banner_focus",
+      "values": [
+        {
+          "category": 2,
+          "value": -3
+        },
+        {
+          "category": 13,
+          "value": 633
+        },
+        {
+          "category": 14,
+          "value": 260
+        }
+      ]
+    },
+    {
+      "id": "dui_gacha_main_banner_hover",
+      "values": [
+        {
+          "category": 2,
+          "value": 0
+        },
+        {
+          "category": 13,
+          "value": 633
+        },
+        {
+          "category": 14,
+          "value": 260
+        }
+      ]
+    },
+    {
+      "id": "dui_option_dropdown_icon",
+      "values": [
+        {
+          "category": 102,
+          "value": 4
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "dui_popup_frame",
+      "values": [
+        {
+          "category": 101,
+          "value": 1
+        },
+        {
+          "category": 21,
+          "value": 70
+        },
+        {
+          "category": 22,
+          "value": 70
+        },
+        {
+          "category": 23,
+          "value": 70
+        },
+        {
+          "category": 24,
+          "value": 70
+        }
+      ]
+    },
+    {
+      "id": "dui_mirror_dungeon_progress_infinity_mode_button",
+      "values": [
+        {
+          "category": 1,
+          "value": 676
+        }
+      ]
+    },
+    {
+      "id": "dui_stage_reward_acquire_reward",
+      "values": [
+        {
+          "category": 13,
+          "value": 120
+        },
+        {
+          "category": 14,
+          "value": 120
+        }
+      ]
+    },
+    {
+      "id": "dui_stage_reward_gauge_bar_edge",
+      "values": [
+        {
+          "category": 102,
+          "value": 5
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "dui_stage_reward_ex_gauge_bar_edge",
+      "values": [
+        {
+          "category": 102,
+          "value": 5
+        },
+        {
+          "category": 103,
+          "value": 0
+        },
+        {
+          "category": 104,
+          "value": 1
+        },
+        {
+          "category": 105,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "dui_stage_reward_gauge_bar_back",
+      "values": [
+        {
+          "category": 102,
+          "value": 84
+        },
+        {
+          "category": 103,
+          "value": 104
+        },
+        {
+          "category": 104,
+          "value": 115
+        },
+        {
+          "category": 105,
+          "value": 38
+        }
+      ]
+    },
+    {
+      "id": "dui_stage_reward_gauge_label",
+      "values": [
+        {
+          "category": 301,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "dui_stage_reward_gauge_bar",
+      "values": [
+        {
+          "category": 21,
+          "value": 1
+        },
+        {
+          "category": 22,
+          "value": 1
+        },
+        {
+          "category": 23,
+          "value": 0
+        },
+        {
+          "category": 24,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "dui_stage_reward_ex_gauge_bar",
+      "values": [
+        {
+          "category": 21,
+          "value": 2.785
+        },
+        {
+          "category": 22,
+          "value": 2.4
+        },
+        {
+          "category": 23,
+          "value": 0
+        },
+        {
+          "category": 24,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "dui_personality_ego_list_tab_text_hover_at_turn_on",
+      "values": [
+        {
+          "category": 302,
+          "value": 235
+        },
+        {
+          "category": 303,
+          "value": 202
+        },
+        {
+          "category": 304,
+          "value": 162
+        },
+        {
+          "category": 305,
+          "value": 255
+        }
+      ]
+    },
+    {
+      "id": "dui_gacha_sub_banner_frame_normal",
+      "values": [
+        {
+          "category": 13,
+          "value": 650
+        }
+      ]
+    },
+    {
+      "id": "dui_gacha_sub_banner_frame_walpu",
+      "values": [
+        {
+          "category": 13,
+          "value": 650
+        }
+      ]
+    }
+  ]
+}

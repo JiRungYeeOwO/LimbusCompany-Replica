@@ -1,0 +1,58 @@
+{
+    "dataList":  [
+                     {
+                         "id":  0,
+                         "place":  "L Corp. HQ Central Command",
+                         "model":  "그레고르",
+                         "content":  "Ah... tsk, this one\u0027s uh... this one\u0027s kinda elaborate, huh."
+                     },
+                     {
+                         "id":  1,
+                         "model":  "싱클레어",
+                         "content":  "Her floating swords are... so... hard to parry. It\u0027s got such a long reach, and it\u0027s so thin that I can hardly see where it\u0027s— aagh!"
+                     },
+                     {
+                         "id":  2,
+                         "content":  "As if to prove Sinclair\u0027s words, the azure Abnormality fired another volley of thrusting swords in our direction."
+                     },
+                     {
+                         "id":  3,
+                         "content":  "Just as we braced..."
+                     },
+                     {
+                         "id":  4,
+                         "teller":  "???",
+                         "title":  "???",
+                         "content":  "Hiyah!"
+                     },
+                     {
+                         "id":  5,
+                         "content":  "... rays of pink light coalesced before Sinclair, materializing... before someone rushed onto the scene and parried away the flying swords."
+                     },
+                     {
+                         "id":  6,
+                         "model":  "티페리트",
+                         "title":  "Central Command Sephirah",
+                         "content":  "Haah... her again? Leaping right into the action the moment the Second Warning goes off..."
+                     },
+                     {
+                         "id":  7,
+                         "model":  "싱클레어",
+                         "content":  "Huh...? You\u0027re...?"
+                     },
+                     {
+                         "id":  8,
+                         "model":  "마법소녀",
+                         "teller":  "???",
+                         "title":  "???",
+                         "content":  "Sorry I\u0027m late."
+                     },
+                     {
+                         "id":  9,
+                         "model":  "마법소녀",
+                         "teller":  "Magical Girl?",
+                         "title":  "???",
+                         "content":  "Here comes~ Magical Girl!"
+                     }
+                 ]
+}

@@ -1,0 +1,16 @@
+{
+  "list": [
+    {
+      "id": 41,
+      "imgStr": "secret",
+      "spoilerSubchapterId": 109,
+      "announcerKeywords": []
+    },
+    {
+      "id": 42,
+      "imgStr": "secret",
+      "spoilerSubchapterId": 109,
+      "announcerKeywords": []
+    }
+  ]
+}

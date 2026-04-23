@@ -1,0 +1,18 @@
+{
+  "dataList": [
+    {
+      "id": 0,
+      "category": 1,
+      "spriteAtlasFallbacks": [
+        {
+          "spriteAtlas": "NEW_UIselect",
+          "fallbackThemeId" : 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "category": 2
+    }
+  ]
+}

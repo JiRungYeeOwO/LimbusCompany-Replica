@@ -1,0 +1,76 @@
+﻿{
+	"list": [
+		{
+			"errorMsgId": "servererror_content",
+			"errorCodeList": [0],
+			"isRetryable": true
+		},
+		{
+			"errorMsgId": "serverstate_blocking_endpoint",
+			"errorCodeList": [-5]
+		},
+		{
+			"errorMsgId": "networkingerror_content",
+			"errorCodeList": [-4]
+
+		},
+		{
+			"errorMsgId": "serverstate_temporary_check",
+			"errorCodeList": [-3]
+		},
+		{
+			"errorMsgId": "serverstate_regularcheck",
+			"errorCodeList": [-2]
+		},
+		{
+			"errorMsgId": "serverstate_openpreparation",
+			"errorCodeList": [-1]
+		},
+		{
+			"errorMsgId": "serverstate_verify_invaliduser",
+			"errorCodeList": [101]
+		},
+		{
+			"errorMsgId": "serverstate_verify_ban",
+			"errorCodeList": [102]
+		},
+		{
+			"errorMsgId": "serverstate_verify_invalidauth",
+			"errorCodeList": [103]
+		},
+		{
+			"errorMsgId": "serverstate_verify_invalidclientversion",
+			"errorCodeList": [104, 105]
+		},
+		{
+			"errorMsgId": "serverstate_verify_invaliduuid",
+			"isRetryable": false,
+			"errorCodeList": [106]
+		},
+		{
+			"errorMsgId": "serverstate_error_thirdparty_api",
+			"errorCodeList": [109],
+			"isRetryable": true
+		},
+		{
+			"errorMsgId": "servererror_invalid_purchasing_package",
+			"errorCodeList": [110],
+			"isRetryable": false
+		},
+		{
+			"errorMsgId": "servererror_remain_restore_purchasing",
+			"errorCodeList": [111],
+			"isRetryable": false
+		},
+		{
+			"errorMsgId": "servererror_invalid_battle_version",
+			"errorCodeList": [112],
+			"isRetryable": false
+		},
+		{
+			"errorMsgId": "servererror_steam_auth_error",
+			"errorCodeList": [40208],
+			"isRetryable": false
+		}
+	]
+}

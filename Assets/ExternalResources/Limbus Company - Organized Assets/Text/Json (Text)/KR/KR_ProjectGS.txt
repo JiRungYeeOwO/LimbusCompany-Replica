@@ -1,0 +1,552 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "project_gs_button_label_open_lesson_ui",
+                         "content":  "?? ??"
+                     },
+                     {
+                         "id":  "project_gs_button_label_progress_lesson",
+                         "content":  "?? ??"
+                     },
+                     {
+                         "id":  "project_gs_button_label_open_battle",
+                         "content":  "?? ??"
+                     },
+                     {
+                         "id":  "project_gs_stats_wisdom",
+                         "content":  "?"
+                     },
+                     {
+                         "id":  "project_gs_stats_courage",
+                         "content":  "?"
+                     },
+                     {
+                         "id":  "project_gs_stats_benevolence",
+                         "content":  "?"
+                     },
+                     {
+                         "id":  "project_gs_stats_wisdom_with_char",
+                         "content":  "?(?)"
+                     },
+                     {
+                         "id":  "project_gs_stats_courage_with_char",
+                         "content":  "?(?)"
+                     },
+                     {
+                         "id":  "project_gs_stats_benevolence_with_char",
+                         "content":  "?(?)"
+                     },
+                     {
+                         "id":  "project_gs_condition",
+                         "content":  "???"
+                     },
+                     {
+                         "id":  "project_gs_day",
+                         "content":  "{0}? ?"
+                     },
+                     {
+                         "id":  "project_gs_schedule_label",
+                         "content":  "???"
+                     },
+                     {
+                         "id":  "project_gs_desc_select_lesson",
+                         "content":  "??? ??????"
+                     },
+                     {
+                         "id":  "project_gs_condition_highest",
+                         "content":  "??"
+                     },
+                     {
+                         "id":  "project_gs_condition_high",
+                         "content":  "?"
+                     },
+                     {
+                         "id":  "project_gs_condition_medium",
+                         "content":  "??"
+                     },
+                     {
+                         "id":  "project_gs_condition_low",
+                         "content":  "??"
+                     },
+                     {
+                         "id":  "project_gs_condition_lowest",
+                         "content":  "??"
+                     },
+                     {
+                         "id":  "project_gs_title_grow_up",
+                         "content":  "??"
+                     },
+                     {
+                         "id":  "project_gs_title_schedule",
+                         "content":  "??? ??"
+                     },
+                     {
+                         "id":  "project_gs_lesson_level_1",
+                         "content":  "??"
+                     },
+                     {
+                         "id":  "project_gs_lesson_level_2",
+                         "content":  "??"
+                     },
+                     {
+                         "id":  "project_gs_lesson_level_3",
+                         "content":  "??"
+                     },
+                     {
+                         "id":  "project_gs_jia_xichun_name",
+                         "content":  "???"
+                     },
+                     {
+                         "id":  "project_gs_sinclair_name",
+                         "content":  "????"
+                     },
+                     {
+                         "id":  "project_gs_exp",
+                         "content":  "???"
+                     },
+                     {
+                         "id":  "project_gs_combo",
+                         "content":  "??"
+                     },
+                     {
+                         "id":  "project_gs_fixed_lesson",
+                         "content":  "?? ??"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_1_critical_success",
+                         "content":  "??? ?? ??? ? ?? ??? ?????!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_1_success",
+                         "content":  "??? ?????? ?? ? ??? ??? ?? ????!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_1_normal",
+                         "content":  "???? ???? ??? ? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_1_failure",
+                         "content":  "???? ??? ????? ?? ? ??? ???? ????… ????? ??? ??? ? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_1_critical_failure",
+                         "content":  "?? ?? ?? ??? ??? ? ?? ????… ??? ???? ???? ??? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_2_critical_success",
+                         "content":  "?? ??? ???? ????? ??? ??? ? ??? ???? ?????!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_2_success",
+                         "content":  "? H?? ?? ??? ??? ?? ???? ?? ? ???!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_2_normal",
+                         "content":  "???? ?? ??? ??? ?? ??? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_2_failure",
+                         "content":  "??? ??? ??? ??? ?? ????, ???? ??? ? ???? ? ??."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_2_critical_failure",
+                         "content":  "??? ?? ???… ????? ?? ???? ???? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_3_critical_success",
+                         "content":  "????? ?? ?? ???? ? ?? ??? ?? ?????!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_3_success",
+                         "content":  "????? ???? ?? ??, ?? ?? ? ???!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_3_normal",
+                         "content":  "???? ???? ?? ??? ??? ?? ??."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_3_failure",
+                         "content":  "?? ???? ?? ?????, ??? ? ??? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_3_critical_failure",
+                         "content":  "?? ? ??? ??? ??? ???? ?? ?? ?? ?? ???…"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_4_critical_success",
+                         "content":  "?? ??? ????. ?? ???… ??? ?????!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_4_success",
+                         "content":  "?? ? ??? ????? ?? ?? ?? ?? ????!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_4_normal",
+                         "content":  "???? ??? ??? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_4_failure",
+                         "content":  "??? ??????, ??? ??????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_4_critical_failure",
+                         "content":  "????? ? ???? ????… ??? ??? ???…"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_5_critical_success",
+                         "content":  "???? ??? ????, ??? ??? ?? ??? ? ?? ???!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_5_success",
+                         "content":  "???? ???? ???? ??? ? ?? ? ??!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_5_normal",
+                         "content":  "???? ?? ??? ????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_5_failure",
+                         "content":  "?? ??? ???? ????? ?? ???? ??? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_5_critical_failure",
+                         "content":  "????? ???? ?? ??? ???, ???? ??? ?? ?? ???…"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_6_critical_success",
+                         "content":  "??? ??? ?? ??? ?? ????!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_6_success",
+                         "content":  "??? ??? ??? ????, ??? ??? ??? ?????!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_6_normal",
+                         "content":  "???? ???? ?? ??? ?? ??? ????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_6_failure",
+                         "content":  "?? ??? ? ?????, ???? ????. ?? ??? ? ??? ??? ??."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_6_critical_failure",
+                         "content":  "??? ?? ?? ? ?????. ??? ?? ?? ????…"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_7_critical_success",
+                         "content":  "?? ?."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_7_success",
+                         "content":  "?? ??."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_7_normal",
+                         "content":  "???? ??? ? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_7_failure",
+                         "content":  "???? ?? ???? ? ?? ??? ???…"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_7_critical_failure",
+                         "content":  "?? ??? ??, ?? ??? ??? ? ???? ?? ??? ??? ??? ???. ???? ? ??? ?? ??? ????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_8_critical_success",
+                         "content":  "? ??? ???? ???? ???? ??? ???? ?? ?? ?????!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_8_success",
+                         "content":  "???? ??? ???? ?? ?? ?? ? ??? ????!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_8_normal",
+                         "content":  "???? ??? ??? ???? ? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_8_failure",
+                         "content":  "??? ?????, ????? ?? ?? ?? ? ??? ??????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_8_critical_failure",
+                         "content":  "??? ????? ????, ?? ??? ????? ?? ???…"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_9_critical_success",
+                         "content":  "?. ?. (??? ??)!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_9_success",
+                         "content":  "???? ??? ???? ?? ?? ????!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_9_normal",
+                         "content":  "???? ??? ???? ?? ???? ????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_9_failure",
+                         "content":  "??? ???? ?? ???… ?? ?????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_9_critical_failure",
+                         "content":  "??? ?????… ??? ?????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_10_critical_success",
+                         "content":  "??? ?? ?? ??? ??? ?? ?? ????. ??? ???? ??? ???!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_10_success",
+                         "content":  "?? ? ???, ??? ???? ?? ? ??? ??? ?? ??? ???!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_10_normal",
+                         "content":  "???? ??? ??? ???? ?? ??? ?? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_10_failure",
+                         "content":  "??? ??? ??????, ?? ?? ???? ? ??? ???? ??? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_10_critical_failure",
+                         "content":  "??? ?? ??? ?? ??? ???. ???? ?? ??? ???… "
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_11_critical_success",
+                         "content":  "???? ? ?? ??, ???? ?? ??? ?? ????!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_11_success",
+                         "content":  "?? ??? ?????? ?? ??? ? ???!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_11_normal",
+                         "content":  "???? ?? ?? ?? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_11_failure",
+                         "content":  "?? ???? ???? ?? ??? ?? ??? ??? ? ???."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_11_critical_failure",
+                         "content":  "??? ??? ????? ?????? ??? ????… ???? ?? ?? ?? ??? ????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_12_critical_success",
+                         "content":  "??? ???? ??? ?? ?? ?? ????. ??? ?? ???? ?? ?? ??!!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_12_success",
+                         "content":  "?? ??? ?? ?? ?? ??? ?? ????. ?????? ???? ???!"
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_12_normal",
+                         "content":  "???? ????? ??? ????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_12_failure",
+                         "content":  "????? ??? ???? ?? ?? ???… ??? ???? ? ??? ??? ????."
+                     },
+                     {
+                         "id":  "project_gs_lesson_result_desc_12_critical_failure",
+                         "content":  "????? ?? ??? ???… ??? ???."
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_wisdom_up",
+                         "content":  "? ?? {0} ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_wisdom_down",
+                         "content":  "? ?? {0} ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_courage_up",
+                         "content":  "? ?? {0} ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_courage_down",
+                         "content":  "? ?? {0} ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_benevolence_up",
+                         "content":  "? ?? {0} ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_benevolence_down",
+                         "content":  "? ?? {0} ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_all_stats_up",
+                         "content":  "?? ?? {0} ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_all_stats_down",
+                         "content":  "?? ?? {0} ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_condition_up",
+                         "content":  "??? {0} ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_condition_down",
+                         "content":  "??? {0} ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_lesson_critical_success",
+                         "content":  "?? ???"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_next_lesson_critical_success",
+                         "content":  "?? ?? ???"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_stats_result_ratio_wisdom_up",
+                         "content":  "?? ??? ?? ? ?? {0}% ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_stats_result_ratio_wisdom_down",
+                         "content":  "?? ??? ?? ? ?? {0}% ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_stats_result_ratio_courage_up",
+                         "content":  "?? ??? ?? ? ?? {0}% ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_stats_result_ratio_courage_down",
+                         "content":  "?? ??? ?? ? ?? {0}% ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_stats_result_ratio_benevolence_up",
+                         "content":  "?? ??? ?? ? ?? {0}% ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_stats_result_ratio_benevolence_down",
+                         "content":  "?? ??? ?? ? ?? {0}% ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_stats_result_ratio_all_up",
+                         "content":  "?? ??? ?? ?? ?? {0}% ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_stats_result_ratio_all_down",
+                         "content":  "?? ??? ?? ?? ?? {0}% ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_title",
+                         "content":  "?? ?? ??"
+                     },
+                     {
+                         "id":  "project_gs_restart",
+                         "content":  "???"
+                     },
+                     {
+                         "id":  "project_gs_ask_to_restart",
+                         "content":  "1? ?? ??????????"
+                     },
+                     {
+                         "id":  "project_gs_finish_to_grow_up",
+                         "content":  "?? ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_lesson_success_rate_up",
+                         "content":  "?? ?? ?? {0}% ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_lesson_success_rate_down",
+                         "content":  "?? ?? ?? {0}% ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_lesson_success_rate_changed",
+                         "content":  "?? ?? ?? ??"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_lesson_critical_success_changed",
+                         "content":  "- ??? : {0}%"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_lesson_success_changed",
+                         "content":  "- ?? : {0}%"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_lesson_normal_changed",
+                         "content":  "- ?? : {0}%"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_lesson_failure_changed",
+                         "content":  "- ?? : {0}%"
+                     },
+                     {
+                         "id":  "project_gs_combo_desc_lesson_critical_failure_changed",
+                         "content":  "- ??? : {0}%"
+                     },
+                     {
+                         "id":  "project_gs_lesson_level_up_title",
+                         "content":  "??"
+                     },
+                     {
+                         "id":  "project_gs_notice_unable_to_release_fixed_lesson",
+                         "content":  "??? ???? ??\n?????."
+                     },
+                     {
+                         "id":  "project_gs_combo_text_only_jia_xichun",
+                         "content":  "(???) "
+                     },
+                     {
+                         "id":  "project_gs_combo_text_only_sinclair",
+                         "content":  "(????) "
+                     },
+                     {
+                         "id":  "project_gs_ask_to_start_lesson",
+                         "content":  "??? ?????????"
+                     },
+                     {
+                         "id":  "project_gs_do_not_see_ask_to_start_lesson_popup",
+                         "content":  "? ??? ?? ?? ??"
+                     },
+                     {
+                         "id":  "project_gs_stats_saved",
+                         "content":  "?? ??"
+                     },
+                     {
+                         "id":  "project_gs_progress_label",
+                         "content":  "?? ???"
+                     },
+                     {
+                         "id":  "project_gs_ask_move_to_main",
+                         "content":  "?? ??? ????\n?? ???? ?????????"
+                     },
+                     {
+                         "id":  "project_gs_exit_title",
+                         "content":  "?? ??"
+                     },
+                     {
+                         "id":  "project_gs_re_enter_warning",
+                         "content":  "?? ??? ???????.\n?? ??? ??, ?? ?? ??? ?????, ??? ?? ?? ? ?? ??? ?? ??? ??????.\n??? ?????????"
+                     },
+                     {
+                         "id":  "project_gs_check_growth",
+                         "content":  "?? ??"
+                     },
+                     {
+                         "id":  "project_gs_growth_desc",
+                         "content":  "???? (? : {0}, ? : {1}, ? : {2}) ?? ????!\n\n????? (? : {4}, ? : {5}, ? : {6}) ?? ????!"
+                     },
+                     {
+                         "id":  "project_gs_growth_result_popup_lessons",
+                         "content":  "??? ??"
+                     },
+                     {
+                         "id":  "project_gs_growth_result_popup_check_stats",
+                         "content":  "??? ?? ??"
+                     },
+                     {
+                         "id":  "project_gs_ask_to_start_lesson_with_warning",
+                         "content":  "??? ??? ??? ??, ?? ??? ?? ??? ??????.\n??? ??? ?????????"
+                     },
+                     {
+                         "id":  "project_gs_alarm_lesson_level_up",
+                         "content":  "[{0}] ??? ??? {1}?? ?????."
+                     }
+                 ]
+}

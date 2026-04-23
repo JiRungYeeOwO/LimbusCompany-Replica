@@ -1,0 +1,124 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "get_10612_1",
+                         "desc":  "Identity Acquisition",
+                         "dlg":  "Haah... They\u0027re sending in the Reindeer team first? Hello, please tell Rabbits and Rhinos to hurry up, or there won\u0027t be any grass left to graze on."
+                     },
+                     {
+                         "id":  "lobby_morning_10612_1",
+                         "desc":  "Morning Greeting",
+                         "dlg":  "Sleep doesn\u0027t help at all. This pounding headache just won\u0027t go away no matter how many pills I pop... It\u0027ll keep messing with my head until I die."
+                     },
+                     {
+                         "id":  "lobby_noon_10612_1",
+                         "desc":  "Afternoon Greeting",
+                         "dlg":  "It\u0027s a good idea to get a nice meal when we can~ Once these extermination operations begin, we won\u0027t be given any time to eat.\nAnd even after I die... I\u0027ll just wake up inside the Hatchery. And the only sustenance in there is people."
+                     },
+                     {
+                         "id":  "lobby_night_10612_1",
+                         "desc":  "Evening Greeting",
+                         "dlg":  "Extermination doesn\u0027t end when night falls. It\u0027ll take killing every human in the area... for this staff\u0027s light to go out."
+                     },
+                     {
+                         "id":  "smalltalk_10612_1",
+                         "desc":  "Chatter #1",
+                         "dlg":  "Apparently I don\u0027t get that big of a boost from getting put through the Hatchery. Most of my clones are so... ready to accept their deaths.\nI wonder what differentiates me from the rest of me. It\u0027s a meaningless question, but I\u0027d like to know the answer anyway."
+                     },
+                     {
+                         "id":  "smalltalk_10612_2",
+                         "desc":  "Chatter #2",
+                         "dlg":  "There isn\u0027t much strength difference between Packs except for the 1st Pack~ We just have different roles to fulfill. We\u0027re probably better than both the 2nd and the 3rd Pack when it comes to locking down an extermination zone and killing everything in the area. Probably."
+                     },
+                     {
+                         "id":  "smalltalk_10612_3",
+                         "desc":  "Chatter #3",
+                         "dlg":  "The difference between us and Wing employees and Association Fixers is... probably the attitudes we have toward our respective jobs. They\u0027re bound by something, like a sense of belonging or, more simply, individual interests, but we\u0027ll do anything as long as we get paid a sufficient amount for the task. Yeah, we\u0027ll do literally \u003ci\u003eanything\u003c/i\u003e."
+                     },
+                     {
+                         "id":  "smalltalk_10612_4",
+                         "desc":  "Post-Uptie Chat 1",
+                         "dlg":  "I didn\u0027t think there\u0027d be anything difficult in life as long as I accepted the way the world flowed.\nBut here, even acceptance makes the antlers take root and grow from my head, pulling away at the nerves. And it makes everything so... unbearable..."
+                     },
+                     {
+                         "id":  "smalltalk_10612_5",
+                         "desc":  "Post-Uptie Chat 2",
+                         "dlg":  "I told you time and again that it\u0027s not a good idea to stick too close to the Reindeer when on a mission.\nIs that simple idea so hard to understand...? Haah. What are you, a headless chicken? Quit getting in my way."
+                     },
+                     {
+                         "id":  "neglect_10612_1",
+                         "desc":  "Idle",
+                         "dlg":  "Ha ha. Do I get to rest now? ... Thank you."
+                     },
+                     {
+                         "id":  "gacksung_10612_1",
+                         "desc":  "Uptying",
+                         "dlg":  "Don\u0027t be anxious... don\u0027t be... I have to empty my thoughts to endure this— Agh! Get lost!"
+                     },
+                     {
+                         "id":  "formation_10612_1",
+                         "desc":  "Deployment",
+                         "dlg":  "Hong Lu #120. Ready to deploy."
+                     },
+                     {
+                         "id":  "battleentry_10612_1",
+                         "desc":  "Stage Entry",
+                         "dlg":  "Reindeer here. Entering extermination zone."
+                     },
+                     {
+                         "id":  "battle_select_10612_1",
+                         "desc":  "Viewed in Battle",
+                         "dlg":  "Can you please be quie— Nngh! Why the hell did you wait until now to call me up?!"
+                     },
+                     {
+                         "id":  "battle_endcommand_10612_1",
+                         "desc":  "Commencing Attack",
+                         "dlg":  "Focusing Antlers... Brainwave Charge."
+                     },
+                     {
+                         "id":  "battle_enemy_break_10612_1",
+                         "desc":  "Enemy Stagger",
+                         "dlg":  "Please... shut up..."
+                     },
+                     {
+                         "id":  "battle_break_10612_1",
+                         "desc":  "Staggered",
+                         "dlg":  "\u003ci\u003eHehheh... Hehaha... Heeheeeheee...\u003c/i\u003e"
+                     },
+                     {
+                         "id":  "battle_kill_10612_1",
+                         "desc":  "Enemy Killed",
+                         "dlg":  "... Much better."
+                     },
+                     {
+                         "id":  "battle_dead_10612_1",
+                         "desc":  "Death",
+                         "dlg":  "Haha... I\u0027ll seeya later. The Pack... it\u0027ll come back in a stampede in no time."
+                     },
+                     {
+                         "id":  "choice_success_p_10612_2",
+                         "desc":  "Check Passed",
+                         "dlg":  "Good enough for you? Then... let\u0027s hurry up with the contract."
+                     },
+                     {
+                         "id":  "choice_fail_n_10612_1",
+                         "desc":  "Check Failed",
+                         "dlg":  "Gah... Can\u0027t you relay a proper command for once?"
+                     },
+                     {
+                         "id":  "battle_clear_10612_1",
+                         "desc":  "Victory Cry",
+                         "dlg":  "Some of the herd was lost, but... hey, at least we won\u0027t be getting culled~ Shall we return to greet the new Reindeer, Commander?"
+                     },
+                     {
+                         "id":  "battle_clear_ex_10612_1",
+                         "desc":  "Extra Conditions Fulfilled",
+                         "dlg":  "Ha ha... ha ha... ha... Whew. That was close. I was worried they\u0027d cull me for insanity regardless of the mission\u0027s success."
+                     },
+                     {
+                         "id":  "battle_defeat_10612_1",
+                         "desc":  "Defeat Wail",
+                         "dlg":  "Huh? No headache...? And... am I back at the Hatchery...? Looks like \u0027I\u0027 failed the mission, huh?"
+                     }
+                 ]
+}

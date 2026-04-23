@@ -1,0 +1,16 @@
+{
+  "list": [
+    {
+      "eventId": "AprilStory",
+      "mainUIPhaseTypeList": [
+        "Lobby"
+      ],
+      "bannerSpriteId": "banner_AprilFools_event",
+      "alternativeBannerSpriteIdList": [
+        "banner_AprilFools2_event"
+      ],
+      "executeAfterLoginScene": true,
+      "isBannerVisible": true
+    }
+  ]
+}

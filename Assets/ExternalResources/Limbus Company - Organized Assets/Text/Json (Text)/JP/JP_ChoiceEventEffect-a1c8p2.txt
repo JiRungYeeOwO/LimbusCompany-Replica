@@ -1,0 +1,28 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "GetConfirmedObject",
+                         "content":  "\u003ccolor=#ebcaa2\u003e器物 {reward}獲得！\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetConfirmedCoin",
+                         "content":  "\u003ccolor=#ebcaa2\u003e器物{reward}を{stack}個獲得！\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "LoseConfirmedCoin",
+                         "content":  "\u003ccolor=#ebcaa2\u003e器物{reward}を{stack}個ロスト！\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "DestroyObject",
+                         "content":  "\u003ccolor=#ebcaa2\u003e器物{reward}\u003c/color\u003e \u003ccolor=#e30000\u003e消滅！\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetConfirmedObjectOnWinBattle",
+                         "content":  "\u003ccolor=#ebcaa2\u003e次の戦闘に勝利時、器物 {reward}を獲得！\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "HiddenGiftUnlockHiddenRoute",
+                         "content":  "\u003ccolor=#ebcaa2\u003e新しい道が地図に追加！\u003c/color\u003e"
+                     }
+                 ]
+}

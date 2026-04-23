@@ -1,0 +1,233 @@
+{
+  "list": [
+    {
+      "id": 10059,
+      "type": "CULTIVATION_TEST_CLEAR",
+      "valueType": "PEAK",
+      "targetList1": [ 6 ],
+      "uiConfig": {
+        "textTags": ["value" ]
+      }
+    },
+    {
+      "id": 10060,
+      "type": "CULTIVATION_TEST_CLEAR",
+      "valueType": "PEAK",
+      "targetList1": [ 12 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10061,
+      "type": "CULTIVATION_TEST_CLEAR",
+      "valueType": "PEAK",
+      "targetList1": [ 18 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10062,
+      "type": "CULTIVATION_TEST_CLEAR",
+      "valueType": "PEAK",
+      "targetList1": [ 24 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10063,
+      "type": "CULTIVATION_ALL_CLASS_PASSED",
+      "valueType": "PEAK",
+      "uiConfig": {
+        "textTags": []
+      }
+    },
+    {
+      "id": 10064,
+      "type": "CULTIVATION_MAX_CONDITION_DAYS",
+      "valueType": "PEAK",
+      "uiConfig": {
+        "textTags": [ "value"]
+      }
+    },
+    {
+      "id": 10065,
+      "type": "CULTIVATION_END",
+      "valueType": "PEAK",
+      "uiConfig": {
+        "textTags": [ ]
+      }
+    },
+    {
+      "id": 10066,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 1 ],
+      "uiConfig": {
+        "textTags": [ ]
+      }
+    },
+    {
+      "id": 10067,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 2 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10068,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 3 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10069,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 9 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10070,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 7 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10071,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 6 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10072,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 11 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10073,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 4 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10074,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 10 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10075,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 8 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10076,
+      "type": "CULTIVATION_CLASS_PASSED_OF",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 5 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10077,
+      "type": "CULTIVATION_STAT",
+      "valueType": "PEAK",
+      "targetList1": [ 0 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10079,
+      "type": "CULTIVATION_STAT",
+      "valueType": "PEAK",
+      "targetList1": [ 1 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10081,
+      "type": "CULTIVATION_STAT",
+      "valueType": "PEAK",
+      "targetList1": [ 2 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10083,
+      "type": "CULTIVATION_COMBO",
+      "valueType": "PEAK",
+      "targetList1": [  ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 10086,
+      "type": "MISSION_ALL_CLEAR",
+      "valueType": "ACCUMULATED",
+      "targetList1": [
+        10059,
+        10060,
+        10061,
+        10062,
+        10063,
+        10064,
+        10065,
+        10066,
+        10067,
+        10068,
+        10069,
+        10070,
+        10071,
+        10072,
+        10073,
+        10074,
+        10075,
+        10076,
+        10077,
+        10078,
+        10079,
+        10080,
+        10081,
+        10082,
+        10083,
+        10084,
+        10085
+      ]
+    }
+  ]
+}

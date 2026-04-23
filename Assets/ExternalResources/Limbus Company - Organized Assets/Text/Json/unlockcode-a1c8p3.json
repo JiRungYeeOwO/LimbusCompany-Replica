@@ -1,0 +1,14 @@
+{
+  "list": [
+    {
+      "id": 108,
+      "unlockcodeType": "SUBCHAPTER_CLEAR",
+      "desc": "8"
+    },
+    {
+      "id": 10830,
+      "unlockcodeType": "SUBCHAPTER_NODE_CLEAR",
+      "desc": "8-30"
+    }
+  ]
+}

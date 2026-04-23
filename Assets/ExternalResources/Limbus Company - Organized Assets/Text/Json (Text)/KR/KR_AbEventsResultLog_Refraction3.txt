@@ -1,0 +1,84 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "857701_abm_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e모든 수감자의\u003c/color\u003e %{0}/% 사라짐."
+                     },
+                     {
+                         "id":  "857701_abm_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e %{1} {2}/% 감소"
+                     },
+                     {
+                         "id":  "857701_abm_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e모든 수감자의\u003c/color\u003e \u003ccolor=#e30000\u003e{0}과 {0} 횟수\u003c/color\u003e를 각각 더해 수감자 수만큼 나눠 모든 수감자에게 \u003ccolor=#e30000\u003e{0}과 {0} 횟수\u003c/color\u003e 횟수를 부여함. (최소 1)"
+                     },
+                     {
+                         "id":  "857801_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e모든 수감자의\u003c/color\u003e %{0}/% 사라짐."
+                     },
+                     {
+                         "id":  "857801_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e모든 수감자의\u003c/color\u003e \u003ccolor=#80c9ff\u003e정신력 {0} 회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857801_success_1_3",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0} 수감자가 다음 턴에\u003c/color\u003e %[{1}] {2}/% \u003ccolor=#ebcaa2\u003e얻음.\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857801_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0} 수감자가\u003c/color\u003e %[{1}] {2}/% \u003ccolor=#ebcaa2\u003e얻음.\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857801_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0} 수감자의 \u003ccolor=#fe4b48\u003e정신력 {1} 감소\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857801_failure_1_3",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0} 수감자의 \u003ccolor=#e30000\u003e체력 {1} 감소\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857101_skinPredector_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e스테이지 동안 {0}\u003c/color\u003e %{1} {2}/% \u003ccolor=#ebcaa2\u003e얻음.\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857101_skinPredector_success_1_3",
+                         "content":  "\u003ccolor=#ebcaa2\u003e스테이지 동안 {0}\u003c/color\u003e %{1} {2}/%, %{3} {4}/% \u003ccolor=#ebcaa2\u003e얻음.\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857101_skinPredector_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e스테이지 동안 {0}\u003c/color\u003e %{1} {2}/%, %{3} {4}/% \u003ccolor=#ebcaa2\u003e얻음.\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857101_skinPredector_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e모든 수감자가\u003c/color\u003e %{0} {1}/%, %{2} {3}/% \u003ccolor=#ebcaa2\u003e얻음.\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "858501_soc_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0} {1}\u003c/color\u003e \u003ccolor=#ebcaa2\u003e내성 1.5로 변경\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "858501_soc_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e \u003ccolor=#e30000\u003e체력 {1} 피해\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "858501_soc_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e \u003ccolor=#fe4b48\u003e정신력 {1} 피해\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "858502_soc_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0} {1}\u003c/color\u003e \u003ccolor=#ebcaa2\u003e내성 1.5로 변경\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "858502_soc_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e \u003ccolor=#e30000\u003e체력 {1} 피해\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "858502_soc_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e \u003ccolor=#fe4b48\u003e정신력 {1} 피해\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "858502_soc_failure_1_3",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e %{1} {2}/% \u003ccolor=#ebcaa2\u003e얻음.\u003c/color\u003e"
+                     }
+                 ]
+}

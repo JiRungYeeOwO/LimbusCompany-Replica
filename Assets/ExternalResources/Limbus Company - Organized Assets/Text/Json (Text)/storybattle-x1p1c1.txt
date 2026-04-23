@@ -1,0 +1,132 @@
+{
+  "list": [
+    {
+      "id": 20260000,
+      "stageLevel": 1,
+      "stageType": "Normal",
+      "participantInfo": {
+        "min": 12,
+        "max": 12
+      },
+      "battleCameraInfo": {
+        "defaultPosX": 0,
+        "defaultPosY": 0,
+        "defaultPosZ": 35
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Fools_DAreaStreet_A",
+            "mapSize": 28.0
+          },
+          "unitList": [
+            {
+              "unitID": 91039,
+              "unitCount": 4,
+              "unitLevel": 5
+            }
+          ],
+          "bgmList": [
+            "Run_Bongy_Run"
+          ],
+          "enemyPositionID": 2,
+          "allyPositionID": 20250401
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "Fools_Casino1F"
+          },
+          "unitList": [
+            {
+              "unitID": 91040,
+              "unitCount": 4,
+              "unitLevel": 5
+            }
+          ],
+          "enemyPositionID": 2,
+          "allyPositionID": 20250401,
+          "bgmList": [
+            "Run_Bongy_Run"
+          ]
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "Fools_KCorpCheckPoint"
+          },
+          "unitList": [
+            {
+              "unitID": 91041,
+              "unitCount": 4,
+              "unitLevel": 5
+            }          
+          ],
+          "enemyPositionID": 2,
+          "allyPositionID": 20250401,
+          "bgmList": [
+            "Run_Bongy_Run"
+          ]
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "Fools_OldRestaurant_boss"
+          },
+          "unitList": [
+            {
+              "unitID": 91042,
+              "unitCount": 1,
+              "unitLevel": 10
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp3_5_Enemy_2"
+          ],
+          "enemyPositionID": 109,
+          "allyPositionID": 20250401
+        }
+      ],
+      "staminaCost": 8,
+      "recommendedLevel": 1,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "story": {
+        "enter": [
+          "E003X"
+        ],
+        "others": [
+          {
+            "phase": "BEFORE_END_WAVE",
+            "storyIndex": 1,
+            "storyID": "E003I1"
+          },
+          {
+            "phase": "BEFORE_END_WAVE",
+            "storyIndex": 2,
+            "storyID": "E003I2"
+          },
+          {
+            "phase": "BEFORE_END_WAVE",
+            "storyIndex": 3,
+            "storyID": "E003I3"
+          },
+          {
+            "phase": "BEFORE_END_WAVE",
+            "storyIndex": 4,
+            "storyID": "E003I4"
+          }
+        ]
+      },
+      "stageScriptList": [ "X1P1C1" ],
+      "controlValueList": [
+        5
+      ]
+    }
+  ]
+}

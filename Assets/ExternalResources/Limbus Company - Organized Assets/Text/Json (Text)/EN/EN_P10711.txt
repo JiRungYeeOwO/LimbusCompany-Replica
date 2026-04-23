@@ -1,0 +1,298 @@
+{
+    "dataList":  [
+                     {
+                         "id":  0,
+                         "content":  "That one\u0027s got a way with words, I\u0027ll give \u0027em that."
+                     },
+                     {
+                         "id":  1,
+                         "content":  "Sweet talkin\u0027 miserable blokes while wearin\u0027 those bizarre gears in their head..."
+                     },
+                     {
+                         "id":  2,
+                         "content":  "How could anyone be convinced to willingly turn themselves into some meat-gear monster?"
+                     },
+                     {
+                         "id":  3,
+                         "content":  "Meat Gears, Thought Gears, loads of wankers with gears shoved into their heads, all just to become... smarter or something, is it?"
+                     },
+                     {
+                         "id":  4,
+                         "content":  "What a load of shite... I mean, I just can\u0027t believe how anyone could think that their lot in life is to be a piece of gear in someone else\u0027s noggin."
+                     },
+                     {
+                         "id":  5,
+                         "content":  "Eh... I don\u0027t suppose it\u0027s any of my business. Let\u0027s get back to work."
+                     },
+                     {
+                         "id":  6,
+                         "content":  "What was it that Hong Lu said? That it\u0027s a rare, lucrative opportunity? Yeah, this\u0027ll be good for us."
+                     },
+                     {
+                         "id":  7,
+                         "content":  "... Ah, this rifle."
+                     },
+                     {
+                         "id":  8,
+                         "content":  "I thought bossman was some madman when he decided to purchase these firearms."
+                     },
+                     {
+                         "id":  9,
+                         "content":  "I didn\u0027t even have a steady income then, and we were \u0027scouted\u0027 to the team like stray animals gettin\u0027 taken in by some charity Office after getting exploited to hell by other no-name Offices left and right."
+                     },
+                     {
+                         "id":  10,
+                         "content":  "Not that I don\u0027t deserve to be here. I was always confident in my abilities."
+                     },
+                     {
+                         "id":  11,
+                         "content":  "But still, that suggestion that we should use those expensive guns all of a sudden was so out of the blue that I couldn\u0027t help but think It was some shady shite."
+                     },
+                     {
+                         "id":  12,
+                         "content":  "I thought \u0027oh, this must be one of them scams where they buy me this expensive but broken gun and ask me to pay for its repairs and whatnot.\u0027 When I was just gettin\u0027 ready to smash the Office to bits, trying to get a single straight word outta the bossman..."
+                     },
+                     {
+                         "id":  13,
+                         "content":  "... he showed me an entire box, the size of my head, filled to the brim with ammunition."
+                     },
+                     {
+                         "id":  14,
+                         "content":  "Didn\u0027t think the truth would be so simple, that the bossman\u0027s just a loaded man. Well, I suppose he did threaten us with no pay if we ever pointlessly wasted our bullets. A month of no pay for every shot missed, was it?"
+                     },
+                     {
+                         "id":  15,
+                         "content":  "And I thought, thinkin\u0027 logically here, that it\u0027d be smarter to get me a sniper rifle so there\u0027s less chance of me wasting bullets."
+                     },
+                     {
+                         "id":  16,
+                         "content":  "So that\u0027s how this gun became my partner through thick and thin."
+                     },
+                     {
+                         "id":  17,
+                         "content":  "I\u0027m still quite fond of flippin\u0027 out, smashing everything to bits with no concern for what comes next, but... I think this fits me just as well. Maybe."
+                     },
+                     {
+                         "id":  18,
+                         "content":  "I guess there\u0027s a satisfyin\u0027 side to this, especially when I\u0027m about to blast sods like \u0027em I\u0027d rather not talk to."
+                     },
+                     {
+                         "id":  19,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "... Ready, Heathcliff?"
+                     },
+                     {
+                         "id":  20,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "... Ready."
+                     },
+                     {
+                         "id":  21,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "Once the worshippers are in sight, make sure your gun is loaded and wait for my signal."
+                     },
+                     {
+                         "id":  22,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "Looks like I\u0027ll be hurtin\u0027 our wallets a tad more than usual today. Is that right with you?"
+                     },
+                     {
+                         "id":  23,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "Ohh~ Breaking out the Atelier Logic High Velocity Pulverization round, are we?"
+                     },
+                     {
+                         "id":  24,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "Yeah. Those gears in their heads... regular rounds\u0027ll just bounce right off \u0027em. Better to grind \u0027em down and pulverise \u0027em."
+                     },
+                     {
+                         "id":  25,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "Hmm... that\u0027s true."
+                     },
+                     {
+                         "id":  26,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "I\u0027ll be deducting your pay if you ever use more than a single round against the same enemy, though~"
+                     },
+                     {
+                         "id":  27,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "Shut it, mate. You\u0027d be grumblin\u0027 all the same even if I were using the cheapest ammunition on the market."
+                     },
+                     {
+                         "id":  28,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "You know how expensive these bullets are~ Atelier Logic Ammunition is pretty expensive, even for me."
+                     },
+                     {
+                         "id":  29,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "Haah... understood."
+                     },
+                     {
+                         "id":  30,
+                         "content":  "Push the tactical sight forward, and the chamber reveals itself below."
+                     },
+                     {
+                         "id":  31,
+                         "content":  "I remove the topmost bullet from there and carefully replace it with a silver-plated, beautifully engraved bullet."
+                     },
+                     {
+                         "id":  32,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "... Special round loaded. Ready to fire."
+                     },
+                     {
+                         "id":  33,
+                         "content":  "\u003ci\u003eBeep, beep.\u003c/i\u003e"
+                     },
+                     {
+                         "id":  34,
+                         "content":  "I hear two bleeps of the comms opening and closing instead of a worded reply."
+                     },
+                     {
+                         "id":  35,
+                         "content":  "That\u0027s the code for \"roger that\". He must be in their earshot. That\u0027s very close."
+                     },
+                     {
+                         "id":  36,
+                         "content":  "Then... I should get ready."
+                     },
+                     {
+                         "id":  37,
+                         "content":  "\u003ci\u003eBeeeeeep—\u003c/i\u003e"
+                     },
+                     {
+                         "id":  38,
+                         "content":  "The magnetic rail makes a funny noise as it begins to charge."
+                     },
+                     {
+                         "id":  39,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "Goin\u0027 for the bullseye..."
+                     },
+                     {
+                         "id":  40,
+                         "content":  "Gunpowder detonates, adding even more power to the bullet blasting forth from the barrel. I feel the recoil ram my shoulder backward."
+                     },
+                     {
+                         "id":  41,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "Haah..."
+                     },
+                     {
+                         "id":  42,
+                         "content":  "A sniper rifle that uses two different propellants in tandem? Now that\u0027s somethin\u0027 you don\u0027t see every day, even in most Workshops."
+                     },
+                     {
+                         "id":  43,
+                         "content":  "Of course, S-class Workshops can probably produce all kinds of fantastical items that\u0027ll easily trump somethin\u0027 like this, but... I\u0027m sure I can count the number of S-class Workshops with my one hand. Doubt there\u0027s more than three, tops."
+                     },
+                     {
+                         "id":  44,
+                         "content":  "And their stuff\u0027s gotta be exceedingly expensive too, even for the bossman."
+                     },
+                     {
+                         "id":  45,
+                         "content":  "So, excluding those outliers, this gun\u0027s gotta be the best—"
+                     },
+                     {
+                         "id":  46,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "W-what the hell?"
+                     },
+                     {
+                         "id":  47,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "Heathcliff? You missed...?"
+                     },
+                     {
+                         "id":  48,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "No, what in the...? They\u0027ve got to have some kinda foresight or something, dodgin\u0027 my bullet like that!"
+                     },
+                     {
+                         "id":  49,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "Well, I guess there are surprises around every corner in the City~"
+                     },
+                     {
+                         "id":  50,
+                         "content":  "It\u0027s beyond me how this bloke can remain so bloody calm and flippant even in situations like these."
+                     },
+                     {
+                         "id":  51,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "Aw, fuck this. Relocating! This nest\u0027s compromised!"
+                     },
+                     {
+                         "id":  52,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "Gotcha~ Looks like we\u0027ll have to do \u0027the thing\u0027!"
+                     },
+                     {
+                         "id":  53,
+                         "model":  "히스클리프",
+                         "title":  "Full-Stop Office",
+                         "content":  "... I\u0027ll leave it to you, Hong Lu!"
+                     },
+                     {
+                         "id":  54,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "Okay, I\u0027ve got this~"
+                     },
+                     {
+                         "id":  55,
+                         "content":  "Bossman covers me whenever I\u0027m on the move."
+                     },
+                     {
+                         "id":  56,
+                         "content":  "And whenever they\u0027ve got \u0027im cornered, I identify the weak links and blast \u0027em with my sniper rifle."
+                     },
+                     {
+                         "id":  57,
+                         "content":  "We\u0027ve done this together more than a dozen times; there\u0027s no muckin\u0027 up our teamwork."
+                     },
+                     {
+                         "id":  58,
+                         "content":  "... Well, unless the enemy is clearly out of our league."
+                     },
+                     {
+                         "id":  59,
+                         "content":  "But I can see that carefree grin of his all the way from here. ... Looks like we\u0027re going to be okay."
+                     },
+                     {
+                         "id":  60,
+                         "model":  "홍루",
+                         "title":  "Full-Stop Office",
+                         "content":  "Oh, by the way! I\u0027m deducting your pay for this month because you failed to kill them with a single shot, just like I promised!"
+                     },
+                     {
+                         "id":  61,
+                         "content":  "... Saying stupid shite like that when they\u0027ve got an advantage over us... he really is a piece of work."
+                     }
+                 ]
+}

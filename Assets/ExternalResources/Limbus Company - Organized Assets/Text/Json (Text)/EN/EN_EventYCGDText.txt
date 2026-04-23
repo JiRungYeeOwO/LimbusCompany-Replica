@@ -1,0 +1,80 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "ycgd_stagebutton_not_clear",
+                         "content":  "Clear 5.5-12 to Unlock"
+                     },
+                     {
+                         "id":  "ycgd_stagebutton_normal",
+                         "content":  "Stages"
+                     },
+                     {
+                         "id":  "ycgd_stagebutton_end_event",
+                         "content":  "Event Closed"
+                     },
+                     {
+                         "id":  "ycgd_storybutton_before_start",
+                         "content":  "\u003csize=75%\u003eView the 1st event Story Stage to Unlock\u003c/size\u003e"
+                     },
+                     {
+                         "id":  "ycgd_storybutton_normal",
+                         "content":  "To Theater"
+                     },
+                     {
+                         "id":  "ycgd_rewardShopButton",
+                         "content":  "Reward Exchange"
+                     },
+                     {
+                         "id":  "ycgd_scrap_guide_title",
+                         "content":  "Event Currency Guide"
+                     },
+                     {
+                         "id":  "ycgd_scrap_guide_desc",
+                         "content":  "Rarely, you may obtain \u003ccolor=#1998fe\u003e[Resentful Scabbard]\u003c/color\u003e from clearing Event Stages, Main Story Stages, or Mirror Dungeons.\n\n\u003ccolor=#1998fe\u003e[Resentful Scabbard]\u003c/color\u003e is converted to 20 \u003ccolor=#008d0d\u003e[Bloodied Scabbard]\u003c/color\u003e."
+                     },
+                     {
+                         "id":  "ycgd_rewardpage_desc",
+                         "content":  "You can obtain \u003ccolor=#1998fe\u003e[Bloodied Scabbard]\u003c/color\u003e from Event Stages \u0026 Dungeon.\nYou also have a small chance to obtain \u003ccolor=#7fc6ff\u003e[Resentful Scabbard]\u003c/color\u003e in the process.\n\n\u003ccolor=#7fc6ff\u003e[Resentful Scabbard]\u003c/color\u003e is immediately converted to 20 \u003ccolor=#1998fe\u003e[Bloodied Scabbard]\u003c/color\u003e upon acquisition."
+                     },
+                     {
+                         "id":  "ycgd_reward_popup_desc",
+                         "content":  "Earn \u003ccolor=#1998fe\u003e[Bloodied Scabbard]\u003c/color\u003e via the following methods:\nEvent Stage clears, Mirror Dungeon clears,\nand Main Story Stage first-time clears.\n\nIn the \u003ccolor=#1998fe\u003e[Reward Exchange]\u003c/color\u003e window, you can purchase various rewards\nby spending \u003ccolor=#1998fe\u003e[Bloodied Scabbard]\u003c/color\u003e you have collected."
+                     },
+                     {
+                         "id":  "ycgd_reward_popup_num_of_owned_items",
+                         "content":  "Scabbards Collected"
+                     },
+                     {
+                         "id":  "ycgd_bonusUI_Title",
+                         "content":  "Gain"
+                     },
+                     {
+                         "id":  "ycgd_bonusUI_Title_contain_false",
+                         "content":  "Not Owned"
+                     },
+                     {
+                         "id":  "ycgd_bonusUI_Desc",
+                         "content":  "During the event period, deploying the following Identities on your team will\nboost the amount of \u003ccolor=#1998fe\u003e[Bloodied Scabbard]\u003c/color\u003e earned.\nYou can earn a maximum of \u003ccolor=#1998fe\u003e120%\u003c/color\u003e boost to the amount of event currency earned."
+                     },
+                     {
+                         "id":  "ycgd_bonus_popup_title",
+                         "content":  "Event Bonus Units"
+                     },
+                     {
+                         "id":  "ycgd_bonus_preview",
+                         "content":  "Event Bonus Units"
+                     },
+                     {
+                         "id":  "ycgd_chapter_map_difficulty_ui_9107",
+                         "content":  "NORMAL"
+                     },
+                     {
+                         "id":  "ycgd_chapter_map_difficulty_ui_9115",
+                         "content":  "HARD"
+                     },
+                     {
+                         "id":  "ycgd_chapter_map_difficulty_ui_unlock_condition",
+                         "content":  "Clear {0}-{1} to Unlock the Hard Difficulty"
+                     }
+                 ]
+}

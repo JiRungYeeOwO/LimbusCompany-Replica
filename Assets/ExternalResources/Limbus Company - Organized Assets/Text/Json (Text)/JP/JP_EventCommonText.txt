@@ -1,0 +1,12 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "event_bonus_description",
+                         "content":  "イベント期間中に該当する人格および、E.G.Oを編成時に\u003ccolor=#f8c200\u003e[{0}]の獲得量が上昇\u003c/color\u003eします。"
+                     },
+                     {
+                         "id":  "event_bonus_preview",
+                         "content":  "イベント特化対象"
+                     }
+                 ]
+}

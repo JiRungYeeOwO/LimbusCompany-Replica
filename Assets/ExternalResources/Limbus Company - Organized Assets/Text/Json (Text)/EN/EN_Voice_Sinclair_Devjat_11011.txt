@@ -1,0 +1,129 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "get_11011_1",
+                         "desc":  "Identity Acquisition",
+                         "dlg":  "I think I can lump this package with that one, and... let\u0027s see where this one\u0027s gotta go... W-why is the sorting process so complicated this time?"
+                     },
+                     {
+                         "id":  "lobby_morning_11011_1",
+                         "desc":  "Morning Greeting",
+                         "dlg":  "I haven\u0027t been sleeping well, with the recent surge of late-night delivery contracts...\nI\u0027ll try to get some sleep in now."
+                     },
+                     {
+                         "id":  "lobby_noon_11011_1",
+                         "desc":  "Afternoon Greeting",
+                         "dlg":  "Boxed lunches usually end up freezing solid when we\u0027re making deliveries through the cold.\nThat\u0027s why some Fixers keep their lunches in the Courier Trunks they\u0027ve been assigned, but... that\u0027s a violation of the Devyat\u0027 Association rules..."
+                     },
+                     {
+                         "id":  "lobby_night_11011_1",
+                         "desc":  "Evening Greeting",
+                         "dlg":  "It\u0027s dangerous to travel at night, but... I don\u0027t have a choice.\nThere\u0027s a package that needs to be delivered before the Night in the Backstreets."
+                     },
+                     {
+                         "id":  "smalltalk_11011_1",
+                         "desc":  "Chatter #1",
+                         "dlg":  "It\u0027s important for Fixers of the Devyat\u0027 Association to keep themselves up-to-date about cultures of each District.\nSpeed is one thing, but we also have to be careful not to accidentally break a Taboo of a Wing or a Syndicate\u0027s rule."
+                     },
+                     {
+                         "id":  "smalltalk_11011_2",
+                         "desc":  "Chatter #2",
+                         "dlg":  "Why don\u0027t I just drive there, you ask? Um... I\u0027m pretty sure going on foot and following Poludnitsa\u0027s shortcut directions would get me there much faster than driving would."
+                     },
+                     {
+                         "id":  "smalltalk_11011_3",
+                         "desc":  "Chatter #3",
+                         "dlg":  "I can survive most risky situations by having Poludnitsa disengage the output threshold.\nBut that\u0027ll deduct way too much money from my payout... If it doesn\u0027t kill me in the process."
+                     },
+                     {
+                         "id":  "smalltalk_11011_4",
+                         "desc":  "Post-Uptie Chat 1",
+                         "dlg":  "\u003ccolor=#9eada4\u003e\u003csize=60%\u003e\u003ci\u003e[Possible delivery delay detected: Syndicate altercation 200m ahead. Rerouting.]\u003c/i\u003e\u003c/size\u003e\u003c/color\u003e\nLots of route adjustments today, huh... Left turn, then?\n\u003ccolor=#9eada4\u003e\u003csize=60%\u003e\u003ci\u003e[New route discovered; navigating courier.]\u003c/i\u003e\u003c/size\u003e\u003c/color\u003e You want me to... \u003ci\u003escale\u003c/i\u003e the building?!"
+                     },
+                     {
+                         "id":  "smalltalk_11011_5",
+                         "desc":  "Post-Uptie Chat 2",
+                         "dlg":  "Only lower-rung Syndicate henchmen who don\u0027t know about these dimensional bags are dumb enough to attack us. Courier Trunks are locked by Protection Mode anyway, so...\nOh, what about members of the Fingers? They\u0027re... we usually meet them as our clients."
+                     },
+                     {
+                         "id":  "neglect_11011_1",
+                         "desc":  "Idle",
+                         "dlg":  "Poludnitsa, I\u0027m bored. Can you play me a song?\n\u003ccolor=#9eada4\u003e\u003csize=60%\u003e\u003ci\u003e[Poludnitsa does not support the requested functionality.]\u003c/i\u003e\u003c/size\u003e\u003c/color\u003e\nHuh? But Miss Rodya said—\n\u003ccolor=#9eada4\u003e\u003csize=60%\u003e\u003ci\u003e[Correction. This AI model does not support the requested functionality.]\u003c/i\u003e\u003c/size\u003e\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "gacksung_11011_1",
+                         "desc":  "Uptying",
+                         "dlg":  "Ugh, I really hoped it wouldn\u0027t have to come to this, but I need to get there in time...! Poludnitsa, engage mode conversion!\n\u003ccolor=#9eada4\u003e\u003csize=60%\u003e\u003ci\u003e[Hammer mode engaged. Swing to the undulation of decay particles.]\u003c/i\u003e\u003c/size\u003e\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "formation_11011_1",
+                         "desc":  "Deployment",
+                         "dlg":  "Is it a new delivery order?"
+                     },
+                     {
+                         "id":  "battleentry_11011_1",
+                         "desc":  "Stage Entry",
+                         "dlg":  "My next destination is..."
+                     },
+                     {
+                         "id":  "battle_select_11011_1",
+                         "desc":  "Viewed in Battle",
+                         "dlg":  "Uh... did you call me? Oh, did you order something through the Devyat\u0027?"
+                     },
+                     {
+                         "id":  "battle_endcommand_11011_1",
+                         "desc":  "Commencing Attack",
+                         "dlg":  "I still have time..."
+                     },
+                     {
+                         "id":  "battle_enemy_break_11011_1",
+                         "desc":  "Enemy Stagger",
+                         "dlg":  "Can you clear the way, please...?"
+                     },
+                     {
+                         "id":  "battle_break_11011_1",
+                         "desc":  "Staggered",
+                         "dlg":  "Nngh..."
+                     },
+                     {
+                         "id":  "battle_kill_11011_1",
+                         "desc":  "Enemy Killed",
+                         "dlg":  "... I said move!"
+                     },
+                     {
+                         "id":  "battle_dead_11011_1",
+                         "desc":  "Death #1",
+                         "dlg":  "Poludnitsa... help... \u003ccolor=#9eada4\u003e\u003csize=60%\u003e\u003ci\u003e[Pathfinding failed. Courier absence detected. Poludnitsa, engaging Protection Mode.]\u003c/i\u003e\u003c/size\u003e\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "battle_dead_11011_2",
+                         "desc":  "Death #2",
+                         "dlg":  "N-no! Please, please give me another chance! I\u0027ve never been late bef— \u003ccolor=#9eada4\u003e\u003csize=60%\u003e\u003ci\u003e[Update. Delivery failed. The courier will be collected shortly. Thank you for your service. Poludnitsa, engaging Protection Mode.]\u003c/i\u003e\u003c/size\u003e\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "choice_success_p_11011_2",
+                         "desc":  "Check Passed",
+                         "dlg":  "... I\u0027m not running an errand like this for you again."
+                     },
+                     {
+                         "id":  "choice_fail_n_11011_1",
+                         "desc":  "Check Failed",
+                         "dlg":  "I-I\u0027m busy, okay?"
+                     },
+                     {
+                         "id":  "battle_clear_11011_1",
+                         "desc":  "Victory Cry",
+                         "dlg":  "AAAHHHHH! Your package has been delivered! I\u0027m not late, am I? I\u0027m on time for the delivery, right?"
+                     },
+                     {
+                         "id":  "battle_clear_ex_11011_1",
+                         "desc":  "Extra Conditions Fulfilled",
+                         "dlg":  "This package will be delivered earlier than expected. The client will be happy to hear that."
+                     },
+                     {
+                         "id":  "battle_defeat_11011_1",
+                         "desc":  "Defeat Wail",
+                         "dlg":  "Pant... pant... I-I\u0027m almost there, Poludnitsa! I just need five more minutes, please...!"
+                     }
+                 ]
+}

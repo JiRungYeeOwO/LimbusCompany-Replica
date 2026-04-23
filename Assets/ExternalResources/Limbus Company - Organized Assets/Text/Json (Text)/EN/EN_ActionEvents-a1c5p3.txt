@@ -1,0 +1,79 @@
+{
+    "dataList":  [
+                     {
+                         "id":  10501,
+                         "name":  "Checking the Boat",
+                         "subDesc":  "",
+                         "desc":  "So soon after setting sail...\n\n\"Woah!\"\n\n... We started hearing something shaking underneath the ship.\n\n\"What\u0027s that...?\"\n\n\"Forsooth, there may be a foe underneath our ship, scratching!\n\n\"... Yeah, that\u0027s ominous. We should check it out.\"\n\nWhat do we do?",
+                         "options":  [
+                                         {
+                                             "message":  "Check underneath the ship.",
+                                             "messageDesc":  "Ishmael gains 10 SP. Proceed to the next choice prompt.",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "We don\u0027t know what\u0027ll happen if we do. Let\u0027s stay put.",
+                                             "messageDesc":  "Ishmael loses 10 SP. 50% chance for a Combat Encounter. Gain an E.G.O Gift upon victory",
+                                             "result":  [
+                                                            "\"You\u0027re going to ignore that? What the hell is...\"\n\nThe annoyed Sinner was about to say something... but stopped herself. Maybe she thought it was a waste of effort.\n\n\"... The scratching noises are intensifying.\"\n\nTo be fair, this is no normal ship... so maybe this ship just makes scratching noises from time to time.\n\n\"... It has ceased.\"\n\n\"Sometimes, inaction can be a solution indeed.\"\n\nFew minutes later, the scratching noises stopped.\n\n... I guess it wasn\u0027t the boat that made the noise. We got lucky.",
+                                                            "\"You\u0027re going to ignore that? What the hell is...\"\n\nThe annoyed Sinner was about to say something... before stopping herself. Maybe she thought it was a waste of effort.\n\n\"... The scratching noises are intensifying.\"\n\nTo be fair, this is no normal ship... so maybe this ship just makes scratching noises from time to time.\n\nIf it doesn\u0027t...\n\n\"Wait, that reminds me. The pirate ships...\"\n\n\"I guess this is what those spikes were for.\"\n\nThe scratching noises continue to intensify, until it moves to the side of the ship. Soon, the source of scratching noises reveals itself.\n\n... Mermaids.\n\n\"Damnit, we should\u0027ve checked.\"\n\nI had nothing to say to that.\n\nWe had to fight."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10504,
+                         "name":  "The Artery",
+                         "subDesc":  "",
+                         "desc":  "This has to be the artery Ahab was talking about. Once we cut this thing open... our path to the center of the heart will open.",
+                         "options":  [
+                                         {
+                                             "message":  "Cut open the artery.",
+                                             "messageDesc":  "Proceed to the next choice prompt",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10505,
+                         "name":  "Supply Crates",
+                         "subDesc":  "",
+                         "desc":  "\"Is that... a wooden crate?\"\n\nThe Sinners found a haphazardly thrown pile of crates.\n\n\"It can be extrapolated from their appearances that they were to be used as supply crates.\"\n\nSome boxes has the Twinhook Pirates\u0027 logo drawn on them. Some of them has the Before Team\u0027s logo.\n\nThe Whale must\u0027ve swallowed these crates, too.\n\n\"\u0027Tis wise to procure some of them as our provisions!\"\n\nRight. We don\u0027t know what\u0027ll happen once we get to the heart.\n\nShould we take some of them, just in case?",
+                         "options":  [
+                                         {
+                                             "message":  "Rummage through the supply crates.",
+                                             "messageDesc":  "Proceed to the next choice prompt.",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Leave.",
+                                             "messageDesc":  "Nothing happened.",
+                                             "result":  [
+                                                            "Nothing good ever comes from messing with suspicious items like these.\n\nWe left the room as it is."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  810601,
+                         "name":  "Ahab",
+                         "subDesc":  "",
+                         "desc":  "\"I failed.\"\n\n\"\u003c...!\u003e\"\n\nIs that an illusion? Or... is that also Ishmael?\n\nBehind the Captain appears a silhouette of Ishmael, encased in that pale membrane.\n\n\"I couldn\u0027t solve anything. I failed everything.\"\n\n\"All I managed to do was survive. Pathetically, like a wretch. Hanging on to my dear friend\u0027s coffin.\"\n\nThe Captain guffaws madly. \"Indeed, Ishmael! You couldn\u0027t save anyone! Not your crew! Not your friend! Nobody!\"\n\n\"And you will give up again. Because you are afraid! You will give up even before you start!\"\n\nThe Sinners start to get agitated.\n\n\"That bloody bastard...!\"\n\n\"Don\u0027t listen to her, Ishmael! S-she doesn\u0027t know what she\u0027s talking about!\n\n\"\u003c......\u003e\"\n\nThe Manager holds their silence.\n\nThen utters.",
+                         "options":  [
+                                         {
+                                             "message":  "That\u0027s not Ishmael.",
+                                             "messageDesc":  "Proceed to the next choice prompt.",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         }
+                                     ]
+                     }
+                 ]
+}

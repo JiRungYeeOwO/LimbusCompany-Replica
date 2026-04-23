@@ -1,0 +1,27 @@
+idle.png
+size:1775,337
+filter:Linear,Linear
+pma:true
+scale:0.414
+Group 4
+bounds:1422,22,126,178
+rotate:90
+Layer 25 copy
+bounds:1253,101,161,234
+Layer 31
+bounds:1602,37,111,159
+rotate:90
+Layer 32
+bounds:1253,5,94,167
+rotate:90
+Layer 33
+bounds:452,18,317,563
+rotate:90
+hair_back
+bounds:2,2,333,448
+rotate:90
+hair_tail
+bounds:1416,150,185,357
+rotate:90
+head
+bounds:1017,59,234,276

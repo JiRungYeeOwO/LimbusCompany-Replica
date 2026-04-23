@@ -1,0 +1,1311 @@
+{
+  "list": [
+    {
+      "id": 400025,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400025_YiSang_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_3"
+      ],
+      "skillKeywordList": [
+        "Sinking"
+      ],
+      "characterId": 1,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40002504
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 72,
+        "incrementByLevel": 2.48
+      },
+      "defCorrection": -2,
+      "minSpeedList": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        6,
+        7,
+        8,
+        8
+      ],
+      "uniqueAttribute": "AZURE",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40002501,
+          "number": 3
+        },
+        {
+          "skillId": 40002502,
+          "number": 2
+        },
+        {
+          "skillId": 40002503,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400026,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400026_Faust_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_4"
+      ],
+      "skillKeywordList": [],
+      "characterId": 2,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40002604
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 84,
+        "incrementByLevel": 2.9
+      },
+      "defCorrection": 1,
+      "minSpeedList": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "maxSpeedList": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40002601,
+          "number": 3
+        },
+        {
+          "skillId": 40002602,
+          "number": 2
+        },
+        {
+          "skillId": 40002603,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400027,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400027_Donquixote_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_4"
+      ],
+      "skillKeywordList": [
+        "Laceration"
+      ],
+      "characterId": 3,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40002704
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 66,
+        "incrementByLevel": 2.28
+      },
+      "defCorrection": -2,
+      "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "uniqueAttribute": "SCARLET",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40002701,
+          "number": 3
+        },
+        {
+          "skillId": 40002702,
+          "number": 2
+        },
+        {
+          "skillId": 40002703,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400028,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400028_Ryoshu_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_4"
+      ],
+      "skillKeywordList": [
+        "Breath"
+      ],
+      "characterId": 4,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40002804
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 66,
+        "incrementByLevel": 2.28
+      },
+      "defCorrection": -4,
+      "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "uniqueAttribute": "SHAMROCK",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40002801,
+          "number": 3
+        },
+        {
+          "skillId": 40002802,
+          "number": 2
+        },
+        {
+          "skillId": 40002803,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400029,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400029_Meursault_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_2"
+      ],
+      "skillKeywordList": [
+        "Vibration"
+      ],
+      "characterId": 5,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40002904
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 90,
+        "incrementByLevel": 3.1
+      },
+      "defCorrection": 3,
+      "minSpeedList": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "maxSpeedList": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "uniqueAttribute": "AMBER",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40002901,
+          "number": 3
+        },
+        {
+          "skillId": 40002902,
+          "number": 2
+        },
+        {
+          "skillId": 40002903,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400030,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400030_Honglu_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_4"
+      ],
+      "skillKeywordList": [
+        "Sinking",
+        "Burst"
+      ],
+      "characterId": 6,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40003004
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 66,
+        "incrementByLevel": 2.28
+      },
+      "defCorrection": -2,
+      "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40003001,
+          "number": 3
+        },
+        {
+          "skillId": 40003002,
+          "number": 2
+        },
+        {
+          "skillId": 40003003,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400031,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400031_Heathcliff_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_3"
+      ],
+      "skillKeywordList": [
+        "Vibration"
+      ],
+      "characterId": 7,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40003104
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 78,
+        "incrementByLevel": 2.69
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "maxSpeedList": [
+        4,
+        5,
+        5,
+        5
+      ],
+      "uniqueAttribute": "VIOLET",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40003101,
+          "number": 3
+        },
+        {
+          "skillId": 40003102,
+          "number": 2
+        },
+        {
+          "skillId": 40003103,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400032,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400032_Ishmael_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_3"
+      ],
+      "skillKeywordList": [
+        "Vibration"
+      ],
+      "characterId": 8,
+      "panicType": 9999,
+      "season": 0,
+      "rank": 1,
+      "hp": {
+        "defaultStat": 78,
+        "incrementByLevel": 2.69
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "maxSpeedList": [
+        6,
+        7,
+        8,
+        8
+      ],
+      "defenseSkillIDList": [
+        40003204
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "uniqueAttribute": "CRIMSON",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40003201,
+          "number": 3
+        },
+        {
+          "skillId": 40003202,
+          "number": 2
+        },
+        {
+          "skillId": 40003203,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400033,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400033_Rodion_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_2"
+      ],
+      "skillKeywordList": [
+        "Laceration"
+      ],
+      "characterId": 9,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40003304
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 78,
+        "incrementByLevel": 2.69
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "maxSpeedList": [
+        4,
+        5,
+        5,
+        5
+      ],
+      "uniqueAttribute": "SHAMROCK",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40003301,
+          "number": 3
+        },
+        {
+          "skillId": 40003302,
+          "number": 2
+        },
+        {
+          "skillId": 40003303,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400034,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400034_Sinclair_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_3"
+      ],
+      "skillKeywordList": [
+        "Burst"
+      ],
+      "characterId": 10,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40003404
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 60,
+        "incrementByLevel": 2.07
+      },
+      "defCorrection": -4,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40003401,
+          "number": 3
+        },
+        {
+          "skillId": 40003402,
+          "number": 2
+        },
+        {
+          "skillId": 40003403,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400035,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400035_Outis_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_2"
+      ],
+      "skillKeywordList": [
+        "Burst"
+      ],
+      "characterId": 11,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40003504
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 60,
+        "incrementByLevel": 2.07
+      },
+      "defCorrection": -4,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "AMBER",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40003501,
+          "number": 3
+        },
+        {
+          "skillId": 40003502,
+          "number": 2
+        },
+        {
+          "skillId": 40003503,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 400036,
+      "hidden": true,
+      "updatedDate": 20260326,
+      "appearance": "400036_Gregor_KidAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "NONE_BLOOD"
+      ],
+      "associationList": [
+        "X1P1C1_ASSO_1",
+        "X1P1C1_ASSO_2"
+      ],
+      "skillKeywordList": [
+        "Burst"
+      ],
+      "characterId": 12,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        40003604
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 72,
+        "incrementByLevel": 2.48
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "AZURE",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          0
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 40003601,
+          "number": 3
+        },
+        {
+          "skillId": 40003602,
+          "number": 2
+        },
+        {
+          "skillId": 40003603,
+          "number": 1
+        }
+      ]
+    }
+  ]
+}

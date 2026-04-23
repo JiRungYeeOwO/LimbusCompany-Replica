@@ -1,0 +1,80 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "ycgd_stagebutton_not_clear",
+                         "content":  "5.5-12クリア時に解放"
+                     },
+                     {
+                         "id":  "ycgd_stagebutton_normal",
+                         "content":  "ステージ"
+                     },
+                     {
+                         "id":  "ycgd_stagebutton_end_event",
+                         "content":  "イベント期間終了"
+                     },
+                     {
+                         "id":  "ycgd_storybutton_before_start",
+                         "content":  "\u003csize=75%\u003eイベントストーリー1話を閲覧時に開放\u003c/size\u003e"
+                     },
+                     {
+                         "id":  "ycgd_storybutton_normal",
+                         "content":  "上映館へ移動"
+                     },
+                     {
+                         "id":  "ycgd_rewardShopButton",
+                         "content":  "報酬交換"
+                     },
+                     {
+                         "id":  "ycgd_scrap_guide_title",
+                         "content":  "イベントアイテム案内"
+                     },
+                     {
+                         "id":  "ycgd_scrap_guide_desc",
+                         "content":  "イベント、メインストーリーのステージとダンジョン、または鏡ダンジョンをクリアすると\n低確率で\u003ccolor=#1998fe\u003e[恨の宿った鞘]\u003c/color\u003eを獲得することができます。\n\n\u003ccolor=#1998fe\u003e[恨の宿った鞘]\u003c/color\u003eは\u003ccolor=#008d0d\u003e[血に濡れた鞘]\u003c/color\u003e20個に変換されます。"
+                     },
+                     {
+                         "id":  "ycgd_rewardpage_desc",
+                         "content":  "イベントステージとダンジョンをクリアするたびに\n\u003ccolor=#1998fe\u003e[血に濡れた鞘]\u003c/color\u003eを獲得でき、低確率で\n\u003ccolor=#1998fe\u003e[恨の宿った鞘]\u003c/color\u003eを追加で獲得することができます。\n\u003ccolor=#7fc6ff\u003e[恨の宿った鞘]\u003c/color\u003eは\u003ccolor=#1998fe\u003e[血に濡れた鞘]\u003c/color\u003e20個に即変換されます。"
+                     },
+                     {
+                         "id":  "ycgd_reward_popup_desc",
+                         "content":  "イベントステージとメインストーリー初回クリア、鏡ダンジョンをクリアすることで\u003ccolor=#1998fe\u003e[血に濡れた鞘]\u003c/color\u003eを獲得できます。\n\n\u003ccolor=#1998fe\u003e[報酬交換]\u003c/color\u003eウィンドウより\u003ccolor=#1998fe\u003e[血に濡れた鞘]\u003c/color\u003eを\n支払い、様々な報酬を獲得できます。"
+                     },
+                     {
+                         "id":  "ycgd_reward_popup_num_of_owned_items",
+                         "content":  "保有している鞘"
+                     },
+                     {
+                         "id":  "ycgd_bonusUI_Title",
+                         "content":  "増加"
+                     },
+                     {
+                         "id":  "ycgd_bonusUI_Title_contain_false",
+                         "content":  "未保有"
+                     },
+                     {
+                         "id":  "ycgd_bonusUI_Desc",
+                         "content":  "イベント期間中、該当人格を編成すると\u003ccolor=#1998fe\u003e[血に濡れた鞘]\u003c/color\u003eの獲得量が上昇します。\n獲得量上昇値の合計は、最大\u003ccolor=#1998fe\u003e120%\u003c/color\u003eまで適用されます。"
+                     },
+                     {
+                         "id":  "ycgd_bonus_popup_title",
+                         "content":  "イベント特化対象"
+                     },
+                     {
+                         "id":  "ycgd_bonus_preview",
+                         "content":  "イベント特化対象"
+                     },
+                     {
+                         "id":  "ycgd_chapter_map_difficulty_ui_9107",
+                         "content":  "NORMAL"
+                     },
+                     {
+                         "id":  "ycgd_chapter_map_difficulty_ui_9115",
+                         "content":  "HARD"
+                     },
+                     {
+                         "id":  "ycgd_chapter_map_difficulty_ui_unlock_condition",
+                         "content":  "{0}-{1}以降 ハードモード解放"
+                     }
+                 ]
+}

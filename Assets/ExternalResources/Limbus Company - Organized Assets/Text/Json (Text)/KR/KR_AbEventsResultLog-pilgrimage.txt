@@ -1,0 +1,40 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "12880101_succeed_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}가\u003c/color\u003e %[{1} {2}]/% 얻음"
+                     },
+                     {
+                         "id":  "12880101_failure_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}의\u003c/color\u003e \u003ccolor=#e30000\u003e체력 - {1}\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "12880201_succeed_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e모든 아군의\u003c/color\u003e \u003ccolor=#16849f\u003e[{0}]\u003c/color\u003e 해제"
+                     },
+                     {
+                         "id":  "12880301_succeed_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e스킬\u003c/color\u003e \u003ccolor=#185188\u003e[{0}]\u003c/color\u003e와 합을 할 수 있음"
+                     },
+                     {
+                         "id":  "128803_2_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}가\u003c/color\u003e %[{1} {2}]/% 얻음"
+                     },
+                     {
+                         "id":  "12880302_succeed_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e패시브\u003c/color\u003e \u003ccolor=#e46324\u003e[{0}]\u003c/color\u003e 비활성화"
+                     },
+                     {
+                         "id":  "12880302_succeed_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}가\u003c/color\u003e %[{1}]/% 얻음"
+                     },
+                     {
+                         "id":  "12880302_failure_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}에게\u003c/color\u003e %[{1} {2}]/% 부여"
+                     },
+                     {
+                         "id":  "129701",
+                         "content":  "이번 전투 동안 \u003ccolor=#ebcaa2\u003e모든 수감자가\u003c/color\u003e %[{0}]/% 효과 획득"
+                     }
+                 ]
+}

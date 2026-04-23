@@ -1,0 +1,24 @@
+{
+  "subchapterDetailList": [
+    {
+      "partId": 1,
+      "subchapterId": 108,
+      "stageGroups": [
+        {
+          "lastNodeIndex": 18
+        },
+        {
+          "lastNodeIndex": 19,
+          "openDate": "2025-05-22T03:00:00.000Z",
+          "lockedNodePosX": 9949,
+          "lockedNodePosY": 967
+        },
+        {
+          "lastNodeIndex": 999,
+          "openDate": "2025-05-29T03:00:00.000Z"
+        }
+      ],
+      "bgmTypeByUIPanel": "ZANG_HUA_YIN"
+    }
+  ]
+}

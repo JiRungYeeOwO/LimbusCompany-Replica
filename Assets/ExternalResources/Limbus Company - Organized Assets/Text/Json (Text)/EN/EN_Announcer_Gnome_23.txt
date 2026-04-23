@@ -1,0 +1,120 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "announcer_cheer_23_1",
+                         "dlg":  "- Ome!!! A whole pile of material-omes!\n- Where-ome? Where-ome!?\n- Over there-ome! Get a move on-ome!"
+                     },
+                     {
+                         "id":  "announcer_cheer_23_2",
+                         "dlg":  "- Omme! We can make loads of gifts from these-ome!\n- Ome, ome! What joy, what joy-ome!"
+                     },
+                     {
+                         "id":  "announcer_specialcheer_23_1",
+                         "dlg":  "- Why\u0027s everyone lookin\u0027 so down-ome?!\n- Well, we\u0027ve been going for a while without a break-ome..."
+                     },
+                     {
+                         "id":  "announcer_specialcheer_23_2",
+                         "dlg":  "- Work through that back pain-ome! No dillying or dallying-ome!\n- Break comes after work-ome!"
+                     },
+                     {
+                         "id":  "announcer_enemy_break_23_1",
+                         "dlg":  "- Raw material there, lookin\u0027 woozy-ome!\n- Ome! Get trimmin\u0027, stat-ome!"
+                     },
+                     {
+                         "id":  "announcer_ally_break_23_1",
+                         "dlg":  "- Quit lollygaggin\u0027-ome!\n- Get it together-ome! Don\u0027t let manager Dodoru see this-ome!"
+                     },
+                     {
+                         "id":  "announcer_killenemy_23_1",
+                         "dlg":  "- Let\u0027s drag\u0027em away-ome!\n- Hustle, hustle-ome! Let\u0027s roll-ome!"
+                     },
+                     {
+                         "id":  "announcer_ally_dead_23_1",
+                         "dlg":  "- OME!!! Ain\u0027t this one a friend-ome?\n- Ome, ome! Just a dead body now-ome!"
+                     },
+                     {
+                         "id":  "announcer_enemy_adv_23_1",
+                         "dlg":  "- G\u0027olly! What\u0027s goin\u0027 on here-ome?\n- Let\u0027s all take a quick break and come back when it all blows over-ome!"
+                     },
+                     {
+                         "id":  "announcer_ally_advex_23_1",
+                         "dlg":  "- Just a little more-ome!\n- Oh yeah-ome! Just think about how happy our friends will be when they open the present-omes!\n- May joy outlast the pain-ome!"
+                     },
+                     {
+                         "id":  "announcer_danger_23_1",
+                         "dlg":  "- G\u0027emergency! G\u0027emergency!\n- Raw material\u0027s \u0027bout to go bad-ome! Can\u0027t make gifts with \u0027em-ome!\n- Shut up-ome! Quit yappin\u0027 and come give us a hand-ome!"
+                     },
+                     {
+                         "id":  "announcer_enemy_specialskill_23_1",
+                         "dlg":  "- Ome? Did anyone else hear that-ome?\n- Oome! Look g\u0027over there-ome!\n- Something bad\u0027s a-comin\u0027-ome!"
+                     },
+                     {
+                         "id":  "announcer_enemy_specialgimmick_23_1",
+                         "dlg":  "- Something\u0027s lookin\u0027 mighty funny-ome!\n- Reminds me of when the factory director gets pissed-ome...\n- Then we gotta skedaddle-ome!!!"
+                     },
+                     {
+                         "id":  "announcer_advatk_physical_23_1",
+                         "dlg":  "- Ya got some g\u0027knack for the g\u0027knick-g\u0027knackery-ome!\n- Do ya spend your off-hours just practicing arts and crafts or something-ome?"
+                     },
+                     {
+                         "id":  "announcer_disadvatk_physical_23_1",
+                         "dlg":  "- G\u0027osh darnit-ome! Wrong tool-ome!\n- Ome! Try something else-ome!"
+                     },
+                     {
+                         "id":  "announcer_advatk_attr_23_1",
+                         "dlg":  "- It just twitched-ome!\n- Hit \u0027em right where it hurts-ome!"
+                     },
+                     {
+                         "id":  "announcer_disadvatk_attr_23_1",
+                         "dlg":  "- This is some shoddy packaging work-ome!\n- We\u0027re telling manager Dodoru-ome!"
+                     },
+                     {
+                         "id":  "announcer_enemy_specialbuff_23_1",
+                         "dlg":  "- Rowdy raw materials make for good gifts-ome!\n- Darn tootin\u0027-ome!"
+                     },
+                     {
+                         "id":  "announcer_enemy_specialdebuff_23_1",
+                         "dlg":  "- Ome! Sleepy powder\u0027s doin\u0027 g\u0027work-ome!\n- Easy breezy body squeezy right into a toy mold-ome!"
+                     },
+                     {
+                         "id":  "announcer_ally_specialbuff_23_1",
+                         "dlg":  "- Is it just me, or is everyone working faster-ome?\n- Working with good materials helps-ome!"
+                     },
+                     {
+                         "id":  "announcer_ally_specialdebuff_23_1",
+                         "dlg":  "- Ome? What the heck happened-ome?\n- Beats me-ome. Forgot your gas masks when sprinkling \u0027em with them sleepy powder-omes?"
+                     },
+                     {
+                         "id":  "announcer_enemy_destroy_23_1",
+                         "dlg":  "- Trimming work donez-ome!\n- Let\u0027s keep goin\u0027-ome!"
+                     },
+                     {
+                         "id":  "announcer_enemy_destroy_23_2",
+                         "dlg":  "- Ome, ome! G\u0027ood work-ome!\n- Now that\u0027s some fine work-ome!"
+                     },
+                     {
+                         "id":  "announcer_round_takebigdmg_23_1",
+                         "dlg":  "- Ome?\n- Ome?\n- Ome?"
+                     },
+                     {
+                         "id":  "announcer_round_takebigdmg_23_2",
+                         "dlg":  "- What the heck are ya doin\u0027-ome! Get it together-ome!\n- Don\u0027t let the raw materials eat you-ome!"
+                     },
+                     {
+                         "id":  "announcer_round_givebigdmg_23_1",
+                         "dlg":  "- Ome!\n- Oooome?!\n- Oooooooome!!!"
+                     },
+                     {
+                         "id":  "announcer_round_givebigdmg_23_2",
+                         "dlg":  "- G\u0027wow! Ahead of schedule on ingredient trimming-ome!\n- Maybe we can punch outta work early today-ome!"
+                     },
+                     {
+                         "id":  "announcer_multikillenemy_23_1",
+                         "dlg":  "- One kill-ome, two kill-omes, three kill-omes, oooome!\n- Holy shit-ome!"
+                     },
+                     {
+                         "id":  "announcer_equip_23_1",
+                         "dlg":  "- Ome!\n- Oome!\n- Oooome!"
+                     }
+                 ]
+}

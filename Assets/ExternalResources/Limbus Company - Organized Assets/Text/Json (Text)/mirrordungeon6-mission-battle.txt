@@ -1,0 +1,403 @@
+{
+  "list": [
+    {
+      "id": 201005001,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005001,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 30
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "스킬 1회 사용으로 1000 이상의 피해 가하기 (보호막 피해 포함)"
+      }
+    },
+    {
+      "id": 201005002,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005002,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 40
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "스킬 1회 사용으로 3000 이상의 피해 가하기 (보호막 피해 포함)"
+      }
+    },
+    {
+      "id": 201005003,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005003,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 60
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "스킬 1회 사용으로 5000 이상의 피해 가하기 (보호막 피해 포함)"
+      }
+    },
+    {
+      "id": 201005004,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005004,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 80
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "스킬 1회 사용으로 10000 이상의 피해 가하기 (보호막 피해 포함)"
+      }
+    },
+    {
+      "id": 201005005,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005016,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 100
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "스킬 1회 사용으로 15000 이상의 피해 가하기 (보호막 피해 포함)"
+      }
+    },
+    {
+      "id": 201005006,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005017,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 80
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "거울 던전 1회 플레이에서 모든 인격 레벨 80 이상으로 5층 이상 클리어"
+      }
+    },
+    {
+      "id": 201005007,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005018,
+        "value": 7
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 70
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1회 전투에서 첫번째 턴에 7명의 수감자가 모두 크리티컬 공격하기"
+      }
+    },
+    {
+      "id": 201005008,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005019,
+        "value": 80
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 80
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1회 전투에서 합 위력 80 이상 달성하기"
+      }
+    },
+    {
+      "id": 201005009,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005020,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 100
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "거울 던전 5층 이상의 보스 전투에서 2턴 이후에 강요된 무게 기프트의 효과를 발동시키고 클리어"
+      }
+    },
+    {
+      "id": 201005010,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005021,
+        "value": 7
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 70
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "한 턴에 7종류의 죄악 속성 스킬 사용하기"
+      }
+    },
+    {
+      "id": 201005011,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005022,
+        "value": 20
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 50
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1회 전투에서 한 수감자의 속도 20 이상 달성"
+      }
+    },
+    {
+      "id": 201005012,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005005,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 20
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1명의 적에게 부여된 화상 위력 99 달성 (집중 전투인 경우 부위로 체크)"
+      }
+    },
+    {
+      "id": 201005013,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005006,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 20
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1명의 적에게 부여된 출혈 위력 99 달성 (집중 전투인 경우 부위로 체크)"
+      }
+    },
+    {
+      "id": 201005014,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005007,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 20
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1명의 적에게 부여된 진동 위력 99 달성 (집중 전투인 경우 부위로 체크)"
+      }
+    },
+    {
+      "id": 201005015,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005008,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 20
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1명의 적에게 부여된 파열 위력 99 달성 (집중 전투인 경우 부위로 체크)"
+      }
+    },
+    {
+      "id": 201005016,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005009,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 20
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1명의 적에게 부여된 침잠 위력 99 달성 (집중 전투인 경우 부위로 체크)"
+      }
+    },
+    {
+      "id": 201005017,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005010,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 20
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1명의 아군에게 부여된 호흡 위력 99 달성"
+      }
+    },
+    {
+      "id": 201005018,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005011,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 20
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1명의 아군에게 부여된 충전 위력 10 달성"
+      }
+    },
+    {
+      "id": 201005019,
+      "category": "MIRROR_DUNGEON6_BATTLE",
+      "startDate": "2025-07-22T03:00:00.000Z",
+      "endDate": "9999-01-01T00:00:00.000Z",
+      "requiredCondition": {
+        "id": 201005012,
+        "value": 1
+      },
+      "rewards": [
+        {
+          "type": "ITEM",
+          "id": 20033,
+          "num": 70
+        }
+      ],
+      "uiConfig": {
+        "type": "ui_condition_tags",
+        "comment": "1회 전투에서 공격 스킬 1회 사용으로 공격 시작 시 살아있는 적 7명 이상 처치 (E.G.O 스킬 포함)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	"list": [
+		{
+			"lastBannerIds": [
+				3
+			],
+			"firstBannerIds": [
+				108
+			]
+		}
+	]
+}

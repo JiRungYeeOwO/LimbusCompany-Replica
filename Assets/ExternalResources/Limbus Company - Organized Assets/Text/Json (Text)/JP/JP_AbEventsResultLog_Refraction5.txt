@@ -1,0 +1,52 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "8630_BUFF",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e %{1} {2}/% \u003ccolor=#ebcaa2\u003e獲得。\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "8630_SHIELD",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}バリア {1}獲得\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863201_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}の物理耐性弱化\n- 斬撃・貫通・打撃耐性 +0.3\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863201_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003eこのターンに{0}のクリティカルダメージ量 100%増加\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863201_2_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e全味方\u003c/color\u003eがこの戦闘の間 %{0} {1}/%獲得"
+                     },
+                     {
+                         "id":  "863301_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003eが3ターンの間 %{1} {2}, {3} {4}/%\u003ccolor=#ebcaa2\u003e 獲得\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_2_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e全囚人の\u003c/color\u003e\u003ccolor=#fe4b48\u003e体力 -10%\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_2_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003eが3ターンの間 %{1} {2}, {3} {4}/%\u003ccolor=#ebcaa2\u003e 獲得\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_3_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e全囚人の\u003c/color\u003e\u003ccolor=#fe4b48\u003e体力 -15%\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_3_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003eが3ターンの間 %{1} {2}, {3} {4}/%\u003ccolor=#ebcaa2\u003e 獲得\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_4_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003eこのステージの\u003c/color\u003e血餐が半減\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_4_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003eが3ターンの間 %{1} {2}, {3} {4}/%\u003ccolor=#ebcaa2\u003e 獲得\u003c/color\u003e"
+                     }
+                 ]
+}

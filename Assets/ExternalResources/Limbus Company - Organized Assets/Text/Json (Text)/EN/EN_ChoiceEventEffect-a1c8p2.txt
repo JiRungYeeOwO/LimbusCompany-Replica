@@ -1,0 +1,28 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "GetConfirmedObject",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{reward} Artifact obtained!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetConfirmedCoin",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{stack} {reward} Artifact(s) obtained!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "LoseConfirmedCoin",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{stack} {reward} Artifact(s) lost!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "DestroyObject",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{reward} Artifact\u003c/color\u003e \u003ccolor=#e30000\u003elost!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetConfirmedObjectOnWinBattle",
+                         "content":  "\u003ccolor=#ebcaa2\u003eWin the next battle to gain {reward} Artifact!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "HiddenGiftUnlockHiddenRoute",
+                         "content":  "\u003ccolor=#ebcaa2\u003eA new path opened up on the map!\u003c/color\u003e"
+                     }
+                 ]
+}

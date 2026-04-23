@@ -1,0 +1,82 @@
+{
+    "dataList":  [
+                     {
+                         "id":  0,
+                         "place":  "La Manchaland, Area 1",
+                         "model":  "단테",
+                         "content":  "\u003cHuh...\u003e"
+                     },
+                     {
+                         "id":  1,
+                         "content":  "Unlike the Bloodbags back on the train, these ones can\u0027t come back from death."
+                     },
+                     {
+                         "id":  2,
+                         "content":  "They were all once Fixers seeking riches. Civilians turned guests, drawn to this place by its music. Each dreaming a dream of their own."
+                     },
+                     {
+                         "id":  3,
+                         "model":  "단테",
+                         "content":  "\u003cI don\u0027t know since when, but I\u0027ve stopped feeling anything about... killing things like them.\u003e"
+                     },
+                     {
+                         "id":  4,
+                         "model":  "싱클레어",
+                         "content":  "... Yeah."
+                     },
+                     {
+                         "id":  5,
+                         "content":  "Sinclair replied, thrusting his weapon into the skull of a dying Bloodbag."
+                     },
+                     {
+                         "id":  6,
+                         "model":  "그레고르",
+                         "content":  "Hey, the weapons they\u0027re wielding... don\u0027t they kinda remind you of the weapon that Casse—"
+                     },
+                     {
+                         "id":  7,
+                         "model":  "이스마엘",
+                         "content":  "……."
+                     },
+                     {
+                         "id":  8,
+                         "model":  "그레고르",
+                         "content":  "—tti was using?"
+                     },
+                     {
+                         "id":  9,
+                         "model":  "료슈",
+                         "content":  "Decorated with blood."
+                     },
+                     {
+                         "id":  10,
+                         "model":  "뫼르소",
+                         "content":  "Coagulated blood. Identical to his weapon in essence."
+                     },
+                     {
+                         "id":  11,
+                         "model":  "싱클레어",
+                         "content":  "Is this how all Bloodfiends... fight?"
+                     },
+                     {
+                         "id":  12,
+                         "model":  "이스마엘",
+                         "content":  "If we\u0027re using Moses\u0027 family analogy, maybe they\u0027re something like his close relatives."
+                     },
+                     {
+                         "id":  13,
+                         "model":  "오티스",
+                         "content":  "This must be the attraction that the Bloodfiend from earlier was talking about."
+                     },
+                     {
+                         "id":  14,
+                         "model":  "이스마엘",
+                         "content":  "Looks like this one\u0027s the main attraction of this Area."
+                     },
+                     {
+                         "id":  15,
+                         "model":  "이상",
+                         "content":  "Bereft of choices, we are thus compelled to enter..."
+                     }
+                 ]
+}

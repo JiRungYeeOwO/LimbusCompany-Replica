@@ -1,0 +1,84 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "857701_abm_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e全囚人の\u003c/color\u003e %{0}/% 消滅。"
+                     },
+                     {
+                         "id":  "857701_abm_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e %{1} {2}/% 減少"
+                     },
+                     {
+                         "id":  "857701_abm_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e全囚人の\u003c/color\u003e \u003ccolor=#e30000\u003e{0}と{0}回数\u003c/color\u003eをそれぞれ足して囚人の数で割り、全囚人へ\u003ccolor=#e30000\u003e{0}と{0}回数\u003c/color\u003eを付与。(最小1)"
+                     },
+                     {
+                         "id":  "857801_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e全囚人の\u003c/color\u003e %{0}/% 消滅。"
+                     },
+                     {
+                         "id":  "857801_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e全囚人の\u003c/color\u003e\u003ccolor=#80c9ff\u003e精神力 {0}回復\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857801_success_1_3",
+                         "content":  "\u003ccolor=#ebcaa2\u003e囚人{0}が次のターンに\u003c/color\u003e %[{1}] {2}/% \u003ccolor=#ebcaa2\u003e獲得。\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857801_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e囚人{0}が\u003c/color\u003e %[{1}] {2}/% \u003ccolor=#ebcaa2\u003e獲得。\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857801_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e囚人{0}の\u003c/color\u003e\u003ccolor=#fe4b48\u003e精神力 {1}減少\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857801_failure_1_3",
+                         "content":  "\u003ccolor=#ebcaa2\u003e囚人{0}の\u003c/color\u003e\u003ccolor=#e30000\u003e体力 {1}減少\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857101_skinPredector_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003eステージの間、 {0}\u003c/color\u003e %{1} {2}/% \u003ccolor=#ebcaa2\u003e獲得。\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857101_skinPredector_success_1_3",
+                         "content":  "\u003ccolor=#ebcaa2\u003eステージの間、 {0}\u003c/color\u003e %{1} {2}/%, %{3} {4}/% \u003ccolor=#ebcaa2\u003e獲得。\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857101_skinPredector_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003eステージの間、 {0}\u003c/color\u003e %{1} {2}/%, %{3} {4}/% \u003ccolor=#ebcaa2\u003e獲得。\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "857101_skinPredector_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e全囚人が\u003c/color\u003e %{0} {1}/%, %{2} {3}/% \u003ccolor=#ebcaa2\u003e獲得。\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "858501_soc_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0} {1}\u003c/color\u003e \u003ccolor=#ebcaa2\u003e耐性1.5へ変更\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "858501_soc_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e\u003ccolor=#e30000\u003e {1}ダメージ\u003ccolor\u003e"
+                     },
+                     {
+                         "id":  "858501_soc_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e\u003ccolor=#e30000\u003e精神力 {1}ダメージ\u003ccolor\u003e"
+                     },
+                     {
+                         "id":  "858502_soc_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0} {1}\u003c/color\u003e \u003ccolor=#ebcaa2\u003e耐性1.5へ変更\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "858502_soc_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e\u003ccolor=#e30000\u003e {1}ダメージ\u003ccolor\u003e"
+                     },
+                     {
+                         "id":  "858502_soc_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e\u003ccolor=#e30000\u003e精神力 {1}ダメージ\u003ccolor\u003e"
+                     },
+                     {
+                         "id":  "858502_soc_failure_1_3",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e %{1} {2}/% \u003ccolor=#ebcaa2\u003e獲得。\u003c/color\u003e"
+                     }
+                 ]
+}

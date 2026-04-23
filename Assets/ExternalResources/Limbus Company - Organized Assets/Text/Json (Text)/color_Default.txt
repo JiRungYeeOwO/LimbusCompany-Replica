@@ -1,0 +1,20 @@
+{
+  "dataList": [
+    {
+      "id": "lobby_top_button_default_color",
+      "value" : "#EBCAA2"
+    },
+    {
+      "id": "lobby_top_button_highlight_color",
+      "value" : "#F8C200"
+    },
+    {
+      "id": "button_type_b_sub_object_normal",
+      "value" : "#EBCAA2FF"
+    },
+    {
+      "id": "button_type_b_sub_object_pressed",
+      "value" : "#EBCAA2FF"
+    }
+  ]
+}

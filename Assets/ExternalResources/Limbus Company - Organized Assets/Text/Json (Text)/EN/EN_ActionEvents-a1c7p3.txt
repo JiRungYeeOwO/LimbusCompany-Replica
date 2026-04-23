@@ -1,0 +1,302 @@
+{
+    "dataList":  [
+                     {
+                         "id":  837901,
+                         "name":  "아파하는 테디 선택지 선택 이벤트",
+                         "subDesc":  "UNUSED TEXT",
+                         "desc":  "A bear plush looks at us with a sad expression. Several sharp nails are impaling its body.",
+                         "options":  [
+                                         {
+                                             "message":  "Hug the teddy bear.",
+                                             "messageDesc":  "Select to reduce the Abnormality\u0027s Clash Power. Pass a Lust check, and the selected Identity loses some HP but greatly heals SP",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Look away.",
+                                             "messageDesc":  "All Identities lose SP",
+                                             "result":  [
+                                                            "Perhaps the nails looked too threatening.\n\nNo one wanted to get close to the bear plush.\n\nIt slumps its shoulders, clearly hurt.\n\nIt\u0027s clear that most Sinners felt bad about this decision."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10701,
+                         "name":  "",
+                         "subDesc":  "",
+                         "desc":  "We approached the faded signpost in this twisted space.\n\n\u003ci\u003eWelcome to La Manchaland.\u003c/i\u003e\n\nTwo types of tickets and their prices are written underneath that logo.\n\nLooks like we\u0027ll have to purchase a ticket here to enter...\n\nWhich one should we purchase?",
+                         "options":  [
+                                         {
+                                             "message":  "Purchase the All-day Pass",
+                                             "messageDesc":  "All allies lose HP. Gain an E.G.O Gift.",
+                                             "result":  [
+                                                            "Each Sinner paid for their own All-day Pass with their blood.\n\nSome of them were none to happy about this decision, but they all agreed to go with All-day Passes.\n\nWe should be able to experience every attraction here as long as we have this ticket."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Purchase the Standard Pass",
+                                             "messageDesc":  "All allies gain E.G.O Gifts that gain Bleed",
+                                             "result":  [
+                                                            "It might be unwise to lose so much blood here at the entrance.\n\nAfter a discussion with the Sinners, we decided to go with the Standard Pass, which does not require a payment of blood.\n\nThere\u0027s a disclaimer on the ticket: \u0027visitors must pay a certain amount of blood before participating in an attraction\u0027.\n\nWe might be able to get more of our blood\u0027s worth, as long as we carefully choose which attraction we want to go for."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1070101,
+                         "name":  "",
+                         "subDesc":  "",
+                         "desc":  "We walked past the entrance and into La Manchaland.\n\nWhich Area should we visit first in order to escape this maze-like amusement park?",
+                         "options":  [
+                                         {
+                                             "message":  "Participate in a game of Fantasy Blood-shooting.",
+                                             "messageDesc":  "Begin a combat encounter. Win to gain an E.G.O Gift",
+                                             "result":  [
+                                                            "Maybe the way out will open if we defeat as many Bloodfiends as we can.\n\nSome Sinners suggested that we attempt the Fantasy Blood-shooting again.\n\n\u003ci\u003eTo Adventurers who make it to the end of the attraction, we grant you a Token of Victory!\u003c/i\u003e\n\nThrough the pre-recorded voiceline, a Bloodfiend cheers us on.\n\nWe\u0027ve already done this once; I\u0027m sure we can do it again."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Head to the Confessional.",
+                                             "messageDesc":  "Run a Pride check. Pass to gain an E.G.O Gift.",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Watch the Parade",
+                                             "messageDesc":  "Gain an E.G.O Gift",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1070103,
+                         "name":  "",
+                         "subDesc":  "",
+                         "desc":  "We made it to the Parade Area without wasting any more time.\n\nAfter a while of walking along the Parade to the front, a Bloodfiend suddenly came up to us.\n\n\"Why not take a commemorative pic with the Parade as the background?\"\n\"A little bit of blood, and you can remember this moment for-ever-and-ever!\"\n\nWhat should we do?",
+                         "options":  [
+                                         {
+                                             "message":  "Pay with blood and get a commemorative picture taken.",
+                                             "messageDesc":  "Some Sinners lose HP. Gain an E.G.O Gift",
+                                             "result":  [
+                                                            "Some Sinners agreed to pay with blood for some pictures.\n\nI can\u0027t help but feel the pain of Don Quixote\u0027s absence now that we\u0027re standing all together for a group photo.\n\nWhen we received the photograph, which appeared after the flash, the Parade marched far, far away from us as the warped space returned to normal.\n\nThe photograph in my hands was gone, replaced with a Bloodfiend\u0027s mask."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Get out of here.",
+                                             "result":  [
+                                                            "There\u0027s no time to waste on pictures.\n\nWe decided to continue walking past the Parade."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10702,
+                         "name":  "",
+                         "subDesc":  "",
+                         "desc":  "We see a door to a giant containment chamber.\n\nWe\u0027re going to have to get through that to escape this maze.\n\nThere\u0027s an unfamiliar machine on the road to the chamber.\n\nIt must be a raffle machine La Manchaland used during event periods.\n\n\u003ci\u003eA little bit of blood for something very useful!\u003c/i\u003e\n\nThere\u0027s an advertisement written in elaborate typography.\n\nMaybe we\u0027ll be able to find \u0027something very useful\u0027 in there?",
+                         "options":  [
+                                         {
+                                             "message":  "Pay with Blood to enter the raffle.",
+                                             "messageDesc":  "A random Sinner loses HP. Random chance to gain an E.G.O Gift",
+                                             "result":  [
+                                                            "When the Sinner pays with their blood, the raffle machine begins to whir loudly.\n\n\u003ci\u003eYou get... nothing!\u003c/i\u003e\n\nWith a sad jingle, the machine comes to a slow stop before falling silent.\n\nThe chances of pulling what we want is probably pretty low.",
+                                                            "When the Sinner pays with their blood, the raffle machine begins to whir loudly.\n\n\u003ci\u003eYOU WIN! YOU WIN!\u003c/i\u003e\n\nA loud, jolly jingle plays, and a cube-shaped crystal made of blood rolls out of the machine.\n\nIt might be useful for something."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Destroy the raffle machine.",
+                                             "messageDesc":  "...",
+                                             "result":  [
+                                                            "It wasn\u0027t like there was anyone around to stop us.\n\nWhy pay with Sinners\u0027 blood to activate this raffle machine?\n\nCan\u0027t we just crack the thing open and take the prize in there?\n\nI order the Sinners to break the machine, and some Sinners were all too happy to oblige.\n\nThe machine begins to warp into a bizarre shape—then a massive peccatulum appears before us."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Leave.",
+                                             "result":  [
+                                                            "I doubt there\u0027s anything that\u0027s useful for us in there.\n\nWe decided to ignore the raffle machine and keep moving forward."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1070201,
+                         "name":  "",
+                         "subDesc":  "",
+                         "desc":  "A little bit of blood didn\u0027t give us anything.\n\nIs the advertisement text lying to us?\n\nOr maybe we were just unlucky.\n\nWhat should we do?",
+                         "options":  [
+                                         {
+                                             "message":  "Pay with Blood to enter the raffle.",
+                                             "messageDesc":  "A random Sinner loses HP. Random chance to gain an E.G.O Gift",
+                                             "result":  [
+                                                            "When the Sinner pays with their blood, the raffle machine begins to whir loudly.\n\n\u003ci\u003eYou get... nothing!\u003c/i\u003e\n\nWith a sad jingle, the machine comes to a slow stop before falling silent.\n\nThe chances of pulling what we want is probably pretty low.",
+                                                            "When the Sinner pays with their blood, the raffle machine begins to whir loudly.\n\n\u003ci\u003eYOU WIN! YOU WIN!\u003c/i\u003e\n\nA loud, jolly jingle plays, and a cube-shaped crystal made of blood rolls out of the machine.\n\nIt might be useful for something."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Destroy the raffle machine.",
+                                             "messageDesc":  "...",
+                                             "result":  [
+                                                            "It wasn\u0027t like there was anyone around to stop us.\n\nWhy pay with Sinners\u0027 blood to activate this raffle machine?\n\nCan\u0027t we just crack the thing open and take the prize in there?\n\nI order the Sinners to break the machine, and some Sinners were all too happy to oblige.\n\nThe machine begins to warp into a bizarre shape—then a massive peccatulum appears before us."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Leave.",
+                                             "result":  [
+                                                            "I doubt there\u0027s anything that\u0027s useful for us in there.\n\nWe decided to ignore the raffle machine and keep moving forward."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10703,
+                         "name":  "",
+                         "subDesc":  "",
+                         "desc":  "\"While the noble Knight and his Squire was on their most wonderful adventure...\"\n\n\"The rest of their Family waited, chewing slowly on what subsistence they were availed.\"\n\n\"Though it is unclear whether all that waiting was worth it.\"\n\nA sarcastic, disembodied narration echoes from somewhere.\n\nBefore the Sinners, the \u0027subsistence\u0027 that the Family was eating appeared.",
+                         "options":  [
+                                         {
+                                             "message":  "Eat the hemobar. (It is flavorless.)",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Leave it.",
+                                             "result":  [
+                                                            "We waited for a while, refusing to eat that thing. The space around us warped and twisted, before opening a path ahead.\n\nThere\u0027s no time to rest. Let\u0027s keep moving."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1070301,
+                         "name":  "",
+                         "subDesc":  "",
+                         "desc":  "\"They gobble down on that dry, flavorless \u0027food\u0027.\"\n\n\"But their hunger is not the kind to be sated by such supplements.\"\n\n\"Unable to bear that hollow feeling, they tried to eat more of that food.\"\n\n\"As though they were trying to convince themselves that gorging on that thing would free them from this starvation.\"",
+                         "options":  [
+                                         {
+                                             "message":  "Eat the hemobar.",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Eat the hemobar.",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Stop eating.",
+                                             "result":  [
+                                                            "We waited for a while, refusing to eat that thing. The space around us warped and twisted, before opening a path ahead.\n\nThere\u0027s no time to rest. Let\u0027s keep moving."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1070302,
+                         "name":  "",
+                         "subDesc":  "",
+                         "desc":  "\"Once again, they gobbled up the food.\"\n\n\"They ate, and ate, and ate until they could no longer stuff any more of it into their mouths.\"\n\n\"But oh, how unfortunate... They were \u003ci\u003estill hungry\u003c/i\u003e.\"\n\n\"The Family once again witlessly begins to set their table with that flavorless food.\"",
+                         "options":  [
+                                         {
+                                             "message":  "Eat ten hemobars.",
+                                             "messageDesc":  "WARNING) Continuing to eat will result in gaining an E.G.O Gift with a downside",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Eat ten hemobars.",
+                                             "messageDesc":  "WARNING) Continuing to eat will result in gaining an E.G.O Gift with a downside",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Eat ten hemobars.",
+                                             "messageDesc":  "WARNING) Continuing to eat will result in gaining an E.G.O Gift with a downside",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Stop eating.",
+                                             "result":  [
+                                                            "We waited for a while, refusing to eat that thing. The space around us warped and twisted, before opening a path ahead.\n\nThere\u0027s no time to rest. Let\u0027s keep moving."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1070303,
+                         "name":  "",
+                         "subDesc":  "",
+                         "desc":  "\"It seems that they, in their endless naïveté, still believe that they simply haven\u0027t eaten enough food.\"\n\n\"Let\u0027s see how long this... meaningless banquet lasts.\"",
+                         "options":  [
+                                         {
+                                             "message":  "Keep eating the hemobars.",
+                                             "messageDesc":  "Gain an E.G.O Gift with downsides",
+                                             "result":  [
+                                                            "\"The family ate, and ate, and ate in that desperate wish.\"\n\n\"That this painful hunger might go away.\"\n\n\"What came next was an anticipation, of sorts.\"\n\n\"That maybe, just maybe, this hunger might go away once the Knight and his Squire returns from their adventure.\"\n\n\"But it won\u0027t go away.\"\n\n\"It never will.\"\n\nWe begin to feel a sudden, bottomless hunger once the narration ends.\n\nEvery Sinner lurches over from hunger so intense that it became pain.\n\nBut the path opens, without any time for us to fill our stomachs.\n\nNo choice but to keep moving, I suppose."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Keep eating the hemobars.",
+                                             "messageDesc":  "Gain an E.G.O Gift with downsides",
+                                             "result":  [
+                                                            "\"The family ate, and ate, and ate in that desperate wish.\"\n\n\"That this painful hunger might go away.\"\n\n\"What came next was an anticipation, of sorts.\"\n\n\"That maybe, just maybe, this hunger might go away once the Knight and his Squire returns from their adventure.\"\n\n\"But it won\u0027t go away.\"\n\n\"It never will.\"\n\nWe begin to feel a sudden, bottomless hunger once the narration ends.\n\nEvery Sinner lurches over from hunger so intense that it became pain.\n\nBut the path opens, without any time for us to fill our stomachs.\n\nNo choice but to keep moving, I suppose."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Keep eating the hemobars.",
+                                             "messageDesc":  "Gain an E.G.O Gift with downsides",
+                                             "result":  [
+                                                            "\"The family ate, and ate, and ate in that desperate wish.\"\n\n\"That this painful hunger might go away.\"\n\n\"What came next was an anticipation, of sorts.\"\n\n\"That maybe, just maybe, this hunger might go away once the Knight and his Squire returns from their adventure.\"\n\n\"But it won\u0027t go away.\"\n\n\"It never will.\"\n\nWe begin to feel a sudden, bottomless hunger once the narration ends.\n\nEvery Sinner lurches over from hunger so intense that it became pain.\n\nBut the path opens, without any time for us to fill our stomachs.\n\nNo choice but to keep moving, I suppose."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Keep eating the hemobars.",
+                                             "messageDesc":  "Gain an E.G.O Gift with downsides",
+                                             "result":  [
+                                                            "\"The family ate, and ate, and ate in that desperate wish.\"\n\n\"That this painful hunger might go away.\"\n\n\"What came next was an anticipation, of sorts.\"\n\n\"That maybe, just maybe, this hunger might go away once the Knight and his Squire returns from their adventure.\"\n\n\"But it won\u0027t go away.\"\n\n\"It never will.\"\n\nWe begin to feel a sudden, bottomless hunger once the narration ends.\n\nEvery Sinner lurches over from hunger so intense that it became pain.\n\nBut the path opens, without any time for us to fill our stomachs.\n\nNo choice but to keep moving, I suppose."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10704,
+                         "name":  "",
+                         "subDesc":  "",
+                         "desc":  "A mass of brambles, its thorns sharp, stands in our way.\n\n\"The Knight and the Squire adventured together for a long, long time.\"\n\n\"They enjoyed so many adventures together.\"\n\n\"Which one of them was the most interesting?\"\n\nThe narration, again.\n\nWhat should we say?",
+                         "options":  [
+                                         {
+                                             "message":  "Forsooth, \u0027twas the battle against the mountainous giants",
+                                             "messageDesc":  "Gain Wrath and Pride E.G.O resources",
+                                             "result":  [
+                                                            "\"A long, long time ago, the Knight and the Squire warred against the giants.\"\n\n\"But it wasn\u0027t very exciting, as it always ended with the Knight\u0027s victory.\"\n\n\"What other adventure awaits, one must wonder.\""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "\u0027Twas the deliverance of a troubled village from evil, verily",
+                                             "messageDesc":  "Gain Lust and Gluttony E.G.O resources",
+                                             "result":  [
+                                                            "\"The Knight and the Squire rescued the troubled village.\"\n\n\"It was so, so easy for them, as they were two mighty beings hiding their true strengths.\"\n\n\"What other adventure awaits, one must wonder.\""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Indeed, \u0027twas the adventure for the helm of Mambrino",
+                                             "messageDesc":  "Gain Gloom and Envy E.G.O resources",
+                                             "result":  [
+                                                            "\"After a long, trying journey, the Knight and the Squire claimed the great helm of Mambrino as their own.\"\n\n\"Clueless about the helm\u0027s true powers.\"\n\n\"What other adventure awaits, one must wonder.\""
+                                                        ]
+                                         }
+                                     ]
+                     }
+                 ]
+}

@@ -1,0 +1,68 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "lcb_checkup_stagebutton_not_clear",
+                         "content":  "7-36クリア時に解放"
+                     },
+                     {
+                         "id":  "lcb_checkup_stagebutton_normal",
+                         "content":  "ステージ"
+                     },
+                     {
+                         "id":  "lcb_checkup_stagebutton_end_event",
+                         "content":  "イベント期間終了"
+                     },
+                     {
+                         "id":  "lcb_checkup_storybutton_before_start",
+                         "content":  "\u003csize=75%\u003eイベントストーリー1話を\n閲覧時に解放\u003c/size\u003e"
+                     },
+                     {
+                         "id":  "lcb_checkup_storybutton_normal",
+                         "content":  "上映館へ移動"
+                     },
+                     {
+                         "id":  "lcb_checkup_rewardShopButton",
+                         "content":  "報酬交換"
+                     },
+                     {
+                         "id":  "lcb_checkup_scrap_guide_title",
+                         "content":  "イベントアイテムのご案内"
+                     },
+                     {
+                         "id":  "lcb_checkup_scrap_guide_desc",
+                         "content":  "!!! 이거 사용하는 곳 없는지 확인하고 없으면 제거 !!!イベント、メインストーリーのステージ、または鏡ダンジョンをクリアすると低確率で\u003ccolor=#ff99e6\u003e[機密書類]\u003c/color\u003eを獲得することができます。\n\n\u003ccolor=#ff99e6\u003e[機密書類]\u003c/color\u003eは獲得時、\u003ccolor=#ff99e6\u003e[情報書類]\u003c/color\u003e20個に即変換されます。"
+                     },
+                     {
+                         "id":  "lcb_checkup_rewardpage_desc",
+                         "content":  "イベントステージとメインストーリーの初回クリア、\n鏡ダンジョンクリアを通じて\u003ccolor=#ac1605\u003e[情報書類]\u003c/color\u003eを獲得でき、\n低確率で\u003ccolor=#ac1605\u003e[機密書類]\u003c/color\u003eを追加で獲得することができます。\n\n\u003ccolor=#ac1605\u003e[機密書類]\u003c/color\u003eは獲得すると\u003ccolor=#ac1605\u003e[情報書類]\u003c/color\u003e20個に即変換されます。"
+                     },
+                     {
+                         "id":  "lcb_checkup_reward_popup_desc",
+                         "content":  "イベントステージとメインストーリー初回クリア、鏡ダンジョンクリアを通じて\u003ccolor=#ac1605\u003e[情報書類]\u003c/color\u003eを獲得できます。\n\n\u003ccolor=#ac1605\u003e[報酬交換]\u003c/color\u003eウィンドウより\u003ccolor=#ac1605\u003e[情報書類]\u003c/color\u003eを支払い、様々な報酬を獲得できます。"
+                     },
+                     {
+                         "id":  "lcb_checkup_reward_popup_num_of_owned_items",
+                         "content":  "保有アイテム数"
+                     },
+                     {
+                         "id":  "lcb_checkup_bonusUI_Title",
+                         "content":  "増加"
+                     },
+                     {
+                         "id":  "lcb_checkup_bonusUI_Title_contain_false",
+                         "content":  "未保有"
+                     },
+                     {
+                         "id":  "lcb_checkup_bonusUI_Desc",
+                         "content":  "イベント期間中、該当人格・E.G.Oを編成すると\u003ccolor=#ac1605\u003e[情報書類]\u003c/color\u003eの獲得量が上昇します。\n獲得量上昇値の合計は、最大\u003ccolor=#ac1605\u003e120%\u003c/color\u003eまで適用されます。"
+                     },
+                     {
+                         "id":  "lcb_checkup_bonus_popup_title",
+                         "content":  "イベント特化対象"
+                     },
+                     {
+                         "id":  "lcb_checkup_bonus_preview",
+                         "content":  "イベント特化対象"
+                     }
+                 ]
+}

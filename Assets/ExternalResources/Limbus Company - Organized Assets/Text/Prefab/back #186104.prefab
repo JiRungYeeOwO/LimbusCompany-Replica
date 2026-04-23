@@ -1,0 +1,35 @@
+{
+"skeleton": {
+	"hash": "+yI9H3yUoJo",
+	"spine": "4.0.64",
+	"x": -1.98,
+	"y": -2044.18,
+	"width": 3642.11,
+	"height": 2048.96,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.5505, "scaleY": 0.5505 }
+],
+"slots": [
+	{ "name": "Background", "bone": "root", "attachment": "Background" },
+	{ "name": "Back_obj", "bone": "root", "attachment": "Back_obj" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Background": {
+				"Background": { "x": 3305.41, "y": -1852.32, "width": 6614, "height": 3722 }
+			},
+			"Back_obj": {
+				"Back_obj": { "x": 3303.41, "y": -1859.32, "width": 6614, "height": 3708 }
+			}
+		}
+	}
+],
+"animations": {
+	"back": {}
+}
+}

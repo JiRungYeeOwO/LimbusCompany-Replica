@@ -1,0 +1,88 @@
+{
+    "dataList":  [
+                     {
+                         "id":  0,
+                         "place":  "Shepherds\u0027 Village",
+                         "model":  "기사돈키",
+                         "content":  "Eventually, I managed to wholly purge the village of bandits and return the peace to where it belongs!"
+                     },
+                     {
+                         "id":  1,
+                         "model":  "주민로쟈",
+                         "content":  "\"O Don Quixote, your worship! I thank you for protecting our village. How may we repay this great favor?\""
+                     },
+                     {
+                         "id":  2,
+                         "model":  "산손",
+                         "content":  "The villagers spoke of the reward for this brave adventurer."
+                     },
+                     {
+                         "id":  3,
+                         "model":  "산손",
+                         "content":  "Of course they did. Expecting a reward for a job done well was a most natural thing, indeed. After all, who would do such difficult work for no pay?"
+                     },
+                     {
+                         "id":  4,
+                         "model":  "기사돈키",
+                         "content":  "\"No need, my good lady! There is no need at all. I have merely done my duty as a righteous Fixer.\""
+                     },
+                     {
+                         "id":  5,
+                         "model":  "주민로쟈",
+                         "content":  "\"Oh my! For truth?! You helped us... for free? Without expecting any compensation?\""
+                     },
+                     {
+                         "id":  6,
+                         "model":  "기사돈키",
+                         "content":  "\"Forsooth! For that! Is the duty of a Fixer. Ah, yet... ahem. If thou truly wishest to help, then... I do have aught to ask thee...\""
+                     },
+                     {
+                         "id":  7,
+                         "model":  "주민로쟈",
+                         "content":  "\"Of course! Anything for you, brave adventurer!\""
+                     },
+                     {
+                         "id":  8,
+                         "model":  "기사돈키",
+                         "content":  "\"That is...! \u0027Tis naught of any import, of course. \u0027Tis... uh...\""
+                     },
+                     {
+                         "id":  9,
+                         "model":  "기사돈키",
+                         "content":  "“…….”"
+                     },
+                     {
+                         "id":  10,
+                         "model":  "주민로쟈",
+                         "content":  "\"... Huh?\""
+                     },
+                     {
+                         "id":  11,
+                         "place":  -1,
+                         "content":  "\u003ccolor=#ebcaa2\u003eBut, um... how could we repay you...? We don\u0027t have much money...\u003c/color\u003e"
+                     },
+                     {
+                         "id":  12,
+                         "content":  "\u003ccolor=#ffef23\u003eYour running shoes look like they could fetch a nice price...\u003c/color\u003e"
+                     },
+                     {
+                         "id":  13,
+                         "content":  "\u003ccolor=#cc2424\u003eFie on thee! A... ...doth not dole out justice based on promise of capital!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  14,
+                         "content":  "\u003ccolor=#cc2424\u003eStill, if thou truly wishest to help, then...\u003c/color\u003e"
+                     },
+                     {
+                         "id":  15,
+                         "place":  "Shepherds\u0027 Village",
+                         "model":  "단테",
+                         "content":  "\u003cThis memory... Was that... Don Quixote...?\u003e"
+                     },
+                     {
+                         "id":  16,
+                         "model":  "산손",
+                         "content":  "Ah, can\u0027t have dead silence on the stage. Let\u0027s keep things moving and head on to the next tale, shall we?"
+                     }
+                 ]
+}

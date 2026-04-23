@@ -1,0 +1,496 @@
+{
+    "dataList":  [
+                     {
+                         "id":  10801,
+                         "name":  "막힌길_뚫기",
+                         "subDesc":  "",
+                         "desc":  "A dilapidated wall blocks our path.\nThere\u0027s a device on it with a label that says \"Pick up your entry cards here\". Next to it is a dial of sorts.\n\n\u0027Looks like they won\u0027t let us through so easily.\u0027\n\u0027Is anyone particularly good with these devices? I can\u0027t seem to figure it out...\u0027",
+                         "options":  [
+                                         {
+                                             "message":  "Interface with the device.",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10802,
+                         "name":  "부적_떼기",
+                         "subDesc":  "",
+                         "desc":  "There are several talismans glued to the wall.\n\nI can feel the wind blowing through the barely visible cracks on the wall.\n\n\u0027Seems like there\u0027s something on the other side.\u0027\n\nMaybe there\u0027s a hidden passageway here?\n\nThe Sinners take a moment to investigate the room, and find a wall with conspicuously arranged talismans of different colors.\n\n\u0027Ohh~ These must be colors that match each of the cardinal directions~\u0027\n\u0027Looks like we\u0027ll have to peel these talismans in the correct order.\u0027\n\nShould we try peeling the talismans?",
+                         "options":  [
+                                         {
+                                             "message":  "Let\u0027s try peeling a talisman.",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1080201,
+                         "name":  "부적_떼기_북",
+                         "subDesc":  "",
+                         "desc":  "There\u0027s something written on the blue talisman to the West.\n\nLooks like they\u0027re indicating that this is the first talisman to be removed.\n\nWhen I remove the talisman, the walls begin to shake.\n\nWhich one should I remove next?",
+                         "options":  [
+                                         {
+                                             "message":  "Center",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "The walls stop shaking, but something feels off.\n\nAnd right on cue, the host\u0027s vibrant voice begins blasting from the speakers.\n\n\u0027Contestants who failed the puzzle should be punished, don\u0027t you think?\u0027\n\nThere was a sound of wooden things clattering...\nAnd some doors swing open as wooden dummies rush out."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "East",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "The walls stop shaking, but something feels off.\n\nAnd right on cue, the host\u0027s vibrant voice begins blasting from the speakers.\n\n\u0027Contestants who failed the puzzle should be punished, don\u0027t you think?\u0027\n\nThere was a sound of wooden things clattering...\nAnd some doors swing open as wooden dummies rush out."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "South",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "The walls stop shaking, but something feels off.\n\nAnd right on cue, the host\u0027s vibrant voice begins blasting from the speakers.\n\n\u0027Contestants who failed the puzzle should be punished, don\u0027t you think?\u0027\n\nThere was a sound of wooden things clattering...\nAnd some doors swing open as wooden dummies rush out."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "North",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1080202,
+                         "name":  "부적_떼기_중앙",
+                         "subDesc":  "",
+                         "desc":  "I remove the red talisman in the North.\n\nThe walls are now shaking with greater intensity.\n\nWhich one should we peel next?",
+                         "options":  [
+                                         {
+                                             "message":  "Center",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "East",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "The walls stop shaking, but something feels off.\n\nAnd right on cue, the host\u0027s vibrant voice begins blasting from the speakers.\n\n\u0027Contestants who failed the puzzle should be punished, don\u0027t you think?\u0027\n\nThere was a sound of wooden things clattering...\nAnd some doors swing open as wooden dummies rush out."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "South",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "The walls stop shaking, but something feels off.\n\nAnd right on cue, the host\u0027s vibrant voice begins blasting from the speakers.\n\n\u0027Contestants who failed the puzzle should be punished, don\u0027t you think?\u0027\n\nThere was a sound of wooden things clattering...\nAnd some doors swing open as wooden dummies rush out."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1080203,
+                         "name":  "부적_떼기_서",
+                         "subDesc":  "",
+                         "desc":  "I remove the yellow talisman in the center.\n\nThe walls are now shaking with greater intensity.\n\nWhich one should we peel next?",
+                         "options":  [
+                                         {
+                                             "message":  "East",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "South",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "The walls stop shaking, but something feels off.\n\nAnd right on cue, the host\u0027s vibrant voice begins blasting from the speakers.\n\n\u0027Contestants who failed the puzzle should be punished, don\u0027t you think?\u0027\n\nThere was a sound of wooden things clattering...\nAnd some doors swing open as wooden dummies rush out."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1080204,
+                         "name":  "부적_떼기_끝",
+                         "subDesc":  "",
+                         "desc":  "I remove the white talisman in the East.\n\nThe walls are shaking like they\u0027re about to crumble any minute.\n\nThere\u0027s just one more talisman to peel.",
+                         "options":  [
+                                         {
+                                             "message":  "South",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "The wall crumbles, opening a new path forward.\n\nI find some twinkling coins strewn about the debris."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10803,
+                         "name":  "붉은_출입증_획득_전투",
+                         "subDesc":  "",
+                         "desc":  "Ahem. You must be Jia Baoyu... and his clan, right?\u0027\n\n\u0027I, uh... got separated from my faction when the walls suddenly burst from the ground.\u0027\n\n\u0027Some are still with me, but I don\u0027t think I\u0027ll get very far like this...\u0027\n\n\u0027Can you help me find where the rest of my faction is?\u0027\n\n\u0027Hey, if you help me out today, I\u0027ll look out for you when I become the Family Hierarch.\u0027\n\n\u0027C\u0027mon, man. Help me out!\u0027",
+                         "options":  [
+                                         {
+                                             "message":  "Hand over the Entry Card.\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked with the \u0027Worn Entry Card\u0027\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "Gain an Artifact",
+                                             "result":  [
+                                                            "This guy is pretty annoying...\n\nBut we don\u0027t have any reason to pick a fight with him when we don\u0027t know how many fights we\u0027ve got ahead of us. It\u0027s not like he\u0027s being aggressive.\n\nInstead of starting a fight, I hand him the used entry card.\n\n\u0027We also picked up something like that, but... it turned out to be pretty useless.\u0027\n\n\u0027Here\u0027s hoping this one\u0027ll be better. Well... I guess I\u0027ll exchange your card for mine. Toss it or keep it, up to you.\u0027\n\n\u0027Oh, also... I picked up this weird Bolus from another candidate. Seemed a bit fishy to me, so... I guess I\u0027ll let you take care of it.\u0027\n\n\u0027Well, that\u0027s all. Hey, I won\u0027t go so easy on you the next time we meet, so watch yourself.\u0027"
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Eliminate him and take his coins.",
+                                             "messageDesc":  "Begin a combat encounter. Win to gain coin(s).",
+                                             "result":  [
+                                                            "Just as I was about to explain to the Sinners that we don\u0027t necessarily have to fight...\n\n... I mean, do we necessarily have to help him?\n\nSo, instead, I make a suggestion to the Sinners that we should probably just beat him up and take his coins. Most Sinners nod in agreement.\n\n\u0027W-what the hell? Seriously? You\u0027re gonna fight me? Do you have any idea who I am? I\u0027m the eminent Shi family\u0027s—\u0027\n\nThe Sinners start beating him up before the conversation got any longer than it has to be."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10804,
+                         "name":  "죄수_꽃뜯기",
+                         "subDesc":  "",
+                         "desc":  "\u003ci\u003eOne speaks a hollow lamentation,\nThe other yearns in an empty desire.\nOne is a moon on the water\u0027s surface, a reflection,\nAnd the other is a blossom\u0027s image in a mirror.\u003c/i\u003e\n\nFlowers have bloomed over the bodies of the prisoners.\nI don\u0027t see any movement... looks like they\u0027re all dead.\n\n\u0027These flowers possess... the augmentative qualities of H Corp.\u0027\n\u0027They will most likely provide some advantage in the battles to come.\u0027\n\nWhich flower should we pick?",
+                         "options":  [
+                                         {
+                                             "message":  "Lotus",
+                                             "messageDesc":  "Select to gain an Artifact",
+                                             "result":  [
+                                                            "We pick the lotus flower.\nThe flower transforms into a small Bolus,\nand the other flowers blossom in the mirror.\n\nLet the prisoners rest in peace...\nWe move on, after paying our respects to the dead."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Red Spider Lily",
+                                             "messageDesc":  "Select to gain an Artifact",
+                                             "result":  [
+                                                            "We pick the red spider lily.\nThe flower transforms into a small Bolus,\nand the other flowers blossom in the mirror.\n\nLet the prisoners rest in peace...\nWe move on, after paying our respects to the dead."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Nameless Herb",
+                                             "messageDesc":  "Select to gain an Artifact",
+                                             "result":  [
+                                                            "We pick the nameless herb.\nThe herb transforms into a small Bolus,\nand the other flowers blossom in the mirror.\n\nLet the prisoners rest in peace...\nWe move on, after paying our respects to the dead."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10805,
+                         "name":  "환_도박",
+                         "subDesc":  "",
+                         "desc":  "We enter a new room and see a bound prisoner next to a Bolus on a table.\nThere, we see a candidate standing around as though they\u0027ve been waiting for someone to arrive.\n\n\u0027Ah, now we have enough people for this special game to commence!\u0027\n\n\u0027Please direct your attention to the Bolus on the table! Observe it well!\u0027\n\n\u0027It is a Bolus currently in development here at H Corp; it is yet to be commercialized for mass-market use.\u0027\n\n\u0027Apparently it can help restore your vitality once taken, but... let\u0027s see how true that is, shall we?\u0027\n\n\u0027Do you think this is indeed a successful new product, or... is it a failure?\u0027\n\n\u0027Now\u0027s the time to place your bets with your coins! Guess—is it a success, or a failure?\u0027\n\n\u0027The candidate who gets this question right gains all the coins in the pool!\u0027",
+                         "options":  [
+                                         {
+                                             "message":  "It\u0027s a success.",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "It\u0027s a failure.",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1080501,
+                         "name":  "환_도박_코인_성공",
+                         "subDesc":  "",
+                         "desc":  "The other candidate bets on \u0027failure\u0027.\n\nHow many coins should we wager?",
+                         "options":  [
+                                         {
+                                             "message":  "1 coin.\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked when carrying 1 or more coin(s)\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "Win the bet to gain a few coins\nLose the bet, and relinquish the coins you wagered",
+                                             "result":  [
+                                                            "We bet a coin, and the other candidate bets a coin as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe condemned swallows the Bolus, but they look to be at peace.\nWe wait a little longer, and the flower growing from the prisoner grows more vibrant.\n\n\u0027How wonderful! The Bolus was a success, it seems!\u0027\n\u0027The candidate who bet on it being a success gains the coins...\u0027\n\u0027... while the candidate who bet on it being a failure must submit their coins!\u0027",
+                                                            "We bet a coin, and the other candidate bets a coin as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, and immediately begins screaming with pain.\nHe drops to the floor unconscious after wildly writhing and thrashing around for a minute.\n\n\u0027Oh, what a shame. It was a failure.\u0027\n\u0027The candidate who bet on it being a failure gains the coins...\u0027\n\u0027... while the candidate who bet on it being a success must submit their coins!\u0027"
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "2 coins.\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked when carrying 2 or more coin(s)\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "Win the bet to gain a moderate amount of coins\nLose the bet, and relinquish the coins you wagered",
+                                             "result":  [
+                                                            "We bet two coins, and the other candidate bets two coins as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, but they look to be at peace.\nWe wait a little longer, and the flower growing from the condemned grows more vibrant.\n\n\u0027How wonderful! The Bolus was a success, it seems!\u0027\n\u0027The candidate who bet on it being a success gains the coins...\u0027\n\u0027... while the candidate who bet on it being a failure must submit their coins!\u0027",
+                                                            "We bet two coins, and the other candidate bets two coins as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, and immediately begins screaming with pain.\nHe drops to the floor unconscious after wildly writhing and thrashing around for a minute.\n\n\u0027Oh, what a shame. It was a failure.\u0027\n\u0027The candidate who bet on it being a failure gains the coins...\u0027\n\u0027... while the candidate who bet on it being a success must submit their coins!\u0027"
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "3 coins.\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked when carrying 3 or more coin(s)\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "Win the bet to gain a large bundle of coins\nLose the bet, and relinquish the coins you wagered",
+                                             "result":  [
+                                                            "We bet three coins, and the other candidate bets three coins as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, but they look to be at peace.\nWe wait a little longer, and the flower growing from the condemned grows more vibrant.\n\n\u0027How wonderful! The Bolus was a success, it seems!\u0027\n\u0027The candidate who bet on it being a success will gain the coins!\u0027\n\u0027Also, here a bonus coin for your boldness!\u0027\n\u0027The candidate who bet on it being a failure, please submit your coins!\u0027",
+                                                            "We bet three coins, and the other candidate bets three coins as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, and immediately begins screaming with pain.\nHe drops to the floor unconscious after wildly writhing and thrashing around for a minute.\n\n\u0027Oh, what a shame. It was a failure.\u0027\n\u0027The candidate who bet on it being a failure will gain the coins!\u0027\n\u0027Also, here a bonus coin for your boldness!\u0027\n\u0027The candidate who bet on it being a success, please submit your coins!\u0027"
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Gambling isn\u0027t worth the risk. Let\u0027s back out.",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "\u0027Oh no... Was this little gamble too scary for you?\u0027\n\n\u0027It might be a bit tough to navigate this game going forward, with such a wimpy heart!\u0027\n\nGambling always carries a risk.\nWe leave the room, leaving the prisoner and the other candidate behind."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1080502,
+                         "name":  "환_도박_코인_실패",
+                         "subDesc":  "",
+                         "desc":  "The other candidate bets on \u0027success\u0027.\n\nHow many coins should we wager?",
+                         "options":  [
+                                         {
+                                             "message":  "1 coin.\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked when carrying 1 or more coin(s)\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "Win the bet to gain a few coins\nLose the bet, and relinquish the coins you wagered",
+                                             "result":  [
+                                                            "We bet a coin, and the other candidate bets a coin as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, and immediately begins screaming with pain.\nHe drops to the floor unconscious after wildly writhing and thrashing around for a minute.\n\n\u0027Oh, what a shame. It was a failure.\u0027\n\u0027The candidate who bet on it being a failure gains the coins...\u0027\n\u0027... while the candidate who bet on it being a success must submit their coins!\u0027",
+                                                            "We bet a coin, and the other candidate bets a coin as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, but they look to be at peace.\nWe wait a little longer, and the flower growing from the condemned grows more vibrant.\n\n\u0027How wonderful! The Bolus was a success, it seems!\u0027\n\u0027The candidate who bet on it being successful gains the coins...\u0027\n\u0027... while the candidate who bet on it being a failure must submit their coins!\u0027"
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "2 coins.\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked when carrying 2 or more coin(s)\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "Win the bet to gain a moderate amount of coins\nLose the bet, and relinquish the coins you wagered",
+                                             "result":  [
+                                                            "We bet two coins, and the other candidate bets two coins as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, and immediately begins screaming with pain.\nHe drops to the floor unconscious after wildly writhing and thrashing around for a minute.\n\n\u0027Oh, what a shame. It was a failure.\u0027\n\u0027The candidate who bet on it being a failure gains the coins...\u0027\n\u0027... while the candidate who bet on it being a success must submit their coins!\u0027",
+                                                            "We bet two coins, and the other candidate bets two coins as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, but they look to be at peace.\nWe wait a little longer, and the flower growing from the condemned grows more vibrant.\n\n\u0027How wonderful! The Bolus was a success, it seems!\u0027\n\u0027The candidate who bet on it being successful gains the coins...\u0027\n\u0027... while the candidate who bet on it being a failure must submit their coins!\u0027"
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "3 coins.\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked when carrying 3 or more coin(s)\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "Win the bet to gain a large bundle of coins\nLose the bet, and relinquish the coins you wagered",
+                                             "result":  [
+                                                            "We bet three coins, and the other candidate bets three coins as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, and immediately begins screaming with pain.\nHe drops to the floor unconscious after wildly writhing and thrashing around for a minute.\n\n\u0027Oh, what a shame. It was a failure.\u0027\n\u0027The candidate who bet on it being a failure will gain the coins!\u0027\n\u0027Also, here a bonus coin for your boldness!\u0027\n\u0027The candidate who bet on it being a success, please submit your coins!\u0027",
+                                                            "We bet three coins, and the other candidate bets three coins as well.\n\n\u0027Alrighty, let\u0027s check out what happens, then!\u0027\n\nThe prisoner swallows the Bolus, but they look to be at peace.\nWe wait a little longer, and the flower growing from the condemned grows more vibrant.\n\n\u0027How wonderful! The Bolus was a success, it seems!\u0027\n\u0027The candidate who bet on it being successful will gain the coins!\u0027\n\u0027Also, here a bonus coin for your boldness!\u0027\n\u0027The candidate who bet on it being a failure, please submit your coins!\u0027"
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Gambling isn\u0027t worth the risk. Let\u0027s back out.",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "\u0027Oh no... Was this little gamble too scary for you?\u0027\n\n\u0027It might be a bit tough to navigate this game going forward, with such a wimpy heart!\u0027\n\nGambling always carries a risk.\nWe leave the room, leaving the prisoner and the other candidate behind."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10806,
+                         "name":  "낭떠러지_도전",
+                         "subDesc":  "",
+                         "desc":  "\u003ci\u003eNo wisdom nor virtue can change the past and the future,\nand human connections and fate make strangers of neighbors.\u003c/i\u003e\n\n\u0027Welcome, candidates! Congratulations on making it to the basement!\u0027\n\n\u0027Did you know that there are far more opportunities down here to collect those coins that you all want?\u0027\n\n\u0027In fact, there are so many opportunities that... there\u0027s one right under your feet, in that hole!\u0027\n\n\u0027Who will dare make the dark descent to claim the coins?!\u0027\n\nThe hole leads into the pitch-black darkness of the building ruins. We don\u0027t need to go down there to know that it\u0027s probably a pretty risky trek.\n\nWe do need the coins, but... this might be too big a risk to take. What if we get injured or, even worse, killed?\n\nWhat should we do?",
+                         "options":  [
+                                         {
+                                             "message":  "Jump in.",
+                                             "messageDesc":  "Run a Lust, Gluttony, and Envy Advantage check. Pass to gain coin(s).",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Don\u0027t jump in.",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "Collecting coins is important, but I don\u0027t want to potentially throw the Sinners\u0027 lives away for nothing this early in the game. There are just too many variables.\nWe decide to move on without delving into the hole."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10807,
+                         "name":  "죄인_고문",
+                         "subDesc":  "",
+                         "desc":  "We enter the room to find a condemned of Hongyuan bound to a wall.\nIn front of him are several punitive weapons like whips and batons.\n\n\u0027The man who sits before you is a prisoner of H Corp. He is a condemned who has committed a grave crime.\u0027\n\u0027Punish the condemned, candidates, and you\u0027ll be rewarded with coins!\u0027\n\nWhat should we do?",
+                         "options":  [
+                                         {
+                                             "message":  "Punish the condemned.",
+                                             "messageDesc":  "Run a Gluttony and Pride Advantage check. Pass to gain coin(s).",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "We won\u0027t punish them. Refuse to play by their rules.",
+                                             "messageDesc":  "Begin a combat encounter. Win to gain coin(s).",
+                                             "result":  [
+                                                            "The prisoner already seems to be in a great deal of pain, a side effect of some experiment.\nSure, he\u0027s supposed to be one of the condemned, but... I don\u0027t think we have either the reason or the right to punish him...\nAfter a brief discussion with the Sinners, I decide to end his suffering instead."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10808,
+                         "name":  "항아리_보기_뽀개기",
+                         "subDesc":  "",
+                         "desc":  "We enter a new room with a collection of jars at its center.\nI wonder if they\u0027re Xue Pan\u0027s jars he didn\u0027t get to use?\n\nI notice that one of the jars is cracked open.\nThere\u0027s a sound coming from within...\n\nMaybe someone\u0027s trapped in there, but...\n... I don\u0027t know if it\u0027s a good idea to fiddle with these things.\n\nWhat should we do?",
+                         "options":  [
+                                         {
+                                             "message":  "Peer into the jar.",
+                                             "messageDesc":  "Run a Gloom Advantage check. Pass to gain an Artifact.",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Destroy the jar.",
+                                             "messageDesc":  "Begin a combat encounter. Win to gain coin(s).",
+                                             "result":  [
+                                                            "We\u0027ll be taking an undue risk by opening and peering into these suspicious jars.\nLeaving them here\u0027ll pose a danger not only to us but... also to everyone coming in contact with them.\n\nAfter some contemplation, we decide to break every jar in this room."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10809,
+                         "name":  "타임어택_인형_전투",
+                         "subDesc":  "",
+                         "desc":  "\u003ci\u003eResentment is an avenging cycle of infinite weight,\nevery meeting and reunion an immutable destiny;\nthus, karma of one’s previous life measures their worldly stay before the final flight.\u003c/i\u003e\n\n\u003ci\u003eWealth in the twilight of life is a fortune most rare;\nthose who understand this leave their home for temples,\nand those who are seduced by it fill their time with empty air.\u003c/i\u003e\n\n\u003ci\u003eBirds, their bellies full with feed, flutter away to the forest;\nthe field of white snow remains pristine, nary a footstep marring its immaculacy.\u003c/i\u003e\n\n\u0027I see a candidate who just lost a bunch of coins!\u0027\n\u0027Someone among the audience wishes to grant an opportunity to rebound!\u0027\n\u0027Well, seems like... we\u0027ll have to send you some wooden dummies to recoup your lost coins!\u0027",
+                         "options":  [
+                                         {
+                                             "message":  "Challenge the battle.",
+                                             "messageDesc":  "Begin a combat encounter. Win to gain coin(s).",
+                                             "result":  [
+                                                            "We need to recoup the coins we\u0027ve lost. Let\u0027s challenge the wooden dummies.\nThe Sinners and I are in agreement."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Don\u0027t challenge the battle.",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "At this moment, we need rest more than we do coins."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10810,
+                         "name":  "공포_견디기_내기",
+                         "subDesc":  "",
+                         "desc":  "\u003ci\u003eStreams turn crimson with fallen petals,\nand unspeakable sorrow becomes a vast, innumerable system of roots;\nthus, the unresolved resentment blames naught but the springtime breeze.\u003c/i\u003e\n\nThere are two large jars in the room, with two mysterious devices hanging from above them.\nThe host\u0027s voice booms from the speakers the moment we approach the jars.\n\n\u0027Another chance to earn yourself some coin!\u0027\n\u0027The conditions are simple: remain as long as you can inside those jars.\u0027\n\u0027Try sending in a clan member who\u0027s not so easily rattled, and pick up your coins! Easy, right?\u0027",
+                         "options":  [
+                                         {
+                                             "message":  "Select a Sinner.",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10811,
+                         "name":  "붉은_출입증_사용",
+                         "subDesc":  "",
+                         "desc":  "\u003ci\u003eSpringtime’s dream scatters like clouds in the wind,\nand falling petals float away on the stream;\nthus, to every son and daughter, we pose this question:\nwhy seek and wander for such vain suffering?\u003c/i\u003e\n\nThere\u0027s another candidate in this room.\nThe moment we enter the threshold, the door shuts behind us, and the host\u0027s voice booms from the speakers once again.\n\n\u0027Defeat the opposing candidate, and be granted the opportunity to find yourself a new path with \u003ci\u003eeven better\u003c/i\u003e opportunities!\u0027\n\n\u0027But... we don\u0027t want to make this fight too boring, do we? Let\u0027s add some variables.\u0027\n\nWith a heavy thunking noise, suspicious plumes of smoke begin to seep from the ground. The Sinners who inhaled it begin to cough violently.\n... That can\u0027t be good.",
+                         "options":  [
+                                         {
+                                             "message":  "Challenge the battle.",
+                                             "messageDesc":  "Begin a combat encounter. Win to gain coin(s) and open a new path on the map.",
+                                             "result":  [
+                                                            "Let\u0027s quickly defeat the enemies before the Sinners take too much damage."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Use the Entry Card to unlock the door and leave.\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked with the \u0027Red Entry Card\u0027\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "A new path opens up on the map",
+                                             "result":  [
+                                                            "This is not a good time to fight another candidate.\n\nAs we are wondering if there was any way out of this, we notice a locking mechanism with a card reader on it.\nHey, maybe we can use the entry card that the candidate we met earlier gave us.\nI tap the card against the reader, just in case it works.\n\n\u003ci\u003eEntry authorized.\u003c/i\u003e\n\nThe door unlocks with a beep.\nWe slip out of the room as soon as the door opens...\n... and we leave before the other candidate notices."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10812,
+                         "name":  "가문_기물_획득",
+                         "subDesc":  "",
+                         "desc":  "\u0027Well, whichever method you used to arrive in this room... congratulations are in order!\u0027\n\u0027As a reward for finding this secret room... feel free to take a helpful artifact! Just one, though.`\n`Also... some of these artifacts might be off-limits to those who don\u0027t have enough coins!\u0027\n\u0027Please choose carefully. They\u0027re precious artifacts from the great houses.\u0027\n\nWhich one should we choose?",
+                         "options":  [
+                                         {
+                                             "message":  "Shi Family\u0027s Artifact",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "I open the leftmost box.\nIn it is an axe, the same one that the Shi family members use.\n\nIf I\u0027m remembering correctly, this axe should be able to charge up to create powerful ripples...\nThis\u0027ll be useful for the Sinners.\n\nWe take the artifact and leave the room.",
+                                                            "I open the leftmost box.\nIn it is an axe, the same one that the Shi family members use.\n\nIf I\u0027m remembering correctly, this axe should be able to charge up to create powerful ripples...\nThis\u0027ll be useful for the Sinners.\n\nWe take the artifact and leave the room."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Wang Family\u0027s Artifact\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked when carrying 10 or more coin(s)\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "I open the second box from the left.\nIn it is a talisman, the same one that the Wang family members use.\n\nThese talismans each seemed to possess a special power... they should come in pretty handy.\nThis\u0027ll be useful for the Sinners.\n\nWe take the artifact and leave the room.",
+                                                            "I open the second box from the left.\nIn it is a talisman, the same one that the Wang family members use.\n\nThese talismans each seemed to possess a special power... they should come in pretty handy.\nThis\u0027ll be useful for the Sinners.\n\nWe take the artifact and leave the room."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Xue Family\u0027s Artifact\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked when carrying 20 or more coin(s)\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "I open the second box from the right.\nIn it is a podao, the same one that the Xue family\u0027s vagabond warriors use.\n\nThis sword was huge, but... they swung it around like it weighed only as much as a feather.\nThis\u0027ll be useful for the Sinners.\n\nWe take the artifact and leave the room.",
+                                                            "I open the second box from the right.\nIn it is a podao, the same one that the Xue family\u0027s vagabond warriors use.\n\nThis sword was huge, but... they swung it around like it weighed only as much as a feather.\nThis\u0027ll be useful for the Sinners.\n\nWe take the artifact and leave the room."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Jia Family\u0027s Artifact\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked when carrying 25 or more coin(s)\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "I open the rightmost box.\nIn it is an auspiciously colored Bolus from the Jia family.\n\nIt should have some impressive qualities, given that it is one of H Corp.\u0027s Singularities.\nThis\u0027ll be useful for the Sinners.\n\nWe take the artifact and leave the room.",
+                                                            "I open the rightmost box.\nIn it is an auspiciously colored Bolus from the Jia family.\n\nIt should have some impressive qualities, given that it is one of H Corp.\u0027s Singularities.\nThis\u0027ll be useful for the Sinners.\n\nWe take the artifact and leave the room."
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  10813,
+                         "name":  "막바지_보너스",
+                         "subDesc":  "",
+                         "desc":  "\u003ci\u003eHappiness and laughter are but illusions.\nSorrow and grief are but illusions also.\nAvarice, yearning, and longing are but manifestations of one\u0027s vacuity.\u003c/i\u003e\n\nWe run into a different candidate\u0027s clan in a narrow hallway.\n\n\u0027Feel free to duke it out, but... with the candidates\u0027 mutual agreement...\u0027\n\u0027I think we can turn this battle into a more interesting game.\u0027\n\u0027It\u0027s up to the both of you, though!\u0027",
+                         "options":  [
+                                         {
+                                             "message":  "Fight them.",
+                                             "messageDesc":  "Begin a combat encounter. Win to gain coin(s).",
+                                             "result":  [
+                                                            "No need to gamble when we most likely have the upper hand anyway.\nWe decide to fight them as we always do."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Make a wager.\n\u003csize=75%\u003e\u003ccolor=#a16a3b\u003eChoice unlocked when carrying 5 or more coin(s)\u003c/color\u003e\u003c/size\u003e",
+                                             "messageDesc":  "Run a Lust and Gluttony Advantage check. Pass to gain coin(s), fail to lose coin(s).",
+                                             "result":  [
+                                                            ""
+                                                        ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  1081302,
+                         "name":  "막바지_보너스_내기_패배",
+                         "subDesc":  "",
+                         "desc":  "I mean, do we \u003ci\u003ehave\u003c/i\u003e to hand over our coins?\nWhy don\u0027t we just beat them up and take our coins back?\nActually... hey, nothing\u0027s stopping us from beating them up and taking \u003ci\u003etheir\u003c/i\u003e coins, too!\n\nThe question is... should we?",
+                         "options":  [
+                                         {
+                                             "message":  "Fight them.",
+                                             "messageDesc":  "- Begin a combat encounter. Win to gain coin(s).",
+                                             "result":  [
+                                                            "\u0027Another day, another excellent display of a highly discerning judgement call, Executive Manager!\u0027\n\u0027Sob... Manager Esquire... wherefore dost thou commit such villainy...?\u0027\n\nThe Sinners comment on my decision before rushing at the opposing candidate."
+                                                        ]
+                                         },
+                                         {
+                                             "message":  "Back off.",
+                                             "messageDesc":  "",
+                                             "result":  [
+                                                            "They won the game fair and square. Let\u0027s accept our defeat with grace and move on.\n\nWe leave the coins and move on, albeit reluctantly."
+                                                        ]
+                                         }
+                                     ]
+                     }
+                 ]
+}

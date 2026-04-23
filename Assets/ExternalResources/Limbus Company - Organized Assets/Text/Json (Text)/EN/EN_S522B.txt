@@ -1,0 +1,170 @@
+{
+    "dataList":  [
+                     {
+                         "id":  0,
+                         "place":  "Cruise Ship",
+                         "model":  "단테2",
+                         "content":  "\u003cIt\u0027s pretty dark in here...\u003e"
+                     },
+                     {
+                         "id":  1,
+                         "content":  "The hallway to the storage was significantly narrower than the party deck."
+                     },
+                     {
+                         "id":  2,
+                         "content":  "I had nothing but faint, occasionally flashing lights to guide me through this dark hallway. I decided to proceed carefully."
+                     },
+                     {
+                         "id":  3,
+                         "model":  "단테2",
+                         "content":  "\u003cSeriously, this place is way creepier than wherever Hong Lu was going with his story...\u003e"
+                     },
+                     {
+                         "id":  4,
+                         "model":  "단테2",
+                         "content":  "\u003cSinclair...?\u003e"
+                     },
+                     {
+                         "id":  5,
+                         "model":  "단테2",
+                         "content":  "\u003cYou there?\u003e"
+                     },
+                     {
+                         "id":  6,
+                         "content":  "I wasn\u0027t sure where these water droplets were falling from, but they were really getting on my nerves."
+                     },
+                     {
+                         "id":  7,
+                         "content":  "I don\u0027t see anything here. Not that I could in this dark, even if there were..."
+                     },
+                     {
+                         "id":  8,
+                         "content":  "All I see is a very faint ray of light, and..."
+                     },
+                     {
+                         "id":  9,
+                         "model":  "싱클레어",
+                         "content":  "……."
+                     },
+                     {
+                         "id":  10,
+                         "model":  "단테2",
+                         "content":  "\u003cSinclair?\u003e"
+                     },
+                     {
+                         "id":  11,
+                         "content":  "... and Sinclair. It seemed to me that he\u0027d been standing here for a good while. Exactly how long... I wasn\u0027t sure."
+                     },
+                     {
+                         "id":  12,
+                         "model":  "싱클레어",
+                         "content":  "... Uh."
+                     },
+                     {
+                         "id":  13,
+                         "content":  "Sinclair stood there, still like death. He looked up."
+                     },
+                     {
+                         "id":  14,
+                         "model":  "단테2",
+                         "content":  "\u003c... What are you looking at?\u003e"
+                     },
+                     {
+                         "id":  15,
+                         "content":  "Now that I\u0027m in here... I noticed that there was something funny about the ray of light."
+                     },
+                     {
+                         "id":  16,
+                         "content":  "I assumed that the light I saw was from a lamp or something, but... no. It was just there, surrounding the general area where Sinclair stood."
+                     },
+                     {
+                         "id":  17,
+                         "content":  "There was no light source."
+                     },
+                     {
+                         "id":  18,
+                         "content":  "So the light\u0027s shining in from the outside, maybe...?"
+                     },
+                     {
+                         "id":  19,
+                         "content":  "No, that doesn\u0027t make sense either. We\u0027re deep in the ship\u0027s storage, a big metal box with no opening for even a single strand of natural light."
+                     },
+                     {
+                         "id":  20,
+                         "content":  "Besides, it\u0027s nighttime. This is getting more and more bizarre by the second. Where is this light coming from...?"
+                     },
+                     {
+                         "id":  21,
+                         "model":  "단테2",
+                         "content":  "\u003c…!\u003e"
+                     },
+                     {
+                         "id":  22,
+                         "model":  "단테2",
+                         "content":  "\u003cSinclair, we gotta get out of here!\u003e"
+                     },
+                     {
+                         "id":  23,
+                         "model":  "싱클레어",
+                         "content":  "……."
+                     },
+                     {
+                         "id":  24,
+                         "model":  "단테2",
+                         "content":  "\u003cRun, NOW!\u003e"
+                     },
+                     {
+                         "id":  25,
+                         "model":  "단테2",
+                         "content":  "\u003cCome on!\u003e"
+                     },
+                     {
+                         "id":  26,
+                         "content":  "Fear of the unknown intensifies. What I saw defied every bit of common sense I had accumulated over the journey, and I had to get Sinclair out of there—I snatched and tugged his limp wrist."
+                     },
+                     {
+                         "id":  27,
+                         "model":  "단테2",
+                         "content":  "\u003cCome on, wake up!!!\u003e"
+                     },
+                     {
+                         "id":  28,
+                         "content":  "That seemed to have done the trick. Sinclair suddenly snapped back to reality and began screaming. He bolted out of the room."
+                     },
+                     {
+                         "id":  29,
+                         "model":  "싱클레어",
+                         "content":  "AAAAAAAAAAAAAAAAAAA!!!"
+                     },
+                     {
+                         "id":  30,
+                         "model":  "히스클리프",
+                         "content":  "Huh?! The lad\u0027s lost the plot! What in the bloody—"
+                     },
+                     {
+                         "id":  31,
+                         "model":  "싱클레어",
+                         "content":  "THEREWASAPERSONFLOATINGINTHEAIRAPERSONINTHEAIRFLOATINGSOMEONEWASUPTHEREJUSTSUSPENDEDINTHEAIR!!!"
+                     },
+                     {
+                         "id":  32,
+                         "model":  "로쟈",
+                         "content":  "... Okay, now I\u0027m actually creeped out."
+                     },
+                     {
+                         "id":  33,
+                         "model":  "이스마엘",
+                         "content":  "That can\u0027t be... a person."
+                     },
+                     {
+                         "id":  34,
+                         "model":  "로쟈",
+                         "content":  "Then that was..."
+                     },
+                     {
+                         "id":  35,
+                         "model":  "이스마엘",
+                         "content":  "What, you think we have enough time for a lecture? Prepare for battle."
+                     }
+                 ]
+}

@@ -1,0 +1,16 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "upgrade_character_exp_up",
+                         "content":  "경험치가\n상승했습니다."
+                     },
+                     {
+                         "id":  "upgrade_character_level_up",
+                         "content":  "레벨 상승"
+                     },
+                     {
+                         "id":  "upgrade_character_level_max",
+                         "content":  " \u003ccolor=#f8c200\u003e최대 레벨\u003c/color\u003e에\n도달했습니다."
+                     }
+                 ]
+}

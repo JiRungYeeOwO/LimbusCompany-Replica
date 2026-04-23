@@ -1,0 +1,10 @@
+front.png
+size:1988,230
+filter:Linear,Linear
+pma:true
+scale:0.3
+Desk
+bounds:2,51,1984,177
+pen
+bounds:2,2,170,47
+offsets:1,2,177,49

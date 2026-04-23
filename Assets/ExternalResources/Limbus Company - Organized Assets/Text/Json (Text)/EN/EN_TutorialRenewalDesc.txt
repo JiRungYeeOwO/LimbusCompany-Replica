@@ -1,0 +1,796 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "tuto_00_01_01_01",
+                         "content":  "Let us begin by learning the basics of combat."
+                     },
+                     {
+                         "id":  "tuto_00_01_01_02",
+                         "content":  "Please direct your attention to the \u003ccolor=#f8c200\u003eDashboard\u003ccolor=#ebcaa2\u003e here.\n\nYou will be using the \u003ccolor=#f8c200\u003eDashboard\u003ccolor=#ebcaa2\u003e to relay your commands to the Sinners."
+                     },
+                     {
+                         "id":  "tuto_00_01_01_03",
+                         "content":  "You will find each Sinner\u0027s \u003ccolor=#f8c200\u003eSkills\u003ccolor=#ebcaa2\u003e on the \u003ccolor=#f8c200\u003eDashboard\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_00_01_01_04",
+                         "content":  "The control scheme is simple. \u003ccolor=#f8c200\u003eSimply drag from the left end of the Dashboard to the right end to chain the Skills\u003ccolor=#ebcaa2\u003e, and you are ready to enter the combat phase."
+                     },
+                     {
+                         "id":  "tuto_00_01_01_05",
+                         "content":  "Allow me to guide your hand.\n\nPress and hold the \u003ccolor=#f8c200\u003egear on the left\u003ccolor=#ebcaa2\u003e on the Dashboard to grab the chain."
+                     },
+                     {
+                         "id":  "tuto_00_01_01_06",
+                         "content":  "Then, while you\u0027re holding the chain from the left gear, \u003ccolor=#f8c200\u003econnect the Skills from left to right, along the guiding line.\u003ccolor=#ebcaa2\u003e"
+                     },
+                     {
+                         "id":  "tuto_00_01_01_07",
+                         "content":  "Well done. Now that Skills for all Sinners have been chained, you may press the \u003ccolor=#f8c200\u003egear on the right\u003ccolor=#ebcaa2\u003e to start the combat phase."
+                     },
+                     {
+                         "id":  "tuto_00_01_02_01",
+                         "content":  "And that is how you, the manager, issue your orders.\n\nLet us try that again."
+                     },
+                     {
+                         "id":  "tuto_00_01_02_02",
+                         "content":  "Look at the Dashboard, grab the chain from the left gear, and connect the Skills along the guiding line to command us to use them."
+                     },
+                     {
+                         "id":  "tuto_00_01_02_03_title",
+                         "content":  "The Dashboard"
+                     },
+                     {
+                         "id":  "tuto_00_01_02_04",
+                         "content":  "Use the Dashboard to issue commands to your Sinners in combat.\nStart the combat phase by following these steps:\n\n1) Grab and drag the chain from the left gear.\n2) Thread it through the Skills you want to use.\n3) Connect the chain to, or select, the right gear."
+                     },
+                     {
+                         "id":  "tuto_00_02_01_01",
+                         "content":  "These seven-sided icons floating above both the allies and enemies\u0027 heads are called \u003ccolor=#f8c200\u003eSkill Slots\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_00_02_01_02",
+                         "content":  "Because you haven’t issued a command by chaining Skills yet, the allied Skill Slots are currently empty."
+                     },
+                     {
+                         "id":  "tuto_00_02_01_03",
+                         "content":  "Grab the chain from the left gear and chain it to one of these two leftmost Skills on the Dashboard."
+                     },
+                     {
+                         "id":  "tuto_00_02_01_04",
+                         "content":  "As you can see, the Skill you just chained has been equipped to the Skill Slot."
+                     },
+                     {
+                         "id":  "tuto_00_02_01_05_title",
+                         "content":  "Skill Slots"
+                     },
+                     {
+                         "id":  "tuto_00_02_01_06",
+                         "content":  "Equipped Skills are displayed on the Skill Slots floating above each Sinner’s head.\n\nWhen the combat phase begins, each Sinner will engage in battle using the Skills equipped in their Skill Slots."
+                     },
+                     {
+                         "id":  "tuto_00_02_01_07",
+                         "content":  "Drag from left to right on the Dashboard to equip every Sinner with one of the Skills on their respective columns."
+                     },
+                     {
+                         "id":  "tuto_00_02_01_08",
+                         "content":  "Well done. Now, select the gear on the right to issue your command, and the Sinners will enter the combat phase, using the Skills you’ve equipped for them."
+                     },
+                     {
+                         "id":  "tuto_00_02_02_01",
+                         "content":  "A \u003ccolor=#f8c200\u003e\u003cClash\u003e\u003ccolor=#ebcaa2\u003e occurs when the Sinner and their target both use Attack Skills against each other."
+                     },
+                     {
+                         "id":  "tuto_00_02_02_02",
+                         "content":  "In a \u003ccolor=#f8c200\u003e\u003cClash\u003e\u003ccolor=#ebcaa2\u003e, their \u003ccolor=#f8c200\u003ePower\u003ccolor=#ebcaa2\u003e is determined primarily by the Skill they are using to Clash."
+                     },
+                     {
+                         "id":  "tuto_00_02_02_03",
+                         "content":  "And in this \u003ccolor=#f8c200\u003e\u003cClash\u003e\u003ccolor=#ebcaa2\u003e between two Skills, the Skill with the higher \u003ccolor=#f8c200\u003ePower\u003ccolor=#ebcaa2\u003e wins."
+                     },
+                     {
+                         "id":  "tuto_00_02_02_04",
+                         "content":  "Pay attention to the enemy\u0027s Coins. When a Skill \u003ccolor=#f8c200\u003eloses\u003ccolor=#ebcaa2\u003e a Clash, \u003ccolor=#f8c200\u003eit will lose a Coin\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_00_02_02_05",
+                         "content":  "Even if a Skill loses a Clash, as long as it has remaining \u003ccolor=#f8c200\u003eSkill Coins\u003ccolor=#ebcaa2\u003e, the two Skills will continue to flip their Coins and \u003ccolor=#f8c200\u003e\u003cClash\u003e\u003ccolor=#ebcaa2\u003e until \u003ccolor=#f8c200\u003eone of them loses all Coins\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_00_02_02_06",
+                         "content":  "The Skill that lost all of its Coins in this \u003ccolor=#f8c200\u003e\u003cClash\u003e\u003ccolor=#ebcaa2\u003e will conclusively lose the \u003ccolor=#f8c200\u003e\u003cClash\u003e\u003ccolor=#ebcaa2\u003e.\nThis means that the \u003ccolor=#f8c200\u003eunit that won\u003ccolor=#ebcaa2\u003e the \u003ccolor=#f8c200\u003e\u003cClash\u003e\u003ccolor=#ebcaa2\u003e gets to attack, while the unit that lost does not."
+                     },
+                     {
+                         "id":  "tuto_00_02_03_01",
+                         "content":  "Let\u0027s see how \u003ccolor=#f8c200\u003ePower\u003ccolor=#ebcaa2\u003e, which determines the outcome of a \u003ccolor=#f8c200\u003e\u003cClash\u003e\u003ccolor=#ebcaa2\u003e, is calculated.\n\nPlease issue a command."
+                     },
+                     {
+                         "id":  "tuto_00_02_03_02",
+                         "content":  "This number is the Skill\u0027s \u003ccolor=#f8c200\u003eBase Power\u003ccolor=#ebcaa2\u003e before it flips any Coins."
+                     },
+                     {
+                         "id":  "tuto_00_02_03_03",
+                         "content":  "This number is the Skill\u0027s \u003ccolor=#f8c200\u003eCoin Power\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_00_02_03_04",
+                         "content":  "Here, you can see \u003ccolor=#f8c200\u003ehow many Coins\u003ccolor=#ebcaa2\u003e these Skills have.\n\nThe number of Coins determines two things:\n\u003ccolor=#f8c200\u003e1) How many times the Skill can lose a \u003cClash\u003e before losing all of its Coins\n2) How many times the Skill hits when it attacks\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_00_02_03_05",
+                         "content":  "\u003ccolor=#f8c200\u003eEach Coin that flipped Heads\u003ccolor=#ebcaa2\u003e will add the \u003ccolor=#f8c200\u003eCoin Power\u003ccolor=#ebcaa2\u003e of that Skill to the \u003ccolor=#f8c200\u003eBase Power\u003ccolor=#ebcaa2\u003e of that same Skill."
+                     },
+                     {
+                         "id":  "tuto_00_02_03_05_popup_title",
+                         "content":  "Final Power Calculation"
+                     },
+                     {
+                         "id":  "tuto_00_02_03_05_popup_content",
+                         "content":  "The formula for a Skill\u0027s Final Power is as follows: \n\n\u003ccolor=#f8c200\u003eBase Power + (Number of Coins that flipped Heads x Coin Power)\u003ccolor=#ebcaa2\u003e.\n\nCoins that flipped Heads will glow, while the Coins that flipped Tails will appear dimmed."
+                     },
+                     {
+                         "id":  "tuto_00_02_03_06",
+                         "content":  "The \u003ccolor=#f8c200\u003eresultant\u003ccolor=#ebcaa2\u003e \u003ccolor=#f8c200\u003eSkill Power\u003ccolor=#ebcaa2\u003e is displayed here.\n\n\u003ccolor=#f8c200\u003eIshmael\u0027s \u0027Loggerhead\u0027 Skill has the higher Skill Power, so the enemy Skill loses a Coin.\u003ccolor=#ebcaa2\u003e"
+                     },
+                     {
+                         "id":  "tuto_00_02_03_07",
+                         "content":  "As seen in this example, they will continue to \u003ccolor=#f8c200\u003e\u003cClash\u003e\u003ccolor=#ebcaa2\u003e until one of them has no more Coins left to flip. \u003ccolor=#f8c200\u003eThe unit with remaining Coins ultimately wins that \u003cClash\u003e\u003ccolor=#ebcaa2\u003e.\n\nRemember: winning \u003ccolor=#f8c200\u003e\u003cClashes\u003e\u003ccolor=#ebcaa2\u003e is one of the most fundamental aspects of winning the battle."
+                     },
+                     {
+                         "id":  "tuto_00_03_01_01",
+                         "content":  "This time, let us learn about \u003ccolor=#f8c200\u003e\u003cSP\u003e\u003ccolor=#ebcaa2\u003e, or Sanity Points.\n\n\u003ccolor=#f8c200\u003e\u003cSP\u003e\u003ccolor=#ebcaa2\u003e has a maximum value of 45, and a minimum value of -45."
+                     },
+                     {
+                         "id":  "tuto_00_03_01_02",
+                         "content":  "Please note that the Sinners\u0027 \u003ccolor=#f8c200\u003e\u003cSP\u003e\u003ccolor=#ebcaa2\u003e values can also be viewed here, next to these orbs adjacent to the portrait icons on the Dashboard."
+                     },
+                     {
+                         "id":  "tuto_00_03_01_03",
+                         "content":  "Now, please issue a command."
+                     },
+                     {
+                         "id":  "tuto_00_03_01_04",
+                         "content":  "Each unit\u0027s \u003ccolor=#f8c200\u003e\u003cSP\u003e\u003ccolor=#ebcaa2\u003e values change based on certain triggers.\nThey tend to heal SP with \u003ccolor=#f8c200\u003efavorable triggers(winning Clashes or killing enemies),\u003ccolor=#ebcaa2\u003e\nand lose SP with \u003ccolor=#f8c200\u003eunfavorable triggers.\u003ccolor=#ebcaa2\u003e"
+                     },
+                     {
+                         "id":  "tuto_00_03_01_05",
+                         "content":  "\u003ccolor=#f8c200\u003eThe higher the unit\u0027s \u003cSP\u003e value,\u003ccolor=#ebcaa2\u003e the \u003ccolor=#f8c200\u003ehigher the chance to flip Heads\u003ccolor=#ebcaa2\u003e when flipping Skill Coins."
+                     },
+                     {
+                         "id":  "tuto_00_03_02_01",
+                         "content":  "The allied units all won their respective Clashes in the previous turn, which healed their SP.\nThis put us in a favorable position. Please issue your next command."
+                     },
+                     {
+                         "id":  "tuto_00_03_02_02",
+                         "content":  "Please direct your attention to this unit\u0027s HP(Health Point) bar. This thin line here is called the \u003ccolor=#f8c200\u003e\u003cStagger Threshold\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_00_03_02_03",
+                         "content":  "When a unit\u0027s HP drops below the \u003ccolor=#f8c200\u003e\u003cStagger Threshold\u003e\u003ccolor=#ebcaa2\u003e line, they become \u003ccolor=#f8c200\u003e\u003cStaggered\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_00_03_03_01",
+                         "content":  "\u003ccolor=#f8c200\u003e\u003cStaggered\u003e\u003ccolor=#ebcaa2\u003e units cannot take any action and take double the damage, which puts them at a significant disadvantage in battle."
+                     },
+                     {
+                         "id":  "tuto_00_03_04_01",
+                         "content":  "You have put the remaining enemies in \u003ccolor=#f8c200\u003e\u003cPanic\u003e\u003ccolor=#ebcaa2\u003e states by defeating their allies in the previous turn, which dropped their SP."
+                     },
+                     {
+                         "id":  "tuto_00_03_04_02",
+                         "content":  "When an enemy\u0027s SP drops below a certain threshold, they may enter \u003ccolor=#f8c200\u003e\u003cLow Morale\u003e\u003ccolor=#ebcaa2\u003e or \u003ccolor=#f8c200\u003e\u003cPanic\u003e\u003ccolor=#ebcaa2\u003e states, which inflict them with negative effects."
+                     },
+                     {
+                         "id":  "tuto_00_03_04_03",
+                         "content":  "Units in \u003ccolor=#f8c200\u003e\u003cLow Morale\u003e\u003ccolor=#ebcaa2\u003e or \u003ccolor=#f8c200\u003e\u003cPanic\u003e\u003ccolor=#ebcaa2\u003e states are marked by these labels."
+                     },
+                     {
+                         "id":  "tuto_00_03_04_04",
+                         "content":  "Each unit gains different effects from entering \u003ccolor=#f8c200\u003e\u003cLow Morale\u003e\u003ccolor=#ebcaa2\u003e and \u003ccolor=#f8c200\u003e\u003cPanic\u003e\u003ccolor=#ebcaa2\u003e states.\nSelect this icon to learn what effects this unit is suffering from."
+                     },
+                     {
+                         "id":  "tuto_00_04_01_01",
+                         "content":  "Select a unit to view their \u003ccolor=#f8c200\u003edetailed information\u003ccolor=#ebcaa2\u003e window."
+                     },
+                     {
+                         "id":  "tuto_00_04_01_02",
+                         "content":  "This is where you view each character\u0027s \u003ccolor=#f8c200\u003ebasic stats\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_00_04_01_03",
+                         "content":  "This is where you view this unit\u0027s \u003ccolor=#f8c200\u003elist of Skills\u003ccolor=#ebcaa2\u003e and \u003ccolor=#f8c200\u003eupgrade progress\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_00_04_01_04",
+                         "content":  "You may also select an enemy to view their detailed information."
+                     },
+                     {
+                         "id":  "tuto_00_04_01_05",
+                         "content":  "Each unit has \u003ccolor=#f8c200\u003eResistance\u003ccolor=#ebcaa2\u003e values.\nUse these values to determine what \u003ccolor=#f8c200\u003eAttack Type or Affinity\u003ccolor=#ebcaa2\u003e they are weak against."
+                     },
+                     {
+                         "id":  "tuto_00_04_01_06_title",
+                         "content":  "Attack Types and Affinities"
+                     },
+                     {
+                         "id":  "tuto_00_04_01_07",
+                         "content":  "Each Skill\u0027s damage is classified by two categories: \u003ccolor=#f8c200\u003e3 Attack Types\u003ccolor=#ebcaa2\u003e and \u003ccolor=#f8c200\u003e7 Sin Affinities\u003ccolor=#ebcaa2\u003e.\nThe target’s Resistance to these categories can either increase or reduce the damage dealt.\n\u003ccolor=#f8c200\u003eA higher Resistance value on a unit means they will take more damage from that damage type.\u003ccolor=#ebcaa2\u003e"
+                     },
+                     {
+                         "id":  "tuto_00_04_01_08",
+                         "content":  "Check your enemy\u0027s weaknesses and select the Skills that can exploit them to deal more damage."
+                     },
+                     {
+                         "id":  "tuto_00_04_02_01",
+                         "content":  "In most cases, the unit with the leftmost Skill on the Dashboard will be the first to act among allies."
+                     },
+                     {
+                         "id":  "tuto_00_04_02_02",
+                         "content":  "Starting from the \u003ccolor=#f8c200\u003eallied unit highest on the Deployment order\u003ccolor=#ebcaa2\u003e, an ally gains 1 additional Slot with every passing turn. This means that they gain an extra opportunity to attack."
+                     },
+                     {
+                         "id":  "tuto_00_04_03_01",
+                         "content":  "Use one of these buttons to let the Sinners choose what Skills they want to use."
+                     },
+                     {
+                         "id":  "tuto_00_04_03_02",
+                         "content":  "However, it must be emphasized that leaving the Sinners to make their own strategic choices could lead to suboptimal combat performances."
+                     },
+                     {
+                         "id":  "tuto_00_04_03_03_title",
+                         "content":  "Clash Outcome Forecast"
+                     },
+                     {
+                         "id":  "tuto_00_04_03_04",
+                         "content":  "The Clash outcome forecast appears at the top of the screen and beside each selected Skill. \n\nPlease note that the forecast is not always perfect, but it is serviceable when quick decisions are necessary."
+                     },
+                     {
+                         "id":  "tuto_01_02_01_01",
+                         "content":  "Chaining multiple Skills with the same \u003ccolor=#f8c200\u003eAffinity(Color)\u003ccolor=#ebcaa2\u003e in the same turn will activate what is known as \u003ccolor=#f8c200\u003e\u003cResonance\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_02_01_02",
+                         "content":  "Connect these Skills with the same Affinities and activate \u003ccolor=#f8c200\u003e\u003cResonance\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_02_01_03",
+                         "content":  "\u003ccolor=#f8c200\u003eChaining 3 or more adjacent Skills\u003ccolor=#ebcaa2\u003e with the same Affinity activates \u003ccolor=#f8c200\u003e\u003cAbsolute Resonance\u003e\u003ccolor=#ebcaa2\u003e.\n\nTry activating \u003ccolor=#f8c200\u003e\u003cAbsolute Resonance\u003e\u003ccolor=#ebcaa2\u003e using these Skills."
+                     },
+                     {
+                         "id":  "tuto_01_02_01_04",
+                         "content":  "Activating \u003ccolor=#f8c200\u003e\u003cResonance\u003e\u003ccolor=#ebcaa2\u003e or \u003ccolor=#f8c200\u003e\u003cAbsolute Resonance\u003e\u003ccolor=#ebcaa2\u003e grants minor boosts to the Skills chained for the Resonance, such as a slight increase in Skill Power."
+                     },
+                     {
+                         "id":  "tuto_01_02_01_05_title",
+                         "content":  "Resonance"
+                     },
+                     {
+                         "id":  "tuto_01_02_01_06",
+                         "content":  "Chaining 2 or more Skills with the same Affinity in the same turn will activate what is known as \u003ccolor=#f8c200\u003e\u003cResonance\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_02_02_01_title",
+                         "content":  "Absolute Resonance"
+                     },
+                     {
+                         "id":  "tuto_01_02_02_02",
+                         "content":  "Chaining 3 or more adjacent Skills with the same Affinity in the same turn will activate what is known as \u003ccolor=#f8c200\u003e\u003cAbsolute Resonance\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_02_02_03_title",
+                         "content":  "Resonance Effects"
+                     },
+                     {
+                         "id":  "tuto_01_02_02_04",
+                         "content":  "Activating \u003ccolor=#f8c200\u003e\u003cResonance\u003e\u003ccolor=#ebcaa2\u003e slightly enhances affected Skills based on \u003ccolor=#f8c200\u003ethe number of Skills linked in the Resonance chain\u003ccolor=#ebcaa2\u003e. Skills closer to the right end of the Dashboard receive greater boosts.\n\nActivating \u003ccolor=#f8c200\u003e\u003cAbsolute Resonance\u003e\u003ccolor=#ebcaa2\u003e guarantees that every Skill in the Resonance chain receives the boost."
+                     },
+                     {
+                         "id":  "tuto_01_02_03_01",
+                         "content":  "Each unit has a unique \u003ccolor=#f8c200\u003ePassive\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_02_03_02",
+                         "content":  "Select Faust to view her \u003ccolor=#f8c200\u003ePassive\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_02_03_03",
+                         "content":  "Select the Sinner\u0027s Skills tab."
+                     },
+                     {
+                         "id":  "tuto_01_02_03_04",
+                         "content":  "Select the \u003ccolor=#f8c200\u003ePassive\u003ccolor=#ebcaa2\u003e button here to view its activation conditionals and effects."
+                     },
+                     {
+                         "id":  "tuto_01_02_03_05",
+                         "content":  "Faust\u0027s Passive is a \u003ccolor=#f8c200\u003e\u003cResonance\u003e\u003ccolor=#ebcaa2\u003e Passive.\nThe conditionals for these Passives can be met by activating \u003ccolor=#f8c200\u003e\u003cResonance\u003e\u003ccolor=#ebcaa2\u003e that was explained earlier."
+                     },
+                     {
+                         "id":  "tuto_01_02_03_06",
+                         "content":  "Please activate the \u003ccolor=#f8c200\u003e\u003cResonance Passive\u003e\u003ccolor=#ebcaa2\u003e by activating \u003ccolor=#f8c200\u003e\u003cResonance\u003e\u003ccolor=#ebcaa2\u003e for the necessary Affinity.\n\nFaust\u0027s Passive requires 2 or more \u003ccolor=#004bd5\u003ePride(Indigo)\u003ccolor=#ebcaa2\u003e Resonance."
+                     },
+                     {
+                         "id":  "tuto_01_02_04_01",
+                         "content":  "Let us take a look at a different type of Passive.\n\nThese icons \u003ccolor=#f8c200\u003ein the top left corner\u003ccolor=#ebcaa2\u003e of the screen also show the list of available Passives. Select Meursault\u0027s icon, highlighted here."
+                     },
+                     {
+                         "id":  "tuto_01_02_04_02",
+                         "content":  "Sinner Meursault\u0027s Passive is an \u003ccolor=#f8c200\u003e\u003cOwned\u003e\u003ccolor=#ebcaa2\u003e Passive.\n\n\u003ccolor=#f8c200\u003e\u003cOwned Passives\u003e\u003ccolor=#ebcaa2\u003e activate automatically each turn, provided you have enough \u003ccolor=#f8c200\u003eE.G.O resources\u003ccolor=#ebcaa2\u003e to meet the requirement."
+                     },
+                     {
+                         "id":  "tuto_01_02_04_03",
+                         "content":  "This Passive requires that you own 2 \u003ccolor=#fbc82b\u003eSloth(Yellow)\u003ccolor=#ebcaa2\u003e Resources."
+                     },
+                     {
+                         "id":  "tuto_01_02_04_04",
+                         "content":  "\u003ccolor=#f8c200\u003eUse a Skill\u003ccolor=#ebcaa2\u003e to \u003ccolor=#f8c200\u003egain an E.G.O resource corresponding to that Skill\u0027s Affinity\u003ccolor=#ebcaa2\u003e, viewable here.\n\nSince we gathered enough \u003ccolor=#fbc82b\u003eSloth (Yellow)\u003ccolor=#ebcaa2\u003e E.G.O resources in the previous turn, this \u003ccolor=#f8c200\u003e\u003cOwned Passive\u003e\u003ccolor=#ebcaa2\u003e is already activated."
+                     },
+                     {
+                         "id":  "tuto_01_02_04_05",
+                         "content":  "Currently active Passives will be highlighted."
+                     },
+                     {
+                         "id":  "tuto_01_02_04_06",
+                         "content":  "Sinners not participating in this Encounter will provide \u003cSupport Passives\u003e to aid the Sinners in battle.\n\nView the \u003ccolor=#f8c200\u003e\u003cSupport Passives\u003e\u003ccolor=#ebcaa2\u003e here."
+                     },
+                     {
+                         "id":  "tuto_01_02_04_07_title",
+                         "content":  "Support Passives"
+                     },
+                     {
+                         "id":  "tuto_01_02_04_08",
+                         "content":  "Sinners that have been sufficiently upgraded can assist the Deployed Sinners through their \u003cSupport Passives\u003e.\n\u003cSupport Passives\u003e, like regular Passives, have \u003ccolor=#f8c200\u003e\u003cResonance\u003e\u003ccolor=#ebcaa2\u003e and \u003ccolor=#f8c200\u003e\u003cOwned\u003e\u003ccolor=#ebcaa2\u003e conditionals."
+                     },
+                     {
+                         "id":  "tuto_01_03_01_01",
+                         "content":  "In addition to Attack Skills, each unit also has \u003ccolor=#f8c200\u003e\u003cDefense Skills\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_03_01_02",
+                         "content":  "Lightly tap a Sinner\u0027s portrait at the bottom of the Dashboard to swap their bottom Skill with a \u003ccolor=#f8c200\u003e\u003cDefense Skill\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_03_01_03",
+                         "content":  "First, let\u0027s try selecting Sinner Meursault\u0027s portrait to generate a \u003ccolor=#f8c200\u003e\u003cGuard\u003e\u003ccolor=#ebcaa2\u003e Skill."
+                     },
+                     {
+                         "id":  "tuto_01_03_01_04",
+                         "content":  "Now, select Faust\u0027s portrait to generate an \u003ccolor=#f8c200\u003e\u003cEvade\u003e\u003ccolor=#ebcaa2\u003e Skill."
+                     },
+                     {
+                         "id":  "tuto_01_03_01_05",
+                         "content":  "Finally, select Sinner Heathcliff\u0027s portrait to generate a \u003ccolor=#f8c200\u003e\u003cCounter\u003e\u003ccolor=#ebcaa2\u003e Skill."
+                     },
+                     {
+                         "id":  "tuto_01_03_01_06_title",
+                         "content":  "Defense Skills: Guard"
+                     },
+                     {
+                         "id":  "tuto_01_03_01_07",
+                         "content":  "Use the \u003ccolor=#f8c200\u003e\u003cGuard\u003e\u003ccolor=#ebcaa2\u003e Skill to gain \u003ccolor=#f8c200\u003eShield\u003ccolor=#ebcaa2\u003e equal to its Power.\nDamage will be absorbed by the Shield first before affecting the unit\u0027s HP."
+                     },
+                     {
+                         "id":  "tuto_01_03_01_08_title",
+                         "content":  "Defense Skills: Evade"
+                     },
+                     {
+                         "id":  "tuto_01_03_01_09",
+                         "content":  "When using a \u003ccolor=#f8c200\u003e\u003cEvade\u003e\u003ccolor=#ebcaa2\u003e Skill, if its Final Power is greater than or equal to that of the enemy\u0027s Skill, the unit will \u003ccolor=#f8c200\u003ecompletely ignore\u003ccolor=#ebcaa2\u003e the enemy\u0027s attack, taking no damage from it.\nEvade Skills flip their Coin once for every enemy Coinflip.\nWarning: If an Evade-type Defense Skill\u0027s Final Power is lower than the enemy\u0027s attack, it will fail, and the enemy\u0027s attack will strike with full force."
+                     },
+                     {
+                         "id":  "tuto_01_03_01_10_title",
+                         "content":  "Defense Skills: Counter"
+                     },
+                     {
+                         "id":  "tuto_01_03_01_11",
+                         "content":  "\u003ccolor=#f8c200\u003e\u003cCounter\u003e\u003ccolor=#ebcaa2\u003e Skills allow the enemy to strike first, \u003ccolor=#f8c200\u003ethen perform an Unopposed Attack against the attacker\u003ccolor=#ebcaa2\u003e.\nWarning: If the unit is Staggered by the enemy\u0027s attack, the Counter will not activate."
+                     },
+                     {
+                         "id":  "tuto_01_03_01_12",
+                         "content":  "Lightly tap the Sinner\u0027s portrait again to \u003ccolor=#f8c200\u003ecancel the generated \u003cDefense Skill\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_03_01_13",
+                         "content":  "Let us demonstrate the effects of each Defense Skill in this battle.\n\nChain the \u003ccolor=#f8c200\u003e\u003cDefense Skills\u003e\u003ccolor=#ebcaa2\u003e, then start the combat phase."
+                     },
+                     {
+                         "id":  "tuto_01_03_02_01",
+                         "content":  "When used under the right circumstances, \u003ccolor=#f8c200\u003e\u003cDefense Skills\u003e\u003ccolor=#ebcaa2\u003e can be even more effective than Clashing or attacking enemies. However, poorly timed use of these Skills can put the Sinners at great risk."
+                     },
+                     {
+                         "id":  "tuto_01_03_02_02",
+                         "content":  "Also, please note that Sinners will not select their \u003ccolor=#f8c200\u003e\u003cDefense Skills\u003e\u003ccolor=#ebcaa2\u003e unless you \u003ccolor=#f8c200\u003epersonally issue a direct command\u003ccolor=#ebcaa2\u003e. Keep this in mind when using the \u003ccolor=#f8c200\u003eauto-Skill chaining\u003ccolor=#ebcaa2\u003e functions."
+                     },
+                     {
+                         "id":  "tuto_01_04_01_01_title",
+                         "content":  "Adjusting Density of Information on Screen During Combat"
+                     },
+                     {
+                         "id":  "tuto_01_04_01_02",
+                         "content":  "At the top right of the in-battle screen, there is a button that adjusts the amount of information displayed.\n\nThe three options set the display density to \u003ccolor=#f8c200\u003eminimum, medium, or maximum\u003ccolor=#ebcaa2\u003e, respectively."
+                     },
+                     {
+                         "id":  "tuto_01_04_01_03_title",
+                         "content":  "MAX"
+                     },
+                     {
+                         "id":  "tuto_01_04_01_04",
+                         "content":  "The maximum information display configuration.\n\nThis is the default setting applied when first starting the game.\n\nMore information is shown compared to the other two settings.\n\nDetails on Keywords used in Skills are shown as well."
+                     },
+                     {
+                         "id":  "tuto_01_04_01_05_title",
+                         "content":  "MID"
+                     },
+                     {
+                         "id":  "tuto_01_04_01_06",
+                         "content":  "The medium information display configuration.\n\nIn this setting, details on Keywords used in Skills will not be shown.\n\nOtherwise, it functions the same as the maximum setting."
+                     },
+                     {
+                         "id":  "tuto_01_04_01_07_title",
+                         "content":  "MIN"
+                     },
+                     {
+                         "id":  "tuto_01_04_01_08",
+                         "content":  "The minimum information display configuration.\n\nIn this setting, information on effects and Keywords of Skills will not be displayed."
+                     },
+                     {
+                         "id":  "tuto_01_08_01_01",
+                         "content":  "Let\u0027s learn how to use \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_08_01_02",
+                         "content":  "\u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e are each Sinner\u0027s \u003ccolor=#f8c200\u003eunique Skills\u003ccolor=#ebcaa2\u003e that can be used \u003ccolor=#f8c200\u003eregardless of the Identity\u003ccolor=#ebcaa2\u003e they are wearing."
+                     },
+                     {
+                         "id":  "tuto_01_08_01_03",
+                         "content":  "Let\u0027s inspect Sinner Heathcliff\u0027s \u003ccolor=#f8c200\u003eE.G.O\u003ccolor=#ebcaa2\u003e.\n\nPress and hold Sinner Heathcliff\u0027s portrait at the bottom of the Dashboard."
+                     },
+                     {
+                         "id":  "tuto_01_08_01_04",
+                         "content":  "Every \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e currently equipped by Sinner Heathcliff are visible here."
+                     },
+                     {
+                         "id":  "tuto_01_08_01_05",
+                         "content":  "Using \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e Skills consumes \u003ccolor=#f8c200\u003eE.G.O resources\u003ccolor=#ebcaa2\u003e and \u003ccolor=#f8c200\u003eSP\u003ccolor=#ebcaa2\u003e.\n\nThe amount of SP consumed by each \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e is listed at the top left corner of its information card.\n\nNow, select this \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e—\u0027Bodysack\u0027."
+                     },
+                     {
+                         "id":  "tuto_01_08_01_06",
+                         "content":  "It seems we don\u0027t have enough E.G.O resources to use the \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e Skill.\n\nEach \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e Skill requires a certain amount of \u003ccolor=#f8c200\u003eE.G.O resources\u003ccolor=#ebcaa2\u003e to activate."
+                     },
+                     {
+                         "id":  "tuto_01_08_01_07",
+                         "content":  "Here, you can view the number of \u003cE.G.O resources\u003e and their Affinities required to use this \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e Skill.\n\nIt seems that we do not have enough Orange \u003ccolor=#ff6600\u003e\u003cLust\u003e\u003ccolor=#ebcaa2\u003e and Purple \u003ccolor=#9500de\u003e\u003cEnvy\u003e\u003ccolor=#ebcaa2\u003e E.G.O resources."
+                     },
+                     {
+                         "id":  "tuto_01_08_01_08",
+                         "content":  "View your current \u003ccolor=#f8c200\u003e\u003cE.G.O resource\u003e\u003ccolor=#ebcaa2\u003e reserves here.\n\nThe names of each Sin Affinity for \u003ccolor=#f8c200\u003e\u003cE.G.O resources\u003e\u003ccolor=#ebcaa2\u003e may still be unfamiliar to you, but you can check which is which by selecting each E.G.O\u0027s Sin Affinity resistances in the detailed info window."
+                     },
+                     {
+                         "id":  "tuto_01_08_01_09",
+                         "content":  "Required \u003ccolor=#f8c200\u003e\u003cE.G.O resources\u003e\u003ccolor=#ebcaa2\u003e can be obtained by using Skills during battle. For example, an Envy-colored Skill will grant an Envy resource.\n\nAs luck would have it, the units currently on the field possess Skills with the Affinities we need. Put them to use."
+                     },
+                     {
+                         "id":  "tuto_01_08_02_01",
+                         "content":  "Press the \u003ccolor=#f8c200\u003eWin Rate\u003ccolor=#ebcaa2\u003e button to order the Sinners to choose their own Skills based on Clash Win rate."
+                     },
+                     {
+                         "id":  "tuto_01_08_02_02",
+                         "content":  "As you can see here, an enemy is about to launch a \u003ccolor=#f8c200\u003epowerful attack\u003ccolor=#ebcaa2\u003e against Sinner Heathcliff—and it\u0027s unlikely he will win this Clash."
+                     },
+                     {
+                         "id":  "tuto_01_08_02_03",
+                         "content":  "When a unit is about to \u003ccolor=#f8c200\u003e\u003cClash\u003e\u003ccolor=#ebcaa2\u003e with a difficult enemy Skill, you can use an \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e Skill to turn the situation around.\nTheir high Power makes them especially effective against strong enemy Skills."
+                     },
+                     {
+                         "id":  "tuto_01_08_02_04",
+                         "content":  "If there are any usable \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e Skills for which you have enough resources, it will be indicated in the shape surrounding the Sinner, as shown here."
+                     },
+                     {
+                         "id":  "tuto_01_08_02_05",
+                         "content":  "Press and hold Sinner Heathcliff\u0027s portrait again to enter the \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e selection menu."
+                     },
+                     {
+                         "id":  "tuto_01_08_02_06",
+                         "content":  "You now have enough resources to use this \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e Skill.\n\nDouble-tap to select his \u003ccolor=#f8c200\u003eBodysack\u003ccolor=#ebcaa2\u003e E.G.O Skill again and equip it in Heathcliff\u0027s Skill Slot."
+                     },
+                     {
+                         "id":  "tuto_01_08_02_07",
+                         "content":  "Once selected, the \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e Skill will automatically be equipped in the bottom Skill Slot of the respective Sinner."
+                     },
+                     {
+                         "id":  "tuto_01_08_02_08",
+                         "content":  "\u003ccolor=#f8c200\u003eEquipping a different \u003cE.G.O\u003e Skill\u003ccolor=#ebcaa2\u003e in the same Slot, or swapping it for a \u003ccolor=#f8c200\u003eDefense Skill\u003ccolor=#ebcaa2\u003e, will unequip the current \u003cE.G.O\u003e Skill and refund the E.G.O resources spent to equip it."
+                     },
+                     {
+                         "id":  "tuto_01_08_02_09",
+                         "content":  "Now, let\u0027s return to the battle at hand."
+                     },
+                     {
+                         "id":  "tuto_01_08_02_10",
+                         "content":  "The \u003ccolor=#f8c200\u003eSP cost is consumed\u003ccolor=#ebcaa2\u003e the moment the \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e Skill begins its attack.\n\nBe warned: letting a Sinner\u0027s SP drop too low may cause them to \u003ccolor=#f8c200\u003ePanic\u003ccolor=#ebcaa2\u003e or become \u003ccolor=#f8c200\u003eCorroded\u003ccolor=#ebcaa2\u003e by their \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_08_03_01",
+                         "content":  "Raising an \u003cE.G.O\u003e Skill\u0027s Threadspinning Tier unlocks its \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e Passive\u003ccolor=#ebcaa2\u003e.\nOnce the turn in which this unit used the \u003cE.G.O\u003e Skill ends and the battle moves to the \u003ccolor=#f8c200\u003enext turn\u003ccolor=#ebcaa2\u003e, the Skill\u0027s unique \u003ccolor=#f8c200\u003e\u003cE.G.O\u003e Passive\u003ccolor=#ebcaa2\u003e will activate.\n\nYou can view detailed information about \u003cE.G.O\u003e Passives in each Sinner\u0027s detailed info menu."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_01",
+                         "content":  "In this Encounter, we will learn about more advanced usage of \u003cE.G.O\u003e.\nSinner Ryōshū will begin with a higher SP value for demonstration purposes."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_02",
+                         "content":  "Every E.G.O Skill, except for Base E.G.O Skills, can be \u003ccolor=#f8c200\u003e\u003cOverclocked\u003e\u003ccolor=#ebcaa2\u003e.\nPress and hold Sinner Ryōshū\u0027s portrait to bring up the list of her E.G.O."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_03",
+                         "content":  "Let\u0027s first try using Ryōshū\u0027s newly acquired E.G.O Awakening Skill."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_04",
+                         "content":  "You can \u003ccolor=#f8c200\u003echange the Sinner\u0027s Sin Resistances\u003ccolor=#ebcaa2\u003e by \u003ccolor=#f8c200\u003eusing their E.G.O\u003ccolor=#ebcaa2\u003e.\nCheck the Sin Affinities of enemy Skills, and use an appropriate E.G.O to adjust your Resistances and gain an advantage."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_05",
+                         "content":  "Let\u0027s use that E.G.O Skill again."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_06",
+                         "content":  "E.G.O Skills have a chance to \u003ccolor=#f8c200\u003eCorrode\u003ccolor=#ebcaa2\u003e at lower \u003ccolor=#f8c200\u003eSP\u003ccolor=#ebcaa2\u003e values.\nBe warned: Corrosion causes the Sinner to use a Corrosion Skill, which attacks allies and enemies indiscriminately.\nYou can view the Corrosion chance here."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_07",
+                         "content":  "Reaching \u003ccolor=#f8c200\u003e-45 SP\u003ccolor=#ebcaa2\u003e will guarantee that the Sinner enters \u003ccolor=#f8c200\u003e\u003cE.G.O Corrosion\u003e\u003ccolor=#ebcaa2\u003e state.\nIn an \u003ccolor=#f8c200\u003e\u003cE.G.O Corrosion\u003e\u003ccolor=#ebcaa2\u003e state, the Sinner will indiscriminately attack both allies and enemies."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_08",
+                         "content":  "The Sinner will recover from the \u003ccolor=#f8c200\u003e\u003cE.G.O Corrosion\u003e\u003ccolor=#ebcaa2\u003e state next turn, and their SP will reset to 0."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_09",
+                         "content":  "Let\u0027s try the \u003ccolor=#f8c200\u003e\u003cE.G.O Overclock\u003e\u003ccolor=#ebcaa2\u003e this time. Press and hold Ryōshū\u0027s portrait."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_10",
+                         "content":  "Press and hold the E.G.O Skill card to \u003ccolor=#f8c200\u003e\u003cE.G.O Overclock\u003e\u003ccolor=#ebcaa2\u003e it.\nUsing \u003cE.G.O Overclock\u003e \u003ccolor=#f8c200\u003eforces the Sinner to use the Corrosion Skill\u003ccolor=#ebcaa2\u003e of the \u003cE.G.O\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_11",
+                         "content":  "If you have enough resources to use the Overclocked E.G.O Skill, it will activate as \u003ccolor=#f8c200\u003eStable Overclock\u003ccolor=#ebcaa2\u003e. If not, it will activate as \u003ccolor=#f8c200\u003eUnstable Overclock\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_12_title",
+                         "content":  "Stable Overclock"
+                     },
+                     {
+                         "id":  "tuto_01_09_01_12",
+                         "content":  "Activating \u003ccolor=#f8c200\u003e\u003cStable Overclock\u003e\u003ccolor=#ebcaa2\u003e consumes \u003ccolor=#f8c200\u003e1.5 times the resources (including SP)\u003ccolor=#ebcaa2\u003e compared to a non-Overclocked E.G.O, but it does \u003ccolor=#f8c200\u003enot target allies\u003ccolor=#ebcaa2\u003e.\nWarning: Even a Stable Overclock can \u003ccolor=#f8c200\u003eCorrode\u003ccolor=#ebcaa2\u003e your Sinners if their \u003ccolor=#f8c200\u003eSP value is low\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_09_01_13_title",
+                         "content":  "Unstable Overclock"
+                     },
+                     {
+                         "id":  "tuto_01_09_01_13",
+                         "content":  "Activating \u003ccolor=#f8c200\u003e\u003cE.G.O Overclock\u003e\u003ccolor=#ebcaa2\u003e without enough resources will trigger \u003ccolor=#f8c200\u003e\u003cUnstable Overclock\u003e\u003ccolor=#ebcaa2\u003e instead.\nUnstable Overclock targets both allies and enemies \u003ccolor=#f8c200\u003eindiscriminately\u003ccolor=#ebcaa2\u003e, like E.G.O Corrosion, and any \u003ccolor=#f8c200\u003einsufficient E.G.O resources will go into the negatives\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_01",
+                         "content":  "Entities known as \u003ccolor=#f8c200\u003eAbnormalities\u003ccolor=#ebcaa2\u003e may be found in Dungeons."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_02",
+                         "content":  "A different kind of approach is needed in Encounters against Abnormalities."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_03",
+                         "content":  "Battles that employ this different approach are called \u003ccolor=#f8c200\u003eFocused Encounters\u003ccolor=#ebcaa2\u003e. Let\u0027s explore its mechanics."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_04",
+                         "content":  "All abnormalities have one or more \u003ccolor=#f8c200\u003eParts\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_05",
+                         "content":  "Each Part has their own set of Skill Slots and Speed values."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_06_title",
+                         "content":  "Abnormality Parts"
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_06",
+                         "content":  "Abnormalities often have multiple Parts that can be targeted.\n\nEach Part uses Skills from its assigned Skill Slots, and its Speed values can change from turn to turn."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_07",
+                         "content":  "In Focused Encounters, you must select the Sinners\u0027 Skill icons and chain them \u003ccolor=#f8c200\u003edirectly\u003ccolor=#ebcaa2\u003e to the Abnormalities\u0027 Skill Slots."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_08",
+                         "content":  "Select a Skill from the leftmost column of the Dashboard."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_09",
+                         "content":  "Now, drag from the selected Skill to \u003ccolor=#f8c200\u003ethis enemy Skill Slot to chain them\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_10",
+                         "content":  "Remember: in Focused Encounters, you connect the Sinners\u0027 Skills directly to the enemies\u0027 Skill Slots."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_11",
+                         "content":  "Please press the gear on the left if you would like to zoom out and view the entire battlefield."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_12",
+                         "content":  "Pressing the gear on the left while zoomed in\nwill reset your field of view."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_13",
+                         "content":  "Once you have \u003ccolor=#f8c200\u003econnected every available Skill to the enemies\u0027 Skill Slots\u003ccolor=#ebcaa2\u003e, the gear icon on the right—the button to enter the combat phase—will activate. Only then can you proceed to the Combat Phase."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_01_14",
+                         "content":  "Now, \u003ccolor=#f8c200\u003echain every Sinner\u0027s Skills to the enemy Slots\u003ccolor=#ebcaa2\u003e, then start the combat phase using the gear icon on the right."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_01",
+                         "content":  "\u003ccolor=#f8c200\u003eSpeed\u003ccolor=#ebcaa2\u003e determines the order of actions taken in Focused Encounters."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_02",
+                         "content":  "The Speed assigned to each unit for this turn can be viewed here, \u003ccolor=#f8c200\u003enext to their Skill Slots\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_03",
+                         "content":  "Speed of allied units can be viewed here \u003ccolor=#f8c200\u003eon the Dashboard\u003ccolor=#ebcaa2\u003e as well."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_04",
+                         "content":  "As you have just seen, Focused Encounters are conducted by chaining your units\u0027 Skills \u003ccolor=#f8c200\u003edirectly\u003ccolor=#ebcaa2\u003e to enemy Skill Slots."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_05",
+                         "content":  "Now, let\u0027s learn how to handle situations where several enemies are focusing on a single allied unit.\nHover over then select this unit\u0027s Slot here."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_06",
+                         "content":  "\u003ccolor=#f8c200\u003eAllies with faster Speeds\u003ccolor=#ebcaa2\u003e can force enemies with slower Speeds to \u003ccolor=#f8c200\u003eredirect their attacks and \u003cClash\u003e with them\u003ccolor=#ebcaa2\u003e instead by chaining their own Skill against the enemy\u0027s."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_07",
+                         "content":  "Select a faster Sinner and chain their Skill against the enemy\u0027s."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_08",
+                         "content":  "Select a faster Sinner and chain their Skill against the enemy\u0027s."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_09",
+                         "content":  "As demonstrated here, allies with faster Speeds than the enemy can \u003ccolor=#f8c200\u003estrategically draw attacks targeting other allies to themselves\u003ccolor=#ebcaa2\u003e depending on the flow of battle."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_10_title",
+                         "content":  "When Ally\u0027s Speed \u003e Enemy\u0027s Speed"
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_10",
+                         "content":  "\u003ccolor=#f8c200\u003eIf an allied unit\u0027s Speed is faster than the enemy unit\u0027s\u003ccolor=#ebcaa2\u003e, the allied unit can \u003ccolor=#f8c200\u003eredirect\u003ccolor=#ebcaa2\u003e the \u003ccolor=#f8c200\u003etargeting\u003ccolor=#ebcaa2\u003e of the enemy\u0027s Skill to themselves.\n\nOnce redirected, the allied unit and the enemy unit will \u003ccolor=#f8c200\u003eClash\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_11",
+                         "content":  "Another thing to note regarding targeting and redirecting: an \u003ccolor=#f8c200\u003eallied unit targeted by an enemy Skill\u003ccolor=#ebcaa2\u003e can still \u003ccolor=#f8c200\u003eClash\u003ccolor=#ebcaa2\u003e against that Skill, \u003ccolor=#f8c200\u003eregardless of their own Speed\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_12",
+                         "content":  "Chain your Skills against the enemy\u0027s."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_13",
+                         "content":  "Chain your Skills against the enemy\u0027s."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_14_title",
+                         "content":  "When targeted by enemy Skills"
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_14",
+                         "content":  "Allies targeted by enemy Skills can Clash against Skills targeting themselves \u003ccolor=#f8c200\u003eregardless of Speed\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_15",
+                         "content":  "If an allied unit\u0027s Speed is equal to or slower than the enemy\u0027s, they cannot redirect the enemy Skill and may instead perform an \u003ccolor=#05DBF2\u003eUnopposed Attack\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_16_title",
+                         "content":  "When Ally\u0027s Speed ≤ Enemy\u0027s Speed"
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_16",
+                         "content":  "Allies with lower or equal Speed values cannot force enemies with faster Speed to target them.\nIn such cases, both units will perform an \u003ccolor=#05DBF2\u003eUnopposed Attack (marked by blue arrows)\u003ccolor=#ebcaa2\u003e instead of engaging in a Clash first. Faster unit will attack first.\n\n\u003ccolor=#05DBF2\u003eUnopposed Attacks\u003ccolor=#ebcaa2\u003e skip Clashes and strike directly."
+                     },
+                     {
+                         "id":  "tuto_01_11_abbattle_02_17",
+                         "content":  "While multiple Skills may target a single Slot, only the last Skill chained to it will Clash; the others will activate as \u003ccolor=#05DBF2\u003eUnopposed Attacks\u003ccolor=#ebcaa2\u003e.\nSometimes, it can be an effective strategy to forgo \u003ccolor=#f8c200\u003eClashes\u003ccolor=#ebcaa2\u003e and have multiple units use \u003ccolor=#05DBF2\u003eUnopposed Attacks\u003ccolor=#ebcaa2\u003e against a single dangerous enemy, even if it leaves them exposed to attacks from others."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_01_01",
+                         "content":  "You have encountered a new Abnormality. Please view its Abnormality Guide."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_01_02_title",
+                         "content":  "The Abnormality Guide"
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_01_02",
+                         "content":  "The Abnormality Guide lists information about the Abnormality.\n\u003ccolor=#f8c200\u003eThe guide will gradually fill up as you battle the Abnormality.\u003ccolor=#ebcaa2\u003e\n\nRaise the \u003ccolor=#f8c200\u003eObservation Level\u003ccolor=#ebcaa2\u003e by repeatedly encountering and battling the Abnormality.\nHigher Observation Levels slightly increases the damage you deal against the Abnormality."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_01_03",
+                         "content":  "You may encounter Abnormalities with \u003ccolor=#f8c200\u003emultiple Parts\u003ccolor=#ebcaa2\u003e in the dungeons you explore.\nIn such cases, each Part may have different Resistances, Passives, and Skills."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_01_04",
+                         "content":  "This Abnormality\u0027s weak point is its \u003ccolor=#f8c200\u003eFruit\u003ccolor=#ebcaa2\u003e Part.\nTarget the Fruit."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_02_01",
+                         "content":  "You destroyed a Part of the Abnormality. Let us consult the Abnormality Guide to see if anything has been updated."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_02_02",
+                         "content":  "You destroyed the Fruit Part."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_02_03",
+                         "content":  "Physical Resistance values for \u003ccolor=#f8c200\u003eDestroyed\u003ccolor=#ebcaa2\u003e Parts become \u003ccolor=#f8c200\u003eFatal\u003ccolor=#ebcaa2\u003e.\nPlease note that Parts marked as \u003ccolor=#f8c200\u003eSeverable\u003ccolor=#ebcaa2\u003e cannot be attacked again once Destroyed, unless they regenerate."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_02_04",
+                         "content":  "Progressing through the Encounter will unlock the enemy\u0027s Passive information.\n\u003ccolor=#f8c200\u003eReading the details and clues in the enemy\u0027s information window\u003ccolor=#ebcaa2\u003e is crucial to winning certain battles."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_02_05",
+                         "content":  "Continue suppressing this Abnormality."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_03_01",
+                         "content":  "During Focused Encounters, you, the manager, may occasionally be tasked with making key decisions in \u003ccolor=#f8c200\u003e\u003cChoice Events\u003e\u003ccolor=#ebcaa2\u003e.\n\u003ccolor=#f8c200\u003eThe tide of battle may drastically shift\u003ccolor=#ebcaa2\u003e depending on your choices, so choose wisely."
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_03_02_title",
+                         "content":  "Choice Events"
+                     },
+                     {
+                         "id":  "tuto_01_11_snow_white_03_02",
+                         "content":  "These Choice Events function like Skill checks—they have a required Sin Affinity and a threshold to pass.\nEach Choice Event presents an Affinity advantage—select a Sinner with a matching Skill Affinity to increase your chances of success.\nPassing or failing the check will determine the outcome."
+                     },
+                     {
+                         "id":  "tuto_02_12_01_01_start",
+                         "content":  "Now, we will explore how an Identity\u0027s \u003ccolor=#f8c200\u003eLevel\u003ccolor=#ebcaa2\u003e affects combat and Skills. Try chaining a Skill."
+                     },
+                     {
+                         "id":  "tuto_02_12_01_01",
+                         "content":  "Every Skill has these two values: \u003ccolor=#f8c200\u003eOffense Level\u003ccolor=#ebcaa2\u003e and \u003ccolor=#f8c200\u003eDefense Level\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_02_12_01_02",
+                         "content":  "\u003ccolor=#f8c200\u003eOffense Level\u003ccolor=#ebcaa2\u003e affects the following Skills: \u003ccolor=#f8c200\u003eAttack Skills\u003ccolor=#ebcaa2\u003e and \u003ccolor=#f8c200\u003eCounter Skills\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_02_12_01_03",
+                         "content":  "\u003ccolor=#f8c200\u003eDamage dealt\u003ccolor=#ebcaa2\u003e increases in proportion to how much the attacker\u0027s Offense Level exceeds the target\u0027s Defense Level. This increased damage is shown here."
+                     },
+                     {
+                         "id":  "tuto_02_12_01_04",
+                         "content":  "Also, in a Clash, every 3 points of Offense Level advantage over the target\u0027s Offense Level translates to 1 point of Clash Power advantage."
+                     },
+                     {
+                         "id":  "tuto_02_12_01_05",
+                         "content":  "All Identities have their Defense Levels, affecting the \u003ccolor=#f8c200\u003eamount of damage they take\u003ccolor=#ebcaa2\u003e."
+                     },
+                     {
+                         "id":  "tuto_02_12_01_06",
+                         "content":  "\u003ccolor=#f8c200\u003eOffense Level\u003ccolor=#ebcaa2\u003e and \u003ccolor=#f8c200\u003eDefense Level\u003ccolor=#ebcaa2\u003e are stats that \u003ccolor=#f8c200\u003egrow in proportion to an Identity’s Level\u003ccolor=#ebcaa2\u003e.\nThe Level difference between allies and enemies can greatly affect combat difficulty—make sure your \u003ccolor=#f8c200\u003eIdentities are leveled up\u003ccolor=#ebcaa2\u003e enough if an encounter feels too challenging."
+                     }
+                 ]
+}

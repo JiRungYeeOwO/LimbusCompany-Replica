@@ -1,0 +1,15 @@
+{
+  "loginUI": [
+    "LoginUIText",
+    "UserAgreements"
+  ],
+  "fileDownloadDesc": [
+    "FileDownloadDesc"
+  ],
+  "battleHint": [
+    "BattleHint"
+  ],
+  "errorCodeMsg": [
+    "ErrorCodeMsgLocal"
+  ]
+}

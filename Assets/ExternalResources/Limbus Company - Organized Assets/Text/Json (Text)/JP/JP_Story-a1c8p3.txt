@@ -1,0 +1,8 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "danteability_morositas",
+                         "content":  "\u003ccolor=#3256a1\u003e\u003ci\u003e慈悲の下に等しくならん\u003c/i\u003e\u003c/color\u003e"
+                     }
+                 ]
+}

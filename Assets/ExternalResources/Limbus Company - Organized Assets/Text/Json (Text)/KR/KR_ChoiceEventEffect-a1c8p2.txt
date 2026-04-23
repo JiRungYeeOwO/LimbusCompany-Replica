@@ -1,0 +1,28 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "GetConfirmedObject",
+                         "content":  "\u003ccolor=#ebcaa2\u003e기물 {reward} 획득!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetConfirmedCoin",
+                         "content":  "\u003ccolor=#ebcaa2\u003e기물 {reward} {stack}개 획득!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "LoseConfirmedCoin",
+                         "content":  "\u003ccolor=#ebcaa2\u003e기물 {reward} {stack}개 잃음!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "DestroyObject",
+                         "content":  "\u003ccolor=#ebcaa2\u003e기물 {reward}\u003c/color\u003e \u003ccolor=#e30000\u003e소멸!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetConfirmedObjectOnWinBattle",
+                         "content":  "\u003ccolor=#ebcaa2\u003e다음 전투 승리 시 기물 {reward} 획득!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "HiddenGiftUnlockHiddenRoute",
+                         "content":  "\u003ccolor=#ebcaa2\u003e새로운 길이 지도에 추가됨!\u003c/color\u003e"
+                     }
+                 ]
+}

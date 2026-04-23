@@ -1,0 +1,128 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "853901_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e다음에 소환되는 모든 낡은 우산\u003c/color\u003e \u003ccolor=#00ff9c\u003e최대 체력의 30%\u003c/color\u003e만큼 감소된 상태로 등장"
+                     },
+                     {
+                         "id":  "853901_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]의\u003c/color\u003e \u003ccolor=#fe4b48\u003e정신력 {1} 소모\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "853901_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]의\u003c/color\u003e \u003ccolor=#fe4b48\u003e정신력 {1} 소모\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854101_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] %[{1}] {2}/%\u003ccolor=#ebcaa2\u003e 감소\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854101_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]의 모든 부위가\u003c/color\u003e %[{1}] {2}/%\u003ccolor=#ebcaa2\u003e를 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854101_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] %[{1}] {2}/%\u003ccolor=#ebcaa2\u003e 증가\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854101_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e %[{1}] {2}/%\u003ccolor=#ebcaa2\u003e 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854201_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]의\u003c/color\u003e \u003ccolor=#00ff9c\u003e체력 +{1}\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854201_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e %[{1}] {2}, [{3}] {4}, [{5}], {6}/%\u003ccolor=#ebcaa2\u003e 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854201_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]의\u003c/color\u003e \u003ccolor=#00ff9c\u003e체력 +{1}\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854201_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e %[{1}] {2}, [{3}] {4}, [{5}], {6}/%\u003ccolor=#ebcaa2\u003e 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854401_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e에게 {1} {2} \u003ccolor=#ebcaa2\u003e부여\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854401_success_1_2",
+                         "content":  "[{0}] 수감자에게 다음 턴에 \u003ccolor=#00ff9c\u003e{1} {2}\u003c/color\u003e 부여"
+                     },
+                     {
+                         "id":  "854401_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e 수감자가 가지고 있는 \u003ccolor=#ebcaa2\u003e{1} 전부 소멸\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854501_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}가 흐트러짐 상태가 됨\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854501_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]에게\u003c/color\u003e \u003ccolor=#e30000\u003e[{1}]\u003c/color\u003e {2}\u003ccolor=#ebcaa2\u003e 부여\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854501_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]의\u003c/color\u003e \u003ccolor=#e30000\u003e체력 -{1}\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854901_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e요정 흐트러짐 상태가 됨\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854901_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] 수감자\u003c/color\u003e \u003ccolor=#e30000\u003e[{1}] {2}\u003c/color\u003e\u003ccolor=#ebcaa2\u003e 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854901_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] 수감자\u003c/color\u003e \u003ccolor=#e30000\u003e[{1}] {2}\u003c/color\u003e\u003ccolor=#ebcaa2\u003e 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855001_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#e30000\u003e[{1}] {2}\u003c/color\u003e\u003ccolor=#ebcaa2\u003e 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855001_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] 수감자\u003c/color\u003e \u003ccolor=#e30000\u003e[{1}] {2}\u003c/color\u003e\u003ccolor=#ebcaa2\u003e 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855001_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] 수감자\u003c/color\u003e \u003ccolor=#e30000\u003e전체 체력의 20%\u003c/color\u003e\u003ccolor=#ebcaa2\u003e만큼 소모\u003c/color\u003e \u003ccolor=#e30000\u003e(체력 {1} 감소)\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855501_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#e30000\u003e{1} {2}\u003c/color\u003e\u003ccolor=#ebcaa2\u003e소모\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855501_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#e30000\u003e{1} {2}\u003c/color\u003e\u003ccolor=#ebcaa2\u003e얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855501_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#e30000\u003e{1} {2}\u003c/color\u003e\u003ccolor=#ebcaa2\u003e얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855501_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] 수감자\u003c/color\u003e \u003ccolor=#e30000\u003e{1} {2}\u003c/color\u003e\u003ccolor=#ebcaa2\u003e얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855601_1_1",
+                         "content":  "모든 캐릭터 가하는 피해량 {0}%"
+                     },
+                     {
+                         "id":  "855601_1_2",
+                         "content":  "모든 캐릭터 받는 피해량 {0}%"
+                     },
+                     {
+                         "id":  "85560101_success_1_1",
+                         "content":  "모든 캐릭터 [{0}] 속성 스킬로 \u003ccolor=#00ff9c\u003e가하는 피해량 {1}%\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "85560101_success_1_2",
+                         "content":  "모든 캐릭터 [{0}] 속성 스킬로 \u003ccolor=#e30000\u003e받는 피해량 {1}%\u003c/color\u003e"
+                     }
+                 ]
+}

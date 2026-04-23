@@ -1,0 +1,28 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "stage_recommend_level_popup_battle_participant_desc",
+                         "content":  "The current average level of your deployed Identities is \u003ccolor=#990000\u003elower\u003c/color\u003e than the recommended level for this Stage.\nStart the Encounter anyway?"
+                     },
+                     {
+                         "id":  "stage_recommend_level_popup_formation_desc",
+                         "content":  "The current average level of Identities in your loadout is \u003ccolor=#990000\u003elower\u003c/color\u003e than the recommended level for this Stage.\nStart the Encounter anyway?"
+                     },
+                     {
+                         "id":  "stage_recommend_level_popup_dungeon_entrance_desc",
+                         "content":  "The current average level of Identities in your loadout is \u003ccolor=#990000\u003elower\u003c/color\u003e than the recommended level for this Stage.\nEnter the Dungeon anyway?"
+                     },
+                     {
+                         "id":  "current_average_level_and_recommend_level_format",
+                         "content":  "Current Avg. Level: {0}\n\u003ccolor=#f8c200\u003eRecommended Level: {1}\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "current_average_level_with_additional_val_and_recommend_level_format",
+                         "content":  "Current Avg. Level: {0} ({1})\n\u003ccolor=#f8c200\u003eRecommended Level: {2}\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "stage_recommend_uptie_popup_dungeon_entrance_desc",
+                         "content":  "\u003ccolor=#f8c200\u003eRecommended Identity \u0026 E.G.O Uptie/Threadspin \u003ccolor=#990000\u003eTiers: {0}\u003c/color\u003e \u003c/color\u003e"
+                     }
+                 ]
+}

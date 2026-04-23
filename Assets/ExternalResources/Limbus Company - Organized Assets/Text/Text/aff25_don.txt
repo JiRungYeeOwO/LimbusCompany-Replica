@@ -1,0 +1,19 @@
+aff25_don.png
+size:1105,1035
+filter:Linear,Linear
+pma:true
+scale:0.414
+그룹 12
+bounds:2,404,1101,629
+레이어 10
+bounds:1009,341,70,61
+레이어 5
+bounds:836,85,171,317
+레이어 6
+bounds:344,2,260,149
+레이어 8
+bounds:2,21,130,340
+rotate:90
+레이어 9
+bounds:2,153,249,832
+rotate:90

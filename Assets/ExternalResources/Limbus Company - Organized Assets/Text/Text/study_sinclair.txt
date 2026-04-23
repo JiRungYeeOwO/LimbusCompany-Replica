@@ -1,0 +1,21 @@
+study_sinclair.png
+size:570,916
+filter:Linear,Linear
+pma:true
+scale:0.414
+arm L
+bounds:10,669,142,271
+rotate:90
+arm R
+bounds:86,821,85,214
+rotate:90
+body_2
+bounds:268,10,291,628
+hand
+bounds:10,843,66,63
+head
+bounds:310,648,258,250
+rotate:90
+weapon
+bounds:10,29,630,248
+rotate:90

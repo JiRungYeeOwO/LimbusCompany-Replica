@@ -1,0 +1,96 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "810001_skinPredector_success_1_1",
+                         "content":  "{0} \u003ccolor=#fe4b48\u003eloses {1} SP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810001_skinPredector_success_1_2",
+                         "content":  "{0} gains %{2} {1}/% for the encounter."
+                     },
+                     {
+                         "id":  "810001_skinPredector_success_1_3",
+                         "content":  "{0} gains %{2} {1}/% and %{4} {3}/% for the encounter."
+                     },
+                     {
+                         "id":  "810001_skinPredector_success_1_4",
+                         "content":  "Reduces the HP of {0} with \u003ccolor=#ebcaa2\u003ethe most HP to 1\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810001_skinPredector_failure_1_1",
+                         "content":  "{0} gains %{2} {1}/% and %{4} {3}/% for the encounter."
+                     },
+                     {
+                         "id":  "810001_skinPredector_failure_1_2",
+                         "content":  "All Identities gain %{1} {0}/% and %{3} {2}/%."
+                     },
+                     {
+                         "id":  "810201_nk_success_1_1",
+                         "content":  "1 {0} \u003ccolor=#e30000\u003eloses {1} HP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810201_nk_success_1_2",
+                         "content":  "{0} gains %{2} {1}/%"
+                     },
+                     {
+                         "id":  "810201_nk_failure_1_1",
+                         "content":  "1 {0} \u003ccolor=#e30000\u003eloses {1} HP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810201_nk_failure_1_2",
+                         "content":  "{0} \u003ccolor=#e30000\u003eloses {1} HP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810101_walkingPearl_success_1_1",
+                         "content":  "{0} \u003ccolor=#fe4b48\u003eloses {1} SP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810101_walkingPearl_success_1_2",
+                         "content":  "{0} \u003ccolor=#e30000\u003eloses {1} HP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810101_walkingPearl_success_1_3",
+                         "content":  "{0} %loses {2} {1}/%"
+                     },
+                     {
+                         "id":  "810101_walkingPearl_failure_1_1",
+                         "content":  "{0} \u003ccolor=#fe4b48\u003eloses {1} SP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810101_walkingPearl_failure_1_2",
+                         "content":  "{0} \u003ccolor=#e30000\u003eloses {1} HP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810602_success_1_1",
+                         "content":  "{0} gains %{2} [{1}]/% and %{4} [{3}]/%"
+                     },
+                     {
+                         "id":  "810602_success_1_2",
+                         "content":  "{0} \u003ccolor=#80c9ff\u003efully heals SP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810602_success_1_3",
+                         "content":  "All allies gain %{1} [{0}]/%"
+                     },
+                     {
+                         "id":  "810602_success_1_4",
+                         "content":  "All allies \u003ccolor=#80c9ff\u003eheal {0} SP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810602_success_1_5",
+                         "content":  "{0} gains %{2} [{1}]/%"
+                     },
+                     {
+                         "id":  "810603_failure_1_1",
+                         "content":  "{0} gains %{2} [{1}]/% and %{4} [{3}]/%"
+                     },
+                     {
+                         "id":  "810603_failure_1_2",
+                         "content":  "{0} \u003ccolor=#80c9ff\u003efully heals SP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "810603_failure_1_3",
+                         "content":  "{0} gains %{2} [{1}]/%"
+                     }
+                 ]
+}

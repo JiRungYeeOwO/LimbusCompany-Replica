@@ -1,0 +1,379 @@
+{
+  "list": [
+    {
+      "id": 1384,
+      "originID": 91039,
+      "isOriginNormalEnemy": true,
+      "appearance": "91039_Bonge_Mob_GcorpAppearance",
+      "unitKeywordList": [ "X1P1C1_KEYWORD_1", "SMALL", "NONE_BLOOD" ],
+      "level": 45,
+      "classType": "TETH",
+      "attributeType": "SCARLET",
+      "hp": {
+        "defaultStat": 52,
+        "incrementByLevel": 1.79
+      },
+      "patternID": "AutoPick",
+      "defenseSkillIDList": [
+      ],
+      "abnormalityPartList": [
+        138401
+      ],
+      "initBuffList": [
+      ],
+      "startActionSlotNum": 1,
+      "maxActionSlotNum": 2,
+      "mp": 0,
+      "hasMp": true,
+      "lowMorale": -10,
+      "panic": -45,
+      "panicType": 1003,
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 9103901,
+          "number": 2
+        },
+        {
+          "skillId": 9103902,
+          "number": 1
+        },
+        {
+          "skillId": -1,
+          "number": 1
+        }
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+        ]
+      }
+    },
+    {
+      "id": 1385,
+      "originID": 91040,
+      "appearance": "91040_Bonge_Mob_CasinoAppearance",
+      "unitKeywordList": [ "X1P1C1_KEYWORD_2", "SMALL", "NONE_BLOOD" ],
+      "level": 45,
+      "classType": "TETH",
+      "attributeType": "SCARLET",
+      "hp": {
+        "defaultStat": 52,
+        "incrementByLevel": 1.79
+      },
+      "patternID": "AutoPick",
+      "defenseSkillIDList": [
+      ],
+      "abnormalityPartList": [
+        138501
+      ],
+      "initBuffList": [
+      ],
+      "startActionSlotNum": 1,
+      "maxActionSlotNum": 2,
+      "mp": 0,
+      "hasMp": true,
+      "lowMorale": -20,
+      "panic": -45,
+      "panicType": 1003,
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 9104001,
+          "number": 3
+        },
+        {
+          "skillId": 9104002,
+          "number": 2
+        },
+        {
+          "skillId": 9104003,
+          "number": 1
+        },
+        {
+          "skillId": -1,
+          "number": 1
+        }
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+        ]
+      }
+    },
+    {
+      "id": 1386,
+      "originID": 91041,
+      "isOriginNormalEnemy": true,
+      "appearance": "91041_Bonge_Mob_KcorpAppearance",
+      "unitKeywordList": [ "X1P1C1_KEYWORD_3", "NONE_BLOOD" ],
+      "level": 45,
+      "classType": "TETH",
+      "attributeType": "SCARLET",
+      "hp": {
+        "defaultStat": 76,
+        "incrementByLevel": 2.63
+      },
+      "patternID": "AutoPick",
+      "defenseSkillIDList": [
+      ],
+      "abnormalityPartList": [
+        138601
+      ],
+      "initBuffList": [
+      ],
+      "startActionSlotNum": 1,
+      "maxActionSlotNum": 2,
+      "mp": 0,
+      "hasMp": true,
+      "lowMorale": -20,
+      "panic": -45,
+      "panicType": 1003,
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 9104101,
+          "number": 3
+        },
+        {
+          "skillId": 9104102,
+          "number": 1
+        },
+        {
+          "skillId": 9104103,
+          "number": 1
+        },
+        {
+          "skillId": 9104104,
+          "number": 1
+        }
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          
+        ]
+      }
+    },
+    {
+      "id": 1387,
+      "sdPortrait": 1365,
+      "appearance": "1365_Chicken_SuperEliteAppearance",
+      "unitKeywordList": [ "LARGE", "NONE_BLOOD" ],
+      "associationList": [
+        "X1P1C1_ASSO_1"
+      ],
+      "level": 57,
+      "classType": "TETH",
+      "attributeType": "SCARLET",
+      "hp": {
+        "defaultStat": 438,
+        "incrementByLevel": 19.64
+      },
+      "patternID": "PickByPattern_Abnormality",
+      "abnormalityPartList": [
+        138701
+      ],
+      "initBuffList": [
+      ],
+      "startActionSlotNum": 5,
+      "maxActionSlotNum": 5,
+      "attributeList": [
+        {
+          "skillId": 138701,
+          "number": 0
+        },
+        {
+          "skillId": 138702,
+          "number": 0
+        },
+        {
+          "skillId": 138703,
+          "number": 0
+        },
+        {
+          "skillId": 138704,
+          "number": 0
+        },
+        {
+          "skillId": 138705,
+          "number": 0
+        },
+        {
+          "skillId": 138706,
+          "number": 0
+        }
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+        ]
+      },
+      "patternList": [
+        {
+          "slotList": [
+            {
+              "skillParentList": [
+                {
+                  "skillChildList": [
+                    {
+                      "skillID": 138701,
+                      "chance": 1
+                    }
+                  ],
+                  "chance": 1
+                }
+              ]
+            },
+            {
+              "skillParentList": [
+                {
+                  "skillChildList": [
+                    {
+                      "skillID": 138702,
+                      "chance": 1
+                    }
+                  ],
+                  "chance": 1
+                }
+              ]
+            },
+            {
+              "skillParentList": [
+                {
+                  "skillChildList": [
+                    {
+                      "skillID": 138703,
+                      "chance": 1
+                    }
+                  ],
+                  "chance": 1
+                }
+              ]
+            },
+            {
+              "skillParentList": [
+                {
+                  "skillChildList": [
+                    {
+                      "skillID": 138704,
+                      "chance": 1
+                    }
+                  ],
+                  "chance": 1
+                }
+              ]
+            },
+            {
+              "skillParentList": [
+                {
+                  "skillChildList": [
+                    {
+                      "skillID": 138706,
+                      "chance": 1
+                    }
+                  ],
+                  "chance": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slotList": [
+            {
+              "skillParentList": [
+                {
+                  "skillChildList": [
+                    {
+                      "skillID": 138705,
+                      "chance": 1
+                    }
+                  ],
+                  "chance": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

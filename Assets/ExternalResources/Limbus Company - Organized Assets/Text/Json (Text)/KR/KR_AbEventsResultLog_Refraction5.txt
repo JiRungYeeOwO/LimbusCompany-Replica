@@ -1,0 +1,52 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "8630_BUFF",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e %{1} {2}/% \u003ccolor=#ebcaa2\u003e얻음.\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "8630_SHIELD",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0} 보호막 {1} 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863201_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}의 물리 내성 약화\n- 참격, 관통, 타격 내성 +0.3\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863201_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e이번 턴에 {0}의 크리티컬 피해량 100% 증가\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863201_2_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e모든 아군\u003c/color\u003e이 이번 턴 동안 %{0} {1}/% 얻음"
+                     },
+                     {
+                         "id":  "863301_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e가 3턴간 %{1} {2}, {3} {4}/%\u003ccolor=#ebcaa2\u003e을 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_2_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e모든 수감자의\u003c/color\u003e \u003ccolor=#fe4b48\u003e체력 -10%\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_2_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e가 3턴간 %{1} {2}, {3} {4}/%\u003ccolor=#ebcaa2\u003e을 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_3_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e모든 수감자의\u003c/color\u003e \u003ccolor=#fe4b48\u003e체력 -15%\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_3_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e가 3턴간 %{1} {2}, {3} {4}/%\u003ccolor=#ebcaa2\u003e을 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_4_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e이 스테이지의\u003c/color\u003e \u003ccolor=#fe4b48\u003e혈찬이 절반으로 감소\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "863301_4_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0}\u003c/color\u003e가 3턴간 %{1} {2}, {3} {4}/%\u003ccolor=#ebcaa2\u003e을 얻음\u003c/color\u003e"
+                     }
+                 ]
+}

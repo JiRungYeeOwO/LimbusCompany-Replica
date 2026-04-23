@@ -1,0 +1,26 @@
+idle.png
+size:849,1049
+filter:Linear,Linear
+pma:true
+scale:0.414
+body 복사
+bounds:640,809,197,238
+head
+bounds:386,793,254,252
+rotate:90
+레이어 1 복사
+bounds:592,332,100,95
+레이어 2
+bounds:386,545,246,461
+rotate:90
+레이어 3
+bounds:386,353,204,190
+레이어 4
+bounds:694,2,143,425
+레이어 7
+bounds:592,429,114,203
+rotate:90
+레이어 8
+bounds:2,31,611,299
+무아몽중
+bounds:2,332,382,715

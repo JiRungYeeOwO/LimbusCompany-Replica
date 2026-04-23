@@ -1,0 +1,40 @@
+{
+    "dataList":  [
+                     {
+                         "id":  0,
+                         "content":  "\u003cstyle=\"den_CP6_1\"\u003eMe... a thing lesser than a savage beast... must I keep pretending to be a human?"
+                     },
+                     {
+                         "id":  1,
+                         "content":  "\u003cstyle=\"den_CP6_1\"\u003eWe killed Catherine... we don\u0027t deserve to live."
+                     },
+                     {
+                         "id":  2,
+                         "content":  "\u003cstyle=\"den_CP6_1\"\u003eI keep... hearing a voice in my head..."
+                     },
+                     {
+                         "id":  3,
+                         "content":  "\u003cstyle=\"den_CP6_1\"\u003eMy vulgar, low birth can\u0027t change."
+                     },
+                     {
+                         "id":  4,
+                         "content":  "\u003cstyle=\"den_CP6_1\"\u003eI couldn\u0027t change. Just a ragged sack full of waste, that\u0027s what I am."
+                     },
+                     {
+                         "id":  5,
+                         "content":  "\u003cstyle=\"den_CP6_1\"\u003eI don\u0027t need to speak as humans do. I only howl."
+                     },
+                     {
+                         "id":  6,
+                         "content":  "\u003cstyle=\"den_CP6_1\"\u003eCathy, I\u0027m back... Please..."
+                     },
+                     {
+                         "id":  7,
+                         "content":  "\u003cstyle=\"den_CP6_1\"\u003eYou and I... shoved into a sack... we must shatter into a thousand pieces."
+                     },
+                     {
+                         "id":  8,
+                         "content":  "\u003cstyle=\"den_CP6_1\"\u003eI will drag it all down... to the ends of the inferno."
+                     }
+                 ]
+}

@@ -1,0 +1,124 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "get_10712_1",
+                         "desc":  "Identity Acquisition",
+                         "dlg":  "Is chatting politely in a circle all we\u0027re doing here? It\u0027s a gathering of Syndicates, dammit... When\u0027s the showdown anyway?"
+                     },
+                     {
+                         "id":  "lobby_morning_10712_1",
+                         "desc":  "Morning Greeting",
+                         "dlg":  "Sun\u0027s up, time to get off your arses. Think I\u0027ll go on a patrol to see if there\u0027s anyone stupid enough to loiter around \u0027our\u0027 businesses. Might as well collect some protection money, too."
+                     },
+                     {
+                         "id":  "lobby_noon_10712_1",
+                         "desc":  "Afternoon Greeting",
+                         "dlg":  "Oi, you there. Yeah, you. You\u0027ve got to be one mad or stupid lad to saunter into our area in the middle of the—\nOh, hang on a minute. Were you eyin\u0027 my tats? Well, why didn\u0027t you say so from the beginning? Fine, take a gander. Just a little bit, though. Now fuck off kindly."
+                     },
+                     {
+                         "id":  "lobby_night_10712_1",
+                         "desc":  "Evening Greeting",
+                         "dlg":  "Haah... of course I know how you feel, lads. There ain\u0027t nothing wrong with goin\u0027 for a few bevvies after work, yeah?\nBut once you do, you better go straight to bed. If any of you lads make a mistake while sloshed, I\u0027ll crack your skull open before the Captain even hears of it."
+                     },
+                     {
+                         "id":  "smalltalk_10712_1",
+                         "desc":  "Chatter #1",
+                         "dlg":  "Didya hear? Apparently three of the Ten Blades of the East\u0027ll be showin\u0027 up to the meeting.\nTsk, our Patriarch would\u0027ve been one of \u0027em too if those Thumb fuckers hadn\u0027t cut off his wrist."
+                     },
+                     {
+                         "id":  "smalltalk_10712_2",
+                         "desc":  "Chatter #2",
+                         "dlg":  "Why do I keep one hand in a pocket? Oi, haven\u0027t you heard the old Syndicate wisdom? Always keep a trick up your britches, yeah?\nWha? It\u0027s sleeve, not britches? ... Well, it\u0027s all the same to me, ya little nit-pickin\u0027 bag of shite."
+                     },
+                     {
+                         "id":  "smalltalk_10712_3",
+                         "desc":  "Chatter #3",
+                         "dlg":  "That one there\u0027s the Teppu Family, the Nekomata Mafia... and... oi, those blokes over there are from the Kyokushin Clan. Huh? How do I know all their names?\n\u0027Course I do! Our Captain, that lass, she\u0027s been lecturin\u0027 me all about them sods since forever."
+                     },
+                     {
+                         "id":  "smalltalk_10712_4",
+                         "desc":  "Post-Uptie Chat 1",
+                         "dlg":  "Oi, have a gander at my enhancement tattoos. I just got these thanks to the Captain. Look at the cloud patterns here... and it\u0027s bloody good to boot.\nA strike that would\u0027ve cut off my arm leaves only a little cut now, ain\u0027t that neat?"
+                     },
+                     {
+                         "id":  "smalltalk_10712_5",
+                         "desc":  "Post-Uptie Chat 2",
+                         "dlg":  "Wha...? Some small fries challenged the Captain to a duel? Hah, those sods must\u0027ve underestimated Ishmael \u0027coz she\u0027s a new Captain...\nWell, there ain\u0027t nothing for us to worry about. We just need to get ready to clean up some dead bodies."
+                     },
+                     {
+                         "id":  "neglect_10712_1",
+                         "desc":  "Idle",
+                         "dlg":  "\u003ci\u003eYaaaaawn...\u003c/i\u003e Whassit? Wake me up only when something serious happens, yeah?"
+                     },
+                     {
+                         "id":  "gacksung_10712_1",
+                         "desc":  "Uptying",
+                         "dlg":  "Hooah...! Anyone else lookin\u0027 for a thrashing?"
+                     },
+                     {
+                         "id":  "formation_10712_1",
+                         "desc":  "Deployment",
+                         "dlg":  "About time!"
+                     },
+                     {
+                         "id":  "battleentry_10712_1",
+                         "desc":  "Stage Entry",
+                         "dlg":  "Let\u0027s see their stupid mugs, whichever Syndicate they\u0027re from."
+                     },
+                     {
+                         "id":  "battle_select_10712_1",
+                         "desc":  "Viewed in Battle",
+                         "dlg":  "Phoo... let me catch my breath."
+                     },
+                     {
+                         "id":  "battle_endcommand_10712_1",
+                         "desc":  "Commencing Attack",
+                         "dlg":  "Kill \u0027em all!"
+                     },
+                     {
+                         "id":  "battle_enemy_break_10712_1",
+                         "desc":  "Enemy Stagger",
+                         "dlg":  "This\u0027ll hurt like hell."
+                     },
+                     {
+                         "id":  "battle_break_10712_1",
+                         "desc":  "Staggered",
+                         "dlg":  "Agh."
+                     },
+                     {
+                         "id":  "battle_kill_10712_1",
+                         "desc":  "Enemy Killed",
+                         "dlg":  "Next! Chop-chop!"
+                     },
+                     {
+                         "id":  "battle_dead_10712_1",
+                         "desc":  "Death",
+                         "dlg":  "I\u0027ve cut though enough of \u0027em... I\u0027ll leave the rest to you..."
+                     },
+                     {
+                         "id":  "choice_success_p_10712_2",
+                         "desc":  "Check Passed",
+                         "dlg":  "See? I ain\u0027t a Wakashu for nothing."
+                     },
+                     {
+                         "id":  "choice_fail_n_10712_1",
+                         "desc":  "Check Failed",
+                         "dlg":  "... I told you, I\u0027m a bit inexperienced in things other than slicing and dicing."
+                     },
+                     {
+                         "id":  "battle_clear_10712_1",
+                         "desc":  "Victory Cry",
+                         "dlg":  "Oi, oi. That\u0027s enough. Finger bow-bell\u0027s comin\u0027 up—let\u0027s not make things too awkward for the big boys when they meet."
+                     },
+                     {
+                         "id":  "battle_clear_ex_10712_1",
+                         "desc":  "Extra Conditions Fulfilled",
+                         "dlg":  "Good work, lads. I\u0027ll deal with the Captain, so let\u0027s all go for a dip at the bathhouse once we\u0027re done with the cleanup."
+                     },
+                     {
+                         "id":  "battle_defeat_10712_1",
+                         "desc":  "Defeat Wail",
+                         "dlg":  "Blimey, this is some embarrassin\u0027 shite... Oi, I ain\u0027t going back until we deal with this mess. Tell the Captain... that I\u0027ll be back before our next meeting."
+                     }
+                 ]
+}

@@ -1,0 +1,1084 @@
+{
+  "list": [
+    {
+      "id": 201001001,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList1" ]
+      }
+    },
+
+
+    {
+      "id": 201001002,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_KEYWORD_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 1 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201001003,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_KEYWORD_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 2 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201001004,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_KEYWORD_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 3 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201001005,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_KEYWORD_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 4 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201001006,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_KEYWORD_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201001007,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_KEYWORD_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 6 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201001008,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_KEYWORD_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 7 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201001009,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_KEYWORD_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 8 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201001010,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_KEYWORD_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 9 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201001011,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_KEYWORD_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 10 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+
+
+    {
+      "id": 201001012,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_TIER_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 4 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1", "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201001013,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_TIER_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1", "targetList2" ]
+      }
+    },
+
+
+    {
+      "id": 201001014,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_COMBINE_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 4 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1", "value", "targetList2" ]
+      }
+    },
+
+
+    {
+      "id": 201001015,
+      "type": "MIRROR_DUNGEON_EGOGIFT_COLLECTION",
+      "valueType": "PEAK",
+      "targetList1": [ 1 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201001016,
+      "type": "MIRROR_DUNGEON_EGOGIFT_COLLECTION",
+      "valueType": "PEAK",
+      "targetList1": [ 2 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201001017,
+      "type": "MIRROR_DUNGEON_EGOGIFT_COLLECTION",
+      "valueType": "PEAK",
+      "targetList1": [ 3 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201001018,
+      "type": "MIRROR_DUNGEON_EGOGIFT_COLLECTION",
+      "valueType": "PEAK",
+      "targetList1": [ 4 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201001019,
+      "type": "MIRROR_DUNGEON_EGOGIFT_COLLECTION",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201001020,
+      "type": "MIRROR_DUNGEON_EGOGIFT_COLLECTION",
+      "valueType": "PEAK",
+      "targetList1": [ 6 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201001021,
+      "type": "MIRROR_DUNGEON_EGOGIFT_COLLECTION",
+      "valueType": "PEAK",
+      "targetList1": [ 7 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201001022,
+      "type": "MIRROR_DUNGEON_EGOGIFT_COLLECTION",
+      "valueType": "PEAK",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+
+
+    {
+      "id": 201001023,
+      "type": "MIRROR_DUNGEON_THEME_COLLECTION",
+      "valueType": "PEAK",
+      "targetList1": [ 0 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201001024,
+      "type": "MIRROR_DUNGEON_THEME_COLLECTION",
+      "valueType": "PEAK",
+      "targetList1": [ 0, 1 ],
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+
+    {
+      "id": 201001025,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SPECIFIC_COMBINE_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList1" ]
+      }
+    },
+
+    {
+      "id": 201001026,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_TIER_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+
+
+    {
+      "id": 201002001,
+      "type": "MIRROR_DUNGEON_CLEAR",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 0, 1, 2, 3 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList2", "value" ]
+      }
+    },
+
+
+    {
+      "id": 201002002,
+      "type": "MIRROR_DUNGEON_CLEAR",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 1, 2, 3 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList2", "value" ]
+      }
+    },
+
+
+    {
+      "id": 201002003,
+      "type": "MIRROR_DUNGEON_FLOOR_CLEAR",
+      "valueType": "PEAK",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201002004,
+      "type": "MIRROR_DUNGEON_CLEAR",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 1, 2, 3 ],
+      "targetList2": [ 10 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList2", "value" ]
+      }
+    },
+
+    {
+      "id": 201002005,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_RAILWAY_THEME",
+      "valueType": "PEAK",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+
+    {
+      "id": 201002006,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_STORY_THEME",
+      "valueType": "PEAK",
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+
+
+    {
+      "id": 201003001,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SKILL_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 38 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003002,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SKILL_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 39 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003003,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SKILL_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 40 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003004,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SKILL_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 41 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003005,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SKILL_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 42 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003006,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SKILL_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 43 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003007,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SKILL_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 6 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003019,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_UNIT_KEYWORD_T_YURODIVY_UNION",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList2": [ 3 ],
+      "targetList3": [ 2 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "targetList3Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList2", "targetList3", "targetList1" ]
+      }
+    },
+    {
+      "id": 201003020,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_UNIT_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 65 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003021,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_UNIT_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 69 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003022,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_UNIT_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 68 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003023,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_UNIT_KEYWORD",
+      "valueType": "PEAK",
+      "targetList1": [ 79 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003024,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_UNIT_KEYWORD",
+      "valueType": "PEAK_UNION",
+      "targetList1": [ 58 ],
+      "targetList2": [ 5 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList2" ]
+      }
+    },
+    {
+      "id": 201003025,
+      "type": "THEME_CLEAR_WITH_PARTICIPATION",
+      "valueType": "PEAK",
+      "targetList1": [ 1008 ],
+      "targetList2": [ 201003025 ],
+      "targetList3": [ 4 ],
+      "targetList3Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList3" ]
+      }
+    },
+    {
+      "id": 201003026,
+      "type": "THEME_CLEAR_WITH_PARTICIPATION",
+      "valueType": "PEAK",
+      "targetList1": [ 1012 ],
+      "targetList2": [ 201003026 ],
+      "targetList3": [ 4 ],
+      "targetList3Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList3" ]
+      }
+    },
+    {
+      "id": 201003027,
+      "type": "THEME_CLEAR_WITH_PARTICIPATION",
+      "valueType": "PEAK",
+      "targetList1": [ 1015 ],
+      "targetList2": [ 201003027 ],
+      "targetList3": [ 3 ],
+      "targetList3Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList3" ]
+      }
+    },
+    {
+      "id": 201003028,
+      "type": "THEME_CLEAR_WITH_PARTICIPATION",
+      "valueType": "PEAK",
+      "targetList1": [ 1023 ],
+      "targetList2": [ 201003028 ],
+      "targetList3": [ 6 ],
+      "targetList3Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList3" ]
+      }
+    },
+    {
+      "id": 201003029,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_RENTAL_FORMATION",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1","value"]
+      }
+    },
+
+
+
+    {
+      "id": 201004001,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SHOP_REFRESH",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList1" ]
+      }
+    },
+    {
+      "id": 201004002,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SHOP_BUY_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList1" ]
+      }
+    },
+    {
+      "id": 201004003,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SHOP_UPGRADE_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList1" ]
+      }
+    },
+    {
+      "id": 201004004,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SHOP_COST",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList1" ]
+      }
+    },
+
+    {
+      "id": 201004006,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SHOP_UPGRADE_SKILL",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+
+
+
+    {
+      "id": 201004007,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SHOP_UPGRADE_SKILL_MAX",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201004008,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_SHOP_COMBINE",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value", "targetList1" ]
+      }
+    },
+    {
+      "id": 201004009,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_LAST_SHOP_COST_ZERO",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+
+    {
+      "id": 201005001,
+      "type": "ATTACK_DMG_PER_ONE_SKILL",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 1000 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201005002,
+      "type": "ATTACK_DMG_PER_ONE_SKILL",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 3000 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201005003,
+      "type": "ATTACK_DMG_PER_ONE_SKILL",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 5000 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201005004,
+      "type": "ATTACK_DMG_PER_ONE_SKILL",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 10000 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201005005,
+      "type": "GIVE_BUFF_STACK_FOR_ENEMY",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 38 ],
+      "targetList2": [ 99 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1", "targetList2" ]
+      }
+    },
+    {
+      "id": 201005006,
+      "type": "GIVE_BUFF_STACK_FOR_ENEMY",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 39 ],
+      "targetList2": [ 99 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1", "targetList2" ]
+      }
+    },
+    {
+      "id": 201005007,
+      "type": "GIVE_BUFF_STACK_FOR_ENEMY",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 40 ],
+      "targetList2": [ 99 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1", "targetList2" ]
+      }
+    },
+    {
+      "id": 201005008,
+      "type": "GIVE_BUFF_STACK_FOR_ENEMY",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 41 ],
+      "targetList2": [ 99 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1", "targetList2" ]
+      }
+    },
+    {
+      "id": 201005009,
+      "type": "GIVE_BUFF_STACK_FOR_ENEMY",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 42 ],
+      "targetList2": [ 99 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1", "targetList2" ]
+      }
+    },
+    {
+      "id": 201005010,
+      "type": "GIVE_BUFF_STACK_FOR_ALLY",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 43 ],
+      "targetList2": [ 99 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1", "targetList2" ]
+      }
+    },
+    {
+      "id": 201005011,
+      "type": "GIVE_BUFF_STACK_FOR_ALLY",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 6 ],
+      "targetList2": [ 10 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1", "targetList2" ]
+      }
+    },
+    {
+      "id": 201005012,
+      "type": "KILL_ENEMY_ONCE_ATTACK_SKILL",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ ],
+      "targetList2": [ 7 ],
+      "targetList3": [ 0 ],
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList2" ]
+      }
+    },
+
+
+
+    {
+      "id": 201005016,
+      "type": "ATTACK_DMG_PER_ONE_SKILL",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 15000 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201005017,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_ALL_LEVEL",
+      "valueType": "PEAK",
+      "targetList1": [ 5 ],
+      "targetList2": [ 80 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList2","targetList1" ]
+      }
+    },
+    {
+      "id": 201005018,
+      "type": "CRITICAL_PLAYER_NUMBER_FIRST_ROUND",
+      "valueType": "PEAK",
+      "targetList1": [ 7 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201005019,
+      "type": "MAKE_PLAYER_PARRYING_POWER_MAXIMUM",
+      "valueType": "PEAK",
+      "targetList1": [ 80 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201005020,
+      "type": "ON_ACTIVE_EGOGIFT_9154",
+      "valueType": "ACCUMULATED",
+      "targetList1": [ 5 ],
+      "targetList2": [ 2 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1","targetList2"  ]
+      }
+    },
+    {
+      "id": 201005021,
+      "type": "MAX_RESONANCE_TYPE_IN_ROUND",
+      "valueType": "PEAK",
+      "targetList1": [ 7 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201005022,
+      "type": "MAKE_PLAYER_SPEED_MAXIMUM",
+      "valueType": "PEAK",
+      "targetList1": [ 20 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006001,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK_UNION",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995011, 995016, 995021, 995026, 995031 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006002,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK_UNION",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995012, 995017, 995022, 995027, 995032 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006003,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK_UNION",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995013, 995030 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006004,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK_UNION",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995014, 995024 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },    
+    {
+      "id": 201006005,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK_UNION",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995015, 995025 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006006,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK_UNION",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995018, 995033 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006007,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK_UNION",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995019, 995034 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006008,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK_UNION",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995020, 995035 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006009,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995023 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006010,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995028 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006011,
+      "type": "MIRROR_DUNGEON_CLEAR_WITH_CONSTRAINT",
+      "valueType": "PEAK",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "targetList2": [ 995029 ],
+      "targetList2Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "targetList1" ]
+      }
+    },
+    {
+      "id": 201006012,
+      "type": "MIRROR_DUNGEON_CLEAR_CONSTRAINT_TOTAL_SCORE",
+      "valueType": "PEAK",
+      "targetList1": [ 11 ],
+      "targetList1Op": "GREATER_THAN_OR_EQUAL",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+
+    {
+      "id": 201000001,
+      "type": "MISSION_ALL_CLEAR",
+      "valueType": "ACCUMULATED",
+      "targetList1": [
+        201001001, 201001002, 201001003, 201001004, 201001005, 201001006, 201001007,
+        201001008, 201001009, 201001010, 201001011, 201001012, 201001013, 201001014,
+        201001015, 201001016, 201001017, 201001018, 201001019, 201001020, 201001021,
+        201001022, 201001023, 201001024, 201001025, 201001026, 201001027, 201001028,
+        201001029, 201001030, 201001031, 201001032,
+
+        201002001, 201002002, 201002003, 201002004, 201002005, 201002006, 201002007,
+        201002008, 201002009, 201002010, 201002011, 201002012, 201002013, 201002014,
+        201002015, 201002016, 201002017, 201002018, 201002019, 201002020, 201002021,
+        201002022, 201002023, 201002024, 201002025, 201002026, 201002027,
+
+        201003001, 201003002, 201003003, 201003004, 201003005, 201003006, 201003007,
+        201003008, 201003009, 201003010, 201003011, 201003012, 201003013, 201003014,
+        201003015, 201003016, 201003017, 201003018,
+
+        201004001, 201004002, 201004003, 201004004, 201004005, 201004006, 201004007,
+        201004008, 201004009, 201004010, 201004011, 201004012, 201004013, 201004014,
+        201004015, 201004016, 201004017, 201004018, 201004019, 201004020,
+
+        201005001, 201005002, 201005003, 201005004, 201005005, 201005006, 201005007,
+        201005008, 201005009, 201005010, 201005011, 201005012, 201005013, 201005014,
+        201005015, 201005016, 201005017, 201005018, 201005019,
+
+        201006001, 201006002, 201006003, 201006004, 201006005, 201006006, 201006007,
+        201006008, 201006009, 201006010, 201006011, 201006012, 201006013, 201006014,
+        201006015, 201006016
+      ],
+      "targetList2": [],
+      "targetList3": []
+    },
+
+    {
+      "id": 201100001,
+      "type": "MIRROR_DUNGEON_CLEAR_HIDDEN_BATTLE",
+      "valueType": "PEAK",
+      "targetList1": [ 9000001 ],
+      "targetList1Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201100002,
+      "type": "MIRROR_DUNGEON_CLEAR_HIDDEN_BATTLE",
+      "valueType": "PEAK",
+      "targetList1": [ 9000002 ],
+      "targetList1Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201100003,
+      "type": "MIRROR_DUNGEON_CLEAR_HIDDEN_BATTLE",
+      "valueType": "PEAK",
+      "targetList1": [ 9000003 ],
+      "targetList1Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201100004,
+      "type": "MIRROR_DUNGEON_CLEAR_HIDDEN_BATTLE",
+      "valueType": "PEAK",
+      "targetList1": [ 9000004 ],
+      "targetList1Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201100005,
+      "type": "MIRROR_DUNGEON_ACQUIRE_SPECIFIC_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 9800 ],
+      "targetList1Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    },
+    {
+      "id": 201100006,
+      "type": "MIRROR_DUNGEON_ACQUIRE_SPECIFIC_EGOGIFT",
+      "valueType": "PEAK",
+      "targetList1": [ 9799 ],
+      "targetList1Op": "EQUAL",
+      "uiConfig": {
+        "textTags": [ "value" ]
+      }
+    }
+  ]
+}

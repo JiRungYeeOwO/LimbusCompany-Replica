@@ -1,0 +1,464 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "Empty",
+                         "content":  ""
+                     },
+                     {
+                         "id":  "Nothing",
+                         "content":  "\u003ccolor=#ebcaa2\u003e아무 일도 일어나지 않았다.\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "LevelupPersonality",
+                         "content":  "\u003ccolor=#ebcaa2\u003e수감자 강화 이벤트 발생!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetEgogift",
+                         "content":  "\u003ccolor=#ebcaa2\u003e랜덤 에고기프트 획득 이벤트 발생!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetCharacter",
+                         "content":  "\u003ccolor=#ebcaa2\u003e수감자 추가 이벤트 발생!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "LevelupPersonalityOnWinBattle",
+                         "content":  "\u003ccolor=#ebcaa2\u003e다음 전투 승리 시 수감자 추가 이벤트 발생!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetConfirmedEgogiftOnWinBattle",
+                         "content":  "\u003ccolor=#ebcaa2\u003e다음 전투 승리 시 E.G.O 기프트 {reward} 획득!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "StartBattle",
+                         "content":  "\u003ccolor=#ff0000\u003e전투 발생!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "StartBattle_Normal",
+                         "content":  "\u003ccolor=#ff0000\u003e일반 전투 발생!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "StartBattle_Danger",
+                         "content":  "\u003ccolor=#ff0000\u003e위험 전투 발생!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "StartBattle_Abnormality",
+                         "content":  "\u003ccolor=#ff0000\u003e집중 전투 발생!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "StartBattle_FloorBoss",
+                         "content":  "\u003ccolor=#ff0000\u003e층 보스 전투 발생!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "RecoverHpOnly",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#00ff9c\u003e{amount}만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "RecoverMpOnly",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#80c9ff\u003e{amount}만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "RecoverHpOnlyUntilMax",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#00ff9c\u003e체력 최대로\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "RecoverMpOnlyUntilMax",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#80c9ff\u003e정신력 최대로\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "LoseHpOnly",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#e30000\u003e{amount}만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "LoseMpOnly",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#fe4b48\u003e{amount}만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "RecoverHpMpSameAmount",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#00ff9c\u003e{amount}만큼 체력\u003c/color\u003e, \u003ccolor=#80c9ff\u003e정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "RecoverHpMpDifferentAmount",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#00ff9c\u003e{hpAmount}만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e, \u003ccolor=#80c9ff\u003e{mpAmount}만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "LoseHpMpSameAmount",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#e30000\u003e{amount}만큼 체력\u003c/color\u003e, \u003ccolor=#fe4b48\u003e정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "LoseHpMpDifferentAmount",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#e30000\u003e{hpAmount}만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해\u003c/color\u003e, \u003ccolor=#fe4b48\u003e{mpAmount}만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetConfirmedEgogift",
+                         "content":  "\u003ccolor=#ebcaa2\u003eE.G.O 기프트 {reward} 획득!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetConfirmedStackableEgogift",
+                         "content":  "\u003ccolor=#ebcaa2\u003eE.G.O 기프트 {reward} {stack}개 획득!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "LoseConfirmedStackableEgogift",
+                         "content":  "\u003ccolor=#ebcaa2\u003eE.G.O 기프트 {reward} {stack}개 잃음!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "GetBuff_OnStageStart",
+                         "content":  "\u003ccolor=#ebcaa2\u003e다음 전투에서 스테이지 진입 시 {conditional}{target} {buffName} {stack} 획득\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "UnlockHiddenRoute",
+                         "content":  "\u003ccolor=#ebcaa2\u003e새로운 길이 지도에 추가됨!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "ReduceEnemyWave",
+                         "content":  "\u003ccolor=#ebcaa2\u003e다음 전투에서 적 웨이브 {waveNum} 감소\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "DestroyEgogift",
+                         "content":  "\u003ccolor=#ebcaa2\u003eE.G.O 기프트 {reward}\u003c/color\u003e \u003ccolor=#e30000\u003e소멸!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90103301",
+                         "content":  "\u003ccolor=#ebcaa2\u003e이번 전투 동안\u003c/color\u003e \u003ccolor=#f8c200\u003e속도 +1\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901001",
+                         "content":  "\u003ccolor=#ebcaa2\u003e전투 시작 시\u003c/color\u003e \u003ccolor=#a0392b\u003e분노 속성 공격 스킬\u003c/color\u003e을 보유하지 않은 인격이 \u003ccolor=#e30000\u003e분노 피해 5\u003c/color\u003e \u003ccolor=#ebcaa2\u003e입음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901007",
+                         "content":  "\u003ccolor=#ebcaa2\u003e턴 시작 시\u003c/color\u003e \u003ccolor=#00ff9c\u003e10만큼 체력\u003c/color\u003e, \u003ccolor=#80c9ff\u003e정신력\u003c/color\u003e \u003c/color=#ebcaa2\u003e회복\u003c/color\u003e (최대 3턴)"
+                     },
+                     {
+                         "id":  "Choice_901009",
+                         "content":  "\u003ccolor=#ebcaa2\u003e전투 시작 시\u003c/color\u003e \u003ccolor=#e30000\u003e스킬 최종 위력 -1\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901010",
+                         "content":  "\u003ccolor=#ebcaa2\u003e전투 시작 시\u003c/color\u003e \u003ccolor=#bb521f\u003e색욕 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격이 흐트러짐 상태로 시작함\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901019",
+                         "content":  "\u003ccolor=#ebcaa2\u003e전투 시작 시\u003c/color\u003e \u003ccolor=#e30000\u003e속도 -2\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90103402",
+                         "content":  "\u003ccolor=#ebcaa2\u003e이번 전투 동안\u003c/color\u003e \u003ccolor=#f8c200\u003e속도 +2\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_1030301",
+                         "content":  "\u003ccolor=#ebcaa2\u003e다음 전투 시작 시 모든 아군이\u003c/color\u003e \u003ccolor=#f8c200\u003e공격 위력 증가 3\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_1030501",
+                         "content":  "\u003ccolor=#ff0000\u003e전투 발생!\u003c/color\u003e\n\u003ccolor=#ebcaa2\u003e모든 적에게\u003c/color\u003e \u003ccolor=#e30000\u003e공격 위력 감소 5\u003c/color\u003e \u003ccolor=#ebcaa2\u003e부여됨!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_1031001",
+                         "content":  "\u003ccolor=#ebcaa2\u003e선택한 인격이 다음 전투 2회동안\u003c/color\u003e \u003ccolor=#e30000\u003e피해량 감소 3\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90100201",
+                         "content":  "\u003ccolor=#ebcaa2\u003e판정에 실패한 수감자\u003c/color\u003e \u003ccolor=#e30000\u003e12만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해\u003c/color\u003e, \u003ccolor=#fe4b48\u003e8만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90100502",
+                         "content":  "\u003ccolor=#ebcaa2\u003e판정에 실패한 수감자\u003c/color\u003e \u003ccolor=#e30000\u003e15만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해\u003c/color\u003e, \u003ccolor=#fe4b48\u003e12만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90101001",
+                         "content":  "\u003ccolor=#bb521f\u003e색욕 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e10만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90101101",
+                         "content":  "\u003ccolor=#ebcaa2\u003e판정에 실패한 수감자\u003c/color\u003e \u003ccolor=#fe4b48\u003e15만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90101701",
+                         "content":  "\u003ccolor=#ebcaa2\u003e판정에 성공한 수감자\u003c/color\u003e \u003ccolor=#fe4b48\u003e5만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90101702",
+                         "content":  "\u003ccolor=#ebcaa2\u003e판정에 실패한 수감자\u003c/color\u003e \u003ccolor=#fe4b48\u003e25만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90101801",
+                         "content":  "\u003ccolor=#ebcaa2\u003e판정에 실패한 수감자\u003c/color\u003e \u003ccolor=#fe4b48\u003e12만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90101901",
+                         "content":  "\u003ccolor=#ebcaa2\u003e판정에 실패한 수감자\u003c/color\u003e \u003ccolor=#fe4b48\u003e10만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90102001",
+                         "content":  "\u003ccolor=#61822b\u003e탐식 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e5만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90102002",
+                         "content":  "\u003ccolor=#61822b\u003e탐식 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e10만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90102201",
+                         "content":  "\u003ccolor=#306471\u003e우울 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e13만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90103302",
+                         "content":  "\u003ccolor=#7d4e94\u003e질투 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#e30000\u003e15만큼 체력\u003c/color\u003e, \u003ccolor=#fe4b48\u003e정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90100101",
+                         "content":  "\u003ccolor=#a0392b\u003e분노 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e16만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901004",
+                         "content":  "\u003ccolor=#a0392b\u003e분노 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하고 있는 인격\u003c/color\u003e \u003ccolor=#f8c200\u003e15만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90100701",
+                         "content":  "\u003ccolor=#bb521f\u003e색욕 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하고 있는 인격\u003c/color\u003e \u003ccolor=#80c9ff\u003e정신력\u003c/color\u003e \u003c/color=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901008",
+                         "content":  "\u003ccolor=#bb521f\u003e색욕 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하고 있는 인격\u003c/color\u003e \u003ccolor=#f8c200\u003e10만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90100901",
+                         "content":  "\u003ccolor=#bb521f\u003e색욕 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e20만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901014",
+                         "content":  "\u003ccolor=#e48801\u003e나태 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e20만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90101401",
+                         "content":  "\u003ccolor=#e48801\u003e나태 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e12만큼 체력\u003c/color\u003e과 \u003ccolor=#fe4b48\u003e정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90101601",
+                         "content":  "\u003ccolor=#61822b\u003e탐식 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하고 있는 인격\u003c/color\u003e \u003ccolor=#80c9ff\u003e정신력\u003c/color\u003e \u003c/color=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901018",
+                         "content":  "\u003ccolor=#a0392b\u003e분노 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 무작위 인격 1명\u003c/color\u003e \u003ccolor=#fe4b48\u003e10만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901021",
+                         "content":  "\u003ccolor=#306471\u003e우울 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e10만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901023",
+                         "content":  "\u003ccolor=#306471\u003e우울 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e9만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90102301",
+                         "content":  "\u003ccolor=#306471\u003e우울 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 무작위 인격 1명\u003c/color\u003e \u003ccolor=#fe4b48\u003e10만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901024",
+                         "content":  "\u003ccolor=#306471\u003e우울 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하고 있는 정신력이 가장 낮은 인격\u003c/color\u003e \u003ccolor=#f8c200\u003e체력 최대로\u003c/color\u003e \u003c/color=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901025",
+                         "content":  "\u003ccolor=#306471\u003e우울 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e20만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90102501",
+                         "content":  "\u003ccolor=#306471\u003e우울 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하고 있는 인격\u003c/color\u003e \u003ccolor=#f8c200\u003e20만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901026",
+                         "content":  "\u003ccolor=#185188\u003e오만 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e10만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90102601",
+                         "content":  "\u003ccolor=#185188\u003e오만 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하고 있는 인격\u003c/color\u003e \u003ccolor=#f8c200\u003e10만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901027",
+                         "content":  "\u003ccolor=#185188\u003e오만 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e25만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90102701",
+                         "content":  "\u003ccolor=#185188\u003e오만 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e25만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901028",
+                         "content":  "\u003ccolor=#185188\u003e오만 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e5만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90102801",
+                         "content":  "\u003ccolor=#185188\u003e오만 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하고 있는 인격\u003c/color\u003e \u003ccolor=#f8c200\u003e15만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901032",
+                         "content":  "\u003ccolor=#7d4e94\u003e질투 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e20만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901034",
+                         "content":  "\u003ccolor=#7d4e94\u003e질투 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#e30000\u003e15만큼 체력\u003c/color\u003e, \u003ccolor=#fe4b48\u003e정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901035",
+                         "content":  "\u003ccolor=#7d4e94\u003e질투 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하지 않은 인격\u003c/color\u003e \u003ccolor=#fe4b48\u003e12만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90103501",
+                         "content":  "\u003ccolor=#7d4e94\u003e질투 속성 공격 스킬\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 보유하고 있는 인격\u003c/color\u003e \u003ccolor=#f8c200\u003e15만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_1040301",
+                         "content":  "\u003ccolor=#ebcaa2\u003e선택한 인격 다음 전투에서 1턴 동안\u003c/color\u003e \u003ccolor=#e30000\u003e파열 10\u003c/color\u003e\u003ccolor=#ebcaa2\u003e을 얻음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "MirrorDungeonAcquireCost",
+                         "content":  "\u003ccolor=#ebcaa2\u003e코스트 {amount} 획득 \u003c/color\u003e"
+                     },
+                     {
+                         "id":  "MirrorDungeonLossCost",
+                         "content":  "\u003ccolor=#ebcaa2\u003e코스트 {amount} 소멸 \u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90104001",
+                         "content":  "\u003ccolor=#ebcaa2\u003e다음 전투에서 모든 속성의 \u003ccolor=#f8c200\u003eE.G.O 자원을 2\u003c/color\u003e \u003ccolor=#ebcaa2\u003e얻고 시작함\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_9010400101",
+                         "content":  "\u003ccolor=#ebcaa2\u003e다음 전투에서 모든 인격이 \u003ccolor=#f8c200\u003e최종 스킬 위력 2\u003c/color\u003e \u003ccolor=#ebcaa2\u003e증가\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_90104002",
+                         "content":  "\u003ccolor=#ebcaa2\u003e다음 전투에서 모든 인격이 \u003ccolor=#f8c200\u003e스킬 위력 1\u003c/color\u003e \u003ccolor=#ebcaa2\u003e증가\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "ChangeEventIllust",
+                         "content":  ""
+                     },
+                     {
+                         "id":  "Choice_90105801",
+                         "content":  "편성한 모든 인격 레벨 2 증가"
+                     },
+                     {
+                         "id":  "Choice_90106802",
+                         "content":  "편성한 모든 인격 레벨 3 증가"
+                     },
+                     {
+                         "id":  "Choice_90107402",
+                         "content":  "편성한 모든 인격 레벨 2 증가"
+                     },
+                     {
+                         "id":  "Choice_90109101",
+                         "content":  "편성한 모든 인격 레벨 2 증가"
+                     },
+                     {
+                         "id":  "Choice_90200502",
+                         "content":  "\u003ccolor=#ebcaa2\u003e판정에 실패한 수감자\u003c/color\u003e \u003ccolor=#e30000\u003e15만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해\u003c/color\u003e, \u003ccolor=#fe4b48\u003e12만큼 정신력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_LoseBattle",
+                         "content":  "\u003ccolor=#ff0000\u003e전투 패배 시, 보상 없음\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_EGO901001",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"지옥나비의 꿈\", \"불빛꽃\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901002",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"도착증\", \"경외심\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901009",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"작열우모\", \"융해된 파라핀\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901010",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"블러디 가젯\", \"장엄\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901011",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"여우비\", \"해진 우산\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901013",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"부적 묶음\", \"낡은 목각 인형\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901014",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"녹슨 기념 주화\", \"울화통\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901016",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"초록빛 결실\", \"시큼한 주향\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901018",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"장미 면류관\", \"안식처\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901019",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"끈적거리는 진액\", \"생체 맹독 바이알\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901020",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"흰 목화\", \"옭아맨 타래\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901021",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"쪽빛 지포라이터\", \"순찰용 손전등\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901024",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"녹아내린 눈알\", \"극독성 외피\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901031",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"닉시 다이버전스\", \"톱니바퀴 태엽\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901033",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"근무용 통상 배터리\", \"제한 풀린 제세동기\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901034",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"일점타격논리회로\", \"무정전 전원장치\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901056",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"네잎클로버\", \"녹빛 겉날개\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901059",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"한겨울 밤의 악몽\", \"고목 함정\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901073",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"엔도르핀 키트\", \"형광색 램프\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO971029",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"E식 차원 단검\", \"휴대용 역장 배터리\" 획득"
+                     },
+                     {
+                         "id":  "GetImmediateConfirmedEgogifts",
+                         "content":  "\u003ccolor=#ebcaa2\u003eE.G.O 기프트 {reward} 획득!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_EGO901101",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"미니어처 전봇대\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO901104",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"찢어진 피주머니\" 획득"
+                     },
+                     {
+                         "id":  "Choice_EGO971054",
+                         "content":  "전투 승리 시, E.G.O 기프트 \"찰랑이는 연료통\" 획득"
+                     },
+                     {
+                         "id":  "LoseMpOnlyUntilMin",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#fe4b48\u003e정신력 최소치로\u003c/color\u003e \u003ccolor=#ebcaa2\u003e감소\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "ReviveOutOfBattleAndRecoverHpAll",
+                         "content":  "사망한 수감자 부활 및 모든 수감자 \u003ccolor=#00ff9c\u003e체력 최대로\u003c/color\u003e \u003ccolor=#ebcaa2\u003e회복\u003c/color\u003e"
+                     }
+                 ]
+}

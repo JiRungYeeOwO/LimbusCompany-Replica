@@ -1,0 +1,34 @@
+{
+  "list": [
+    {
+      "storyId": "E003X",
+      "tags": [
+        "AprilBefore"
+      ]
+    },
+    {
+      "storyId": "E003I1",
+      "tags": [
+        "AprilAfter"
+      ]
+    },
+    {
+      "storyId": "E003I2",
+      "tags": [
+        "AprilAfter"
+      ]
+    },
+    {
+      "storyId": "E003I3",
+      "tags": [
+        "AprilAfter"
+      ]
+    },
+    {
+      "storyId": "E003I4",
+      "tags": [
+        "AprilAfter"
+      ]
+    }
+  ]
+}

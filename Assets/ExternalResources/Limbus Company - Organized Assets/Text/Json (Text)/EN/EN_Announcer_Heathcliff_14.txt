@@ -1,0 +1,120 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "announcer_cheer_14_1",
+                         "dlg":  "Uh... I mean. Uh, Ahem. Good luck, mate."
+                     },
+                     {
+                         "id":  "announcer_cheer_14_2",
+                         "dlg":  "Do whatever you want out there! I\u0027m sure you\u0027ll knock \u0027em all down with a single strike!"
+                     },
+                     {
+                         "id":  "announcer_specialcheer_14_1",
+                         "dlg":  "Haah... This ain\u0027t the first time I\u0027ve seen this sorry sight. Bloodied, teetering on the brink of death... But we don\u0027t want to run away and look like cowards, yeah?"
+                     },
+                     {
+                         "id":  "announcer_specialcheer_14_2",
+                         "dlg":  "You\u0027ll all get killed at this rate... Well, Clockhead\u0027s here to bring you back, so don\u0027t let that stop you! Keep pushing, yeah?"
+                     },
+                     {
+                         "id":  "announcer_enemy_break_14_1",
+                         "dlg":  "Look at \u0027em, they\u0027re in tatters! That one\u0027s looking particularly knackered... smash that one\u0027s head in!"
+                     },
+                     {
+                         "id":  "announcer_ally_break_14_1",
+                         "dlg":  "Bloody hell... I told you to get out of the way, didn\u0027t I? Oi, someone! Draw the enemy\u0027s attention \u0027till that one gets back up."
+                     },
+                     {
+                         "id":  "announcer_killenemy_14_1",
+                         "dlg":  "One down. Keep knocking \u0027em down, and we\u0027ll be the only ones standing in the end. Now that\u0027s a proper fight, innit?"
+                     },
+                     {
+                         "id":  "announcer_ally_dead_14_1",
+                         "dlg":  "Good luck turning the clock on that one... looks like it\u0027ll hurt. Oi, maybe there\u0027s a way to die in ways that are less painful for Clockhead to go through?"
+                     },
+                     {
+                         "id":  "announcer_enemy_adv_14_1",
+                         "dlg":  "Hah, what a mess... You can keep going, but it\u0027ll just hurt more when you inevitably have to turn the clock later."
+                     },
+                     {
+                         "id":  "announcer_ally_advex_14_1",
+                         "dlg":  "Right. What\u0027d I say? The winner\u0027s always the last one standin\u0027. Listen. Don\u0027t think about how much it\u0027ll hurt... think about what you\u0027ll do after that bloke\u0027s dead. It\u0027ll give you strength."
+                     },
+                     {
+                         "id":  "announcer_danger_14_1",
+                         "dlg":  "One little mistake and you\u0027ll be a goner! Think hard on it before makin\u0027 a move."
+                     },
+                     {
+                         "id":  "announcer_enemy_specialskill_14_1",
+                         "dlg":  "Oi! Look at that twit over there! Something\u0027s goin\u0027 on... C\u0027mon, hide!"
+                     },
+                     {
+                         "id":  "announcer_enemy_specialgimmick_14_1",
+                         "dlg":  "I\u0027m good at sussing things out, yeah? They\u0027re obviously about to do something, but I haven\u0027t a clue as to what. Think about it, why don\u0027t you?"
+                     },
+                     {
+                         "id":  "announcer_advatk_physical_14_1",
+                         "dlg":  "Violence really is the best solution, innit? Beat its arse!"
+                     },
+                     {
+                         "id":  "announcer_disadvatk_physical_14_1",
+                         "dlg":  "That\u0027s uh... that ain\u0027t very effective, yeah? I mean, I suppose it wasn\u0027t completely useless, but... well, you\u0027ll get there eventually."
+                     },
+                     {
+                         "id":  "announcer_advatk_attr_14_1",
+                         "dlg":  "Ooh! That was a smart move, yeah? Reminds me of the brainy sort I met back in my Syndicate days."
+                     },
+                     {
+                         "id":  "announcer_disadvatk_attr_14_1",
+                         "dlg":  "That was... Hm. Don\u0027t make me call you stupid, now."
+                     },
+                     {
+                         "id":  "announcer_enemy_specialbuff_14_1",
+                         "dlg":  "What are all them sods all excited about? I\u0027ve got a bad feeling about this..."
+                     },
+                     {
+                         "id":  "announcer_enemy_specialdebuff_14_1",
+                         "dlg":  "Oi, they all look bloody pissed on liquor!"
+                     },
+                     {
+                         "id":  "announcer_ally_specialbuff_14_1",
+                         "dlg":  "Ooh, you\u0027re all full of beans! See anything funny?"
+                     },
+                     {
+                         "id":  "announcer_ally_specialdebuff_14_1",
+                         "dlg":  "What\u0027s up with the grimace? C\u0027mon, smile! What, did someone die or something?"
+                     },
+                     {
+                         "id":  "announcer_enemy_destroy_14_1",
+                         "dlg":  "Niiiice~ You broke the sod\u0027s leg. It ain\u0027t running from this fight any time soon!"
+                     },
+                     {
+                         "id":  "announcer_enemy_destroy_14_2",
+                         "dlg":  "You destroyed the part that\u0027s been getting on my nerves. This is our chance! Lads, lasses! Get \u0027em!"
+                     },
+                     {
+                         "id":  "announcer_round_takebigdmg_14_1",
+                         "dlg":  "Woah! Ah... that looked like it hurt. You all right, mate?"
+                     },
+                     {
+                         "id":  "announcer_round_takebigdmg_14_2",
+                         "dlg":  "Might want to get that looked at before we go rushing in again. I know I\u0027ve a temper, but that looked bad even in my eyes. Take a moment to recover."
+                     },
+                     {
+                         "id":  "announcer_round_givebigdmg_14_1",
+                         "dlg":  "Blimey, that was some strike! You left \u0027em in shambles!"
+                     },
+                     {
+                         "id":  "announcer_round_givebigdmg_14_2",
+                         "dlg":  "Heh, that cost \u0027em an arm and a leg... what now? Oi, that was a bloody amazing strike, by the way!"
+                     },
+                     {
+                         "id":  "announcer_multikillenemy_14_1",
+                         "dlg":  "You did that... all on your own? Teach me how to do that, too."
+                     },
+                     {
+                         "id":  "announcer_equip_14_1",
+                         "dlg":  "What should I tell Cathy when I finally see her...? Oh, the recording\u0027s started already? Ahem. I ain\u0027t too used to this mic business... but let\u0027s go."
+                     }
+                 ]
+}

@@ -1,0 +1,128 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "853901_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003eAll Old Umbrella to be summoned next\u003c/color\u003e are summoned with \u003ccolor=#00ff9c\u003e30% of their Max HP reduced\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "853901_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#fe4b48\u003eloses {1} SP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "853901_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#fe4b48\u003eloses {1} SP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854101_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] loses %{2} [{1}]/%\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854101_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003eAll of [{0}]’s parts\u003c/color\u003e \u003ccolor=#ebcaa2\u003egain\u003c/color\u003e % {2} [{1}]/%"
+                     },
+                     {
+                         "id":  "854101_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] gains %{2} [{1}]/%\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854101_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#ebcaa2\u003egains\u003c/color\u003e %{2} [{1}]/%"
+                     },
+                     {
+                         "id":  "854201_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#00ff9c\u003eheals {1} HP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854201_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#ebcaa2\u003egains\u003c/color\u003e %{2} [{1}], {4} [{3}], and {6} [{5}]/%"
+                     },
+                     {
+                         "id":  "854201_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#00ff9c\u003eheals {1} HP\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854201_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#ebcaa2\u003egains\u003c/color\u003e %{2} [{1}], {4} [{3}], and {6} [{5}]/%"
+                     },
+                     {
+                         "id":  "854401_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#ebcaa2\u003eapplied with\u003c/color\u003e {2} {1}"
+                     },
+                     {
+                         "id":  "854401_success_1_2",
+                         "content":  "[{0}] gains \u003ccolor=#00ff9c\u003e{2} {1}\u003c/color\u003e next turn"
+                     },
+                     {
+                         "id":  "854401_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003eAll {1} removed\u003c/color\u003e from \u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854501_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{0} is Staggered\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854501_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] gains\u003c/color\u003e {2} \u003ccolor=#e30000\u003e[{1}]\u003c/color\u003e."
+                     },
+                     {
+                         "id":  "854501_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#e30000\u003eloses {1} HP.\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854901_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003eFairy is Staggered!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854901_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] gains\u003c/color\u003e \u003ccolor=#e30000\u003e{2} [{1}]\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "854901_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] gains\u003c/color\u003e \u003ccolor=#e30000\u003e{2} [{1}]\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855001_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] gains\u003c/color\u003e \u003ccolor=#e30000\u003e{2} [{1}]\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855001_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] gains\u003c/color\u003e \u003ccolor=#e30000\u003e{2} [{1}]\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855001_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] loses\u003c/color\u003e \u003ccolor=#e30000\u003e20% of Max HP (Loses {1} HP)\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855501_success_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#ebcaa2\u003eloses\u003c/color\u003e \u003ccolor=#e30000\u003e{2} {1}\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855501_success_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#ebcaa2\u003egains\u003c/color\u003e \u003ccolor=#e30000\u003e{2} {1}\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855501_failure_1_1",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}]\u003c/color\u003e \u003ccolor=#ebcaa2\u003egains\u003c/color\u003e \u003ccolor=#e30000\u003e{2} {1}\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855501_failure_1_2",
+                         "content":  "\u003ccolor=#ebcaa2\u003e[{0}] Sinner\u003c/color\u003e \u003ccolor=#ebcaa2\u003egains\u003c/color\u003e \u003ccolor=#e30000\u003e{2} {1}\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "855601_1_1",
+                         "content":  "All characters deal {0}% damage"
+                     },
+                     {
+                         "id":  "855601_1_2",
+                         "content":  "All characters take {0}% damage"
+                     },
+                     {
+                         "id":  "85560101_success_1_1",
+                         "content":  "All characters \u003ccolor=#00ff9c\u003edeal {1}% damage\u003c/color\u003e with [{0}] Affinity Skill"
+                     },
+                     {
+                         "id":  "85560101_success_1_2",
+                         "content":  "All characters \u003ccolor=#e30000\u003etake {1}% damage\u003c/color\u003e with [{0}] Affinity Skill"
+                     }
+                 ]
+}

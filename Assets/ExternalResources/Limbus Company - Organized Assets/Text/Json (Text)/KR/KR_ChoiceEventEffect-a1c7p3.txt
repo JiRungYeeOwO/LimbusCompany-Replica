@@ -1,0 +1,28 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "LoseRatioHpOnly",
+                         "content":  "\u003ccolor=#ebcaa2\u003e{conditions}{targets}\u003c/color\u003e \u003ccolor=#e30000\u003e{amount}%만큼 체력\u003c/color\u003e \u003ccolor=#ebcaa2\u003e피해!\u003c/color\u003e"
+                     },
+                     {
+                         "id":  "Choice_901070401",
+                         "content":  "\u003ccolor=#f8c200\u003e분노 속성 E.G.O 자원을 2개\u003c/color\u003e 획득\n\u003ccolor=#f8c200\u003e오만 속성 E.G.O 자원을 2개\u003c/color\u003e 획득"
+                     },
+                     {
+                         "id":  "Choice_901070402",
+                         "content":  "\u003ccolor=#f8c200\u003e색욕 속성 E.G.O 자원을 2개\u003c/color\u003e 획득\n\u003ccolor=#f8c200\u003e탐식 속성 E.G.O 자원을 2개\u003c/color\u003e 획득"
+                     },
+                     {
+                         "id":  "Choice_901070403",
+                         "content":  "\u003ccolor=#f8c200\u003e우울 속성 E.G.O 자원을 2개\u003c/color\u003e 획득\n\u003ccolor=#f8c200\u003e질투 속성 E.G.O 자원을 2개\u003c/color\u003e 획득"
+                     },
+                     {
+                         "id":  "Choice_901070404",
+                         "content":  "모든 수감자가 다음 전투 시작 시 \u003ccolor=#e30000\u003e파열 횟수 4\u003c/color\u003e 얻음"
+                     },
+                     {
+                         "id":  "Choice_901070405",
+                         "content":  "모든 수감자가 다음 전투 시작 시 \u003ccolor=#e30000\u003e파열 4, 파열 횟수 4\u003c/color\u003e 얻음"
+                     }
+                 ]
+}

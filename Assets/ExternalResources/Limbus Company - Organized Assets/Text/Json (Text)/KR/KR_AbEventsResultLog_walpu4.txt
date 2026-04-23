@@ -1,0 +1,28 @@
+{
+    "dataList":  [
+                     {
+                         "id":  "836601_succeed_1",
+                         "content":  "물리 간섭 보호장 기능 활성화"
+                     },
+                     {
+                         "id":  "836601_failed_1",
+                         "content":  "물리 간섭 보호장 기능 활성화"
+                     },
+                     {
+                         "id":  "836602_1_1",
+                         "content":  "모든 아군의 \u003ccolor=#00ff9c\u003e체력 30\u003c/color\u003e 회복"
+                     },
+                     {
+                         "id":  "836602_2_1",
+                         "content":  "모든 아군의 \u003ccolor=#80c9ff\u003e정신력 30\u003c/color\u003e 회복"
+                     },
+                     {
+                         "id":  "836602_3_1",
+                         "content":  "모든 아군의 \u003ccolor=#00ff9c\u003e체력 턴마다 3\u003c/color\u003e 회복"
+                     },
+                     {
+                         "id":  "836602_3_2",
+                         "content":  "모든 아군의 \u003ccolor=#80c9ff\u003e정신력 턴마다 3\u003c/color\u003e 회복"
+                     }
+                 ]
+}
