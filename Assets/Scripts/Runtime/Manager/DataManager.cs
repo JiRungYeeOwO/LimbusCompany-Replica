@@ -72,7 +72,7 @@ public class DataManager : MonoSingleton<DataManager>
                 SpeedRange = row[4]
             };
 
-            for (int j = 0; j < data.SkillIDs.Length; j++)
+            for (int j = 0; j < data.SkillIDs.Count; j++)
             {
                 data.SkillIDs[j] = int.Parse(row[j + 5]);
             }
