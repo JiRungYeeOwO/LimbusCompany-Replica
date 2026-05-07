@@ -18,6 +18,13 @@ public class SkillDataViewer : EditorWindow
     private string _selectedCsvName = "";
     private SkillData _selectedSkill;
 
+    private SkillData _testSkillA;
+    private SkillData _testSkillB;
+    private int _testSpA = 0;
+    private int _testSpB = 0;
+    private string _simLog = "스킬을 할당하고 시뮬레이션을 실행하세요.";
+    private Vector2 _simScrollPos;
+
     [MenuItem("Tools/스킬 데이터 뷰어 및 검증기")]
     public static void ShowWindow()
     {
@@ -28,13 +35,20 @@ public class SkillDataViewer : EditorWindow
     private void OnGUI()
     {
         DrawToolbar();
-
         GUILayout.Space(5);
 
         GUILayout.BeginHorizontal();
         DrawCsvListPanel();
         DrawSkillListPanel();
+
+        GUILayout.BeginVertical(GUILayout.ExpandWidth(true));
         DrawSkillDetailPanel();
+
+        GUILayout.Space(5);
+        DrawSimulatorPanel();
+
+        GUILayout.EndVertical();
+
         GUILayout.EndHorizontal();
 
         DrawValidationLogPanel();
@@ -293,6 +307,74 @@ public class SkillDataViewer : EditorWindow
         }
 
         _validationLogs.Add($"<color=#00C853><b>[Success] 총 {csvFiles.Length}개 파일에서 {totalSuccessCount}개의 스킬 로드 및 파싱 완료!</b></color>");
+    }
+
+    private void DrawSimulatorPanel()
+    {
+        GUILayout.BeginVertical("box", GUILayout.Height(220));
+        GUILayout.Label("⚔️ 합(Clash) 시뮬레이터", EditorStyles.boldLabel);
+
+        GUILayout.BeginHorizontal();
+        if (GUILayout.Button($"A에 할당\n{(_testSkillA != null ? _testSkillA.SkillName : "미할당")}", GUILayout.Height(40)))
+        {
+            if (_selectedSkill != null) _testSkillA = _selectedSkill;
+        }
+        if (GUILayout.Button($"B에 할당\n{(_testSkillB != null ? _testSkillB.SkillName : "미할당")}", GUILayout.Height(40)))
+        {
+            if (_selectedSkill != null) _testSkillB = _selectedSkill;
+        }
+        GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+        _testSpA = EditorGUILayout.IntSlider("A 정신력(SP)", _testSpA, -45, 45);
+        _testSpB = EditorGUILayout.IntSlider("B 정신력(SP)", _testSpB, -45, 45);
+        GUILayout.EndHorizontal();
+
+        GUILayout.Space(5);
+
+        EditorGUI.BeginDisabledGroup(_testSkillA == null || _testSkillB == null);
+        if (GUILayout.Button("🔥 합(Clash) 결과 계산하기", GUILayout.Height(30)))
+        {
+            RunSimulation();
+        }
+        EditorGUI.EndDisabledGroup();
+
+        _simScrollPos = GUILayout.BeginScrollView(_simScrollPos, EditorStyles.helpBox);
+        GUILayout.Label(_simLog, new GUIStyle(GUI.skin.label) { richText = true, wordWrap = true });
+        GUILayout.EndScrollView();
+
+        GUILayout.EndVertical();
+    }
+
+    private void RunSimulation()
+    {
+        int finalPowerA = _testSkillA.BasePower;
+        int finalPowerB = _testSkillB.BasePower;
+
+        List<string> coinResultsA = new List<string>();
+        List<string> coinResultsB = new List<string>();
+
+        float headsProbA = Mathf.Clamp(50f + _testSpA, 5f, 95f);
+        for (int i = 0; i < _testSkillA.CoinCount; i++)
+        {
+            bool isHeads = UnityEngine.Random.Range(0f, 100f) <= headsProbA;
+            if (isHeads) finalPowerA += _testSkillA.CoinPower;
+            coinResultsA.Add(isHeads ? "<b><color=#00C853>[앞]</color></b>" : "<color=gray>[뒤]</color>");
+        }
+
+        float headsProbB = Mathf.Clamp(50f + _testSpB, 5f, 95f);
+        for (int i = 0; i < _testSkillB.CoinCount; i++)
+        {
+            bool isHeads = UnityEngine.Random.Range(0f, 100f) <= headsProbB;
+            if (isHeads) finalPowerB += _testSkillB.CoinPower;
+            coinResultsB.Add(isHeads ? "<b><color=#00C853>[앞]</color></b>" : "<color=gray>[뒤]</color>");
+        }
+
+        string winner = finalPowerA > finalPowerB ? "<color=cyan>A 승리!</color>" : (finalPowerB > finalPowerA ? "<color=red>B 승리!</color>" : "무승부");
+
+        _simLog = $"<b>[A 결과]</b> 위력: {finalPowerA} | 동전: {string.Join(" ", coinResultsA)}\n";
+        _simLog += $"<b>[B 결과]</b> 위력: {finalPowerB} | 동전: {string.Join(" ", coinResultsB)}\n\n";
+        _simLog += $"<b>최종 결과: {winner}</b>";
     }
 
     private static class CustomStyles

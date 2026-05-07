@@ -31,6 +31,7 @@ public enum BuffType
     Rupture,                // 파열
     Bind,                   // 속박
     Haste,                  // 신속
+    Provoke,                // 도발
 
     // 인격 고유 키워드
     UniqueBreakthrough,     // 적진 주파

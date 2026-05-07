@@ -10,17 +10,33 @@ public abstract class BattleCharacter : MonoBehaviour
     [SerializeField] private int _currentHp;
     [SerializeField] private int _currentSp;
 
-    [Header("현재 버프 상태")]
-    [SerializeField] private Dictionary<BuffType, int> _activeBuffs = new Dictionary<BuffType, int>();
+    [Header("전투 상태")]
+    [SerializeField] private BattleCharacter _currentTarget;
+
+    private SkillData _selectedSkill;
+
+    private Dictionary<BuffType, int> _activeBuffs = new Dictionary<BuffType, int>();
 
     public CharacterBaseData CharacterData => _characterData;
     public int CurrentHp => _currentHp;
     public int CurrentSp => _currentSp;
 
-    public int Speed {  get; private set; }
+    public int Speed { get; private set; }
     public int MaxHp => _characterData != null ? _characterData.MaxHP : 0;
 
-    public virtual void Initialize(IdentityData data)
+    public BattleCharacter CurrentTarget
+    {
+        get { return _currentTarget; }
+        protected set { _currentTarget = value; }
+    }
+
+    public SkillData SelectedSkill
+    {
+        get {  return _selectedSkill; }
+        protected set { _selectedSkill = value; }
+    }
+
+    public virtual void Initialize(CharacterBaseData data)
     {
         _characterData = data;
         _currentHp = MaxHp;
@@ -47,7 +63,6 @@ public abstract class BattleCharacter : MonoBehaviour
         CustomLogger.LogBattle($"{gameObject.name} 사망");
     }
 
-
     public void RollSpeed()
     {
         if (_characterData == null) return;
@@ -59,7 +74,29 @@ public abstract class BattleCharacter : MonoBehaviour
         CustomLogger.LogSystem($"[Battle] {gameObject.name} 속도 굴림: {Speed} ({min}~{max})");
     }
 
-    public abstract void DetermineTarget();
+    public void SetTarget(BattleCharacter target)
+    {
+        _currentTarget = target;
+        CustomLogger.LogBattle($"[Targeting] {gameObject.name}의 타겟이 외부(UI) 조작에 의해 {target.gameObject.name}(으)로 수동 지정되었습니다.");
+    }
+
+    public ClashResult GetCurrentSkillPower(SkillData currentSkill)
+    {
+        return ClashEvaluator.CalculateSkillPower(this, currentSkill);
+    }
+
+    public void LoseCoin()
+    {
+
+    }
+
+    public void SetSelectedSkill(SkillData skill)
+    {
+        _selectedSkill = skill;
+        CustomLogger.LogBattle($"[Skill] {gameObject.name}이(가) 스킬을 선택했습니다.");
+    }
+
+    public abstract void DetermineTarget(List<BattleCharacter> potentialTargets);
     
     public int GetBuffValue(BuffType buff)
     {
