@@ -7,6 +7,8 @@ public class DataManager : MonoSingleton<DataManager>
     public Dictionary<int, SinnerData> SinnerTable = new();
     public Dictionary<int, IdentityData> IdentityTable = new();
     public Dictionary<int, SkillData> SkillTable = new();
+    public Dictionary<int, EnemyData> EnemyTable = new();
+    public Dictionary<int, StageData> StageTable = new();
 
     protected override void Awake()
     {
@@ -123,9 +125,70 @@ public class DataManager : MonoSingleton<DataManager>
             }
         }
     }
-}
-namespace Limbus_Replica.Runtime.Managers
-{
 
-}
+    #region Data Getter
+    /// <summary>
+    /// ID를 통해 인격 데이터를 반환
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
+    public IdentityData GetIdentity(int id)
+    {
+        if (IdentityTable.TryGetValue(id, out IdentityData data))
+        {
+            return data;
+        }
 
+        CustomLogger.Error($"[Error] Identity ID {id}를 찾을 수 없습니다.");
+        return null;
+    }
+
+    /// <summary>
+    /// ID를 통해 적 데이터를 반환
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
+    public EnemyData GetEnemy(int id)
+    {
+        if (EnemyTable.TryGetValue(id, out EnemyData data))
+        {
+            return data;
+        }
+
+        CustomLogger.Error($"[Error] Enemy ID {id}를 찾을 수 없습니다.");
+        return null;
+    }
+
+    /// <summary>
+    /// 스테이지 ID를 통해 해당 스테이지의 적 배치 정보를 반환
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
+    public StageData GetStageData(int id)
+    {
+        if (StageTable.TryGetValue(id, out StageData data))
+        {
+            return data;
+        }
+
+        CustomLogger.Error($"[Error] Stage ID {id}의 데이터를 찾을 수 없습니다.");
+        return null;
+    }
+
+    /// <summary>
+    /// 스킬 ID를 통해 스킬 상세 데이터를 반환
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
+    public SkillData GetSkill(int id)
+    {
+        if (SkillTable.TryGetValue(id, out SkillData data))
+        {
+            return data;
+        }
+
+        CustomLogger.Error($"[Error] Skill ID {id}를 찾을 수 없습니다.");
+        return null;
+    }
+    #endregion
+}

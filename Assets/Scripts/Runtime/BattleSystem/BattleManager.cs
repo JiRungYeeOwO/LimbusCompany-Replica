@@ -1,15 +1,25 @@
-﻿using UnityEngine;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 
 public class BattleManager : MonoSingleton<BattleManager>
 {
-    [Header("전투 설정")]
+    [Header("상태 관리")]
     [SerializeField] private BattleState _currentState = BattleState.None;
 
-    [Header("테스트용 씬 참조")]
-    [SerializeField] private PlayerCharacter _testPlayer;
-    [SerializeField] private EnemyCharacter _testEnemy;
+    [Header("프리팹 및 슬롯 설정")]
+    [SerializeField] private GameObject _sinnerPrefab;
+    [SerializeField] private GameObject _enemyPrefab;
+    [SerializeField] private Transform[] _sinnerSlots;
+    [SerializeField] private Transform[] _enemySlots;
+
+    [Header("전투 참가자 목록")]
+    [SerializeField] private List<PlayerCharacter> _playerCharacters = new List<PlayerCharacter>();
+    [SerializeField] private List<EnemyCharacter> _enemyCharacters = new List<EnemyCharacter>();
+
+    private List<int> _assignedSinnerIds;
+    private int _currentStageId;
+    private HashSet<BattleCharacter> _processedCharacters = new HashSet<BattleCharacter>();
 
     public BattleState CurrentState => _currentState;
 
@@ -22,6 +32,13 @@ public class BattleManager : MonoSingleton<BattleManager>
 
     void Start()
     {
+        
+    }
+
+    public void PrepareBattle(List<int> sinnerIds, int stageId)
+    {
+        _assignedSinnerIds = sinnerIds;
+        _currentStageId = stageId;
         ChangeState(BattleState.Init);
     }
 
@@ -51,98 +68,148 @@ public class BattleManager : MonoSingleton<BattleManager>
 
     private void HandleInit()
     {
-        CustomLogger.LogBattle("전투 환경 초기화 중...");
+        CustomLogger.LogBattle("전투 초기화 시작: 캐릭터 생성 및 데이터 주입");
 
-        // 🌟 2. DataManager에서 '이상'의 데이터(ID: 1)를 가져옵니다.
-        // (주의: 딕셔너리 이름 IdentityDict, SkillDict는 DataManager에 작성하신 실제 변수명으로 맞춰주세요!)
-        if (DataManager.Instance.IdentityTable.TryGetValue(101, out IdentityData yiSangData))
+        ClearBattlefield();
+
+        // 1. 아군 생성 (편성 순서대로 슬롯에 배치)
+        for (int i = 0; i < _assignedSinnerIds.Count; i++)
         {
-            // 아군 초기화
-            _testPlayer.Initialize(yiSangData);
-            CustomLogger.LogSystem($"[Test] 아군 {_testPlayer.gameObject.name} 세팅 완료.");
+            if (i >= _sinnerSlots.Length) break;
 
-            // 테스트를 위해 '이상'의 첫 번째 스킬을 강제로 장착
-            if (yiSangData.SkillIDs.Count > 0 && DataManager.Instance.SkillTable.TryGetValue(yiSangData.SkillIDs[0], out SkillData yiSangSkill))
-            {
-                _testPlayer.SetSelectedSkill(yiSangSkill);
-            }
+            GameObject go = Instantiate(_sinnerPrefab, _sinnerSlots[i].position, Quaternion.identity);
+            go.name = $"Player_{i}";
+            PlayerCharacter pc = go.GetComponent<PlayerCharacter>();
+
+            IdentityData data = DataManager.Instance.GetIdentity(_assignedSinnerIds[i]);
+            pc.Initialize(data);
+            _playerCharacters.Add(pc);
         }
 
-        // 🌟 3. 적군 데이터 세팅
-        // (만약 아직 DataManager에 EnemyData 파싱 로직이 없다면, 임시로 2번 인격 데이터를 적에게 넣어줍니다)
-        if (DataManager.Instance.IdentityTable.TryGetValue(101, out IdentityData dummyEnemyData))
+        // 2. 적군 생성 (스테이지 데이터 기반)
+        var stageData = DataManager.Instance.GetStageData(_currentStageId);
+        foreach (var spawnInfo in stageData.EnemyList)
         {
-            _testEnemy.Initialize(dummyEnemyData);
+            int slotIdx = spawnInfo.FormationPos;
+            if (slotIdx >= _enemySlots.Length) continue;
 
-            // 적도 테스트를 위해 임시 스킬 하나 쥐어주기
-            if (dummyEnemyData.SkillIDs.Count > 0 &&
-                DataManager.Instance.SkillTable.TryGetValue(dummyEnemyData.SkillIDs[0], out SkillData enemySkill))
-            {
-                _testEnemy.SetSelectedSkill(enemySkill);
-            }
+            GameObject go = Instantiate(_enemyPrefab, _enemySlots[slotIdx].position, Quaternion.identity);
+            go.name = $"Enemy_{slotIdx}";
+            EnemyCharacter ec = go.GetComponent<EnemyCharacter>();
+
+            EnemyData data = DataManager.Instance.GetEnemy(spawnInfo.EnemyID);
+            ec.Initialize(data);
+            _enemyCharacters.Add(ec);
         }
 
-        // 초기화 완료 후 스킬 선택 페이즈로 전환
         ChangeState(BattleState.SelectSkill);
     }
 
     private void HandleSelectSkill()
     {
+        CustomLogger.LogBattle("스킬 선택 페이즈: 속도 주사위 굴림");
 
+        foreach (var p in _playerCharacters.Where(c => c.CurrentHp > 0))
+        {
+            p.RollSpeed();
+        }
+
+        foreach (var e in _enemyCharacters.Where(c => c.CurrentHp > 0))
+        {
+            e.RollSpeed();
+        }
+
+        foreach (var e in _enemyCharacters.Where(c => c.CurrentHp > 0))
+        {
+            e.DetermineTarget(_playerCharacters.Cast<BattleCharacter>().ToList());
+        }
     }
 
     private void HandleAction()
     {
-        CustomLogger.LogBattle("액션 페이즈 시작: 속도 순 정렬 및 합 계산");
+        CustomLogger.LogBattle("=== 액션 페이즈 시작 ===");
+        _processedCharacters.Clear();
 
-        var allCharacter = FindObjectsOfType<BattleCharacter>().OrderByDescending(c => c.Speed).ToList();
+        var allParticipants = _playerCharacters.Cast<BattleCharacter>().Concat(_enemyCharacters.Cast<BattleCharacter>()).Where(c => c.CurrentHp > 0).OrderByDescending(c => c.Speed).ToList();
 
-        foreach (var character in allCharacter)
+        foreach (var character in allParticipants)
         {
-            if (character.CurrentHp <= 0 || character.CurrentTarget == null) continue;
+            if (_processedCharacters.Contains(character) || character.CurrentHp <= 0) continue;
+            if (character.CurrentTarget == null || character.CurrentTarget.CurrentHp <= 0) continue;
 
-            if (character.CurrentTarget.CurrentTarget == character)
+            BattleCharacter target = character.CurrentTarget;
+
+            if (target.CurrentTarget == character)
             {
-                ResolveClash(character, character.CurrentTarget);
+                ResolveClash(character, target);
             }
             else
             {
-                PerformOneSidedAttack(character, character.CurrentTarget);
+                PerformOneSidedAttack(character, target);
             }
         }
-
-        ChangeState(BattleState.SelectSkill);
     }
 
     private void HandleEnd()
     {
-
+        CustomLogger.LogBattle("턴 종료 페이즈: 버프 갱신 및 상태 체크");
     }
 
-    private void ResolveClash(BattleCharacter a, BattleCharacter b)
+    private void ResolveClash(BattleCharacter charA, BattleCharacter charB)
     {
-        ClashResult resultA = ClashEvaluator.CalculateSkillPower(a, a.SelectedSkill);
-        ClashResult resultB = ClashEvaluator.CalculateSkillPower(b, b.SelectedSkill);
+        CustomLogger.LogBattle($"[Clash] {charA.name} vs {charB.name}");
 
-        if (resultA.FinalPower > resultB.FinalPower)
+        ClashResult resA = ClashEvaluator.CalculateSkillPower(charA, charA.SelectedSkill);
+        ClashResult resB = ClashEvaluator.CalculateSkillPower(charB, charB.SelectedSkill);
+
+        if (resA.FinalPower > resB.FinalPower)
         {
-            b.LoseCoin();
+            CustomLogger.LogBattle($"{charA.name} 승리!");
+            charB.LoseCoin();
+            PerformOneSidedAttack(charA, charB);
         }
-        else if (resultA.FinalPower < resultB.FinalPower)
+        else if (resB.FinalPower > resA.FinalPower)
         {
-            a.LoseCoin();
+            CustomLogger.LogBattle($"{charB.name} 승리!");
+            charA.LoseCoin();
+            PerformOneSidedAttack(charB, charA);
         }
         else
         {
-
+            CustomLogger.LogBattle("무승부 (재합 로직 필요)");
         }
+
+        _processedCharacters.Add(charA);
+        _processedCharacters.Add(charB);
     }
 
     private void PerformOneSidedAttack(BattleCharacter attacker, BattleCharacter target)
     {
-        var result = attacker.GetCurrentSkillPower(attacker.SelectedSkill);
+        ClashResult result = ClashEvaluator.CalculateSkillPower(attacker, attacker.SelectedSkill);
         target.TakeDamage(result.FinalPower);
-        CustomLogger.LogBattle($"{attacker.name}의 일방 공격! {target.name}에게 {result.FinalPower} 피해.");
+        _processedCharacters.Add(attacker);
+    }
+
+    private void ClearBattlefield()
+    {
+        foreach (var p in _playerCharacters)
+        {
+            if (p != null)
+            {
+                Destroy(p.gameObject);
+            }
+        }
+
+        foreach (var e in _enemyCharacters)
+        {
+            if (e != null)
+            {
+                Destroy(e.gameObject);
+            }
+        }
+
+        _playerCharacters.Clear();
+        _enemyCharacters.Clear();
     }
 
     public void ResetBattle()
