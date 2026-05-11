@@ -17,9 +17,14 @@ public class BattleManager : MonoSingleton<BattleManager>
     [SerializeField] private List<PlayerCharacter> _playerCharacters = new List<PlayerCharacter>();
     [SerializeField] private List<EnemyCharacter> _enemyCharacters = new List<EnemyCharacter>();
 
+    [Header("환경 설정")]
+    [SerializeField] private Transform _environmentRoot;
+
     private List<int> _assignedSinnerIds;
     private int _currentStageId;
     private HashSet<BattleCharacter> _processedCharacters = new HashSet<BattleCharacter>();
+
+    private GameObject _currentBackgroundInstance;
 
     public BattleState CurrentState => _currentState;
 
@@ -72,7 +77,42 @@ public class BattleManager : MonoSingleton<BattleManager>
 
         ClearBattlefield();
 
-        // 1. 아군 생성 (편성 순서대로 슬롯에 배치)
+        var stageData = DataManager.Instance.GetStageData(_currentStageId);
+
+        if (stageData != null)
+        {
+            if (!string.IsNullOrEmpty(stageData.BackgroundPrefabPath))
+            {
+                GameObject bgPrefab = Resources.Load<GameObject>(stageData.BackgroundPrefabPath);
+
+                if (bgPrefab != null)
+                {
+                    Instantiate(bgPrefab, _environmentRoot);
+                }
+                else
+                {
+                    CustomLogger.Warn($"배경 프리팹을 찾을 수 없습니다: {stageData.BackgroundPrefabPath}");
+                }
+            }
+
+            // bgm 재생
+
+
+            foreach (var spawnInfo in stageData.EnemyList)
+            {
+                int slotIdx = spawnInfo.FormationPos;
+                if (slotIdx >= _enemySlots.Length) continue;
+
+                GameObject go = Instantiate(_enemyPrefab, _enemySlots[slotIdx].position, Quaternion.identity);
+                go.name = $"Enemy_{slotIdx}";
+                EnemyCharacter ec = go.GetComponent<EnemyCharacter>();
+
+                EnemyData data = DataManager.Instance.GetEnemy(spawnInfo.EnemyID);
+                ec.Initialize(data);
+                _enemyCharacters.Add(ec);
+            }
+        }
+
         for (int i = 0; i < _assignedSinnerIds.Count; i++)
         {
             if (i >= _sinnerSlots.Length) break;
@@ -84,22 +124,6 @@ public class BattleManager : MonoSingleton<BattleManager>
             IdentityData data = DataManager.Instance.GetIdentity(_assignedSinnerIds[i]);
             pc.Initialize(data);
             _playerCharacters.Add(pc);
-        }
-
-        // 2. 적군 생성 (스테이지 데이터 기반)
-        var stageData = DataManager.Instance.GetStageData(_currentStageId);
-        foreach (var spawnInfo in stageData.EnemyList)
-        {
-            int slotIdx = spawnInfo.FormationPos;
-            if (slotIdx >= _enemySlots.Length) continue;
-
-            GameObject go = Instantiate(_enemyPrefab, _enemySlots[slotIdx].position, Quaternion.identity);
-            go.name = $"Enemy_{slotIdx}";
-            EnemyCharacter ec = go.GetComponent<EnemyCharacter>();
-
-            EnemyData data = DataManager.Instance.GetEnemy(spawnInfo.EnemyID);
-            ec.Initialize(data);
-            _enemyCharacters.Add(ec);
         }
 
         ChangeState(BattleState.SelectSkill);
@@ -122,6 +146,11 @@ public class BattleManager : MonoSingleton<BattleManager>
         foreach (var e in _enemyCharacters.Where(c => c.CurrentHp > 0))
         {
             e.DetermineTarget(_playerCharacters.Cast<BattleCharacter>().ToList());
+        }
+
+        if (BattleUIManager.Instance != null)
+        {
+            BattleUIManager.Instance.ShowSkillSelectionUI(_playerCharacters);
         }
     }
 
@@ -150,9 +179,38 @@ public class BattleManager : MonoSingleton<BattleManager>
         }
     }
 
+
     private void HandleEnd()
     {
         CustomLogger.LogBattle("턴 종료 페이즈: 버프 갱신 및 상태 체크");
+    }
+
+    public void ChangeEnvironment(string newBgPrefabPath, string newBgmName = null)
+    {
+        CustomLogger.LogSystem($"[연동] 실시간 환경 전환: {newBgPrefabPath}");
+
+        if (_currentBackgroundInstance != null)
+        {
+            Destroy(_currentBackgroundInstance);
+        }
+
+        if (!string.IsNullOrEmpty(newBgPrefabPath))
+        {
+            GameObject newBgPrefab = Resources.Load<GameObject>(newBgPrefabPath);
+            if (newBgPrefab != null)
+            {
+                _currentBackgroundInstance = Instantiate(newBgPrefab, _environmentRoot);
+            }
+            else
+            {
+                CustomLogger.Warn($"전환할 배경 프리팹을 찾을 수 없습니다: {newBgPrefabPath}");
+            }
+        }
+
+        // if (!string.IsNullOrEmpty(newBgmName))
+        // {
+        //     SoundManager.Instance.PlayBGM(newBgmName);
+        // }
     }
 
     private void ResolveClash(BattleCharacter charA, BattleCharacter charB)
@@ -228,5 +286,11 @@ public class BattleManager : MonoSingleton<BattleManager>
         }
 
         ChangeState(nextState);
+    }
+
+    public void ConfirmSkillSelection()
+    {
+        CustomLogger.LogBattle("플레이어 스킬 선택 완료. 액션 페이즈로 진입합니다.");
+        ChangeState(BattleState.Action);
     }
 }

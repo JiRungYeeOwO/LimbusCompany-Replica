@@ -4,6 +4,8 @@
 public class StageData
 {
     public int StageID;
+    public string BackgroundPrefabPath;
+    public string BGMName;
     public List<EnemySpawnInfo> EnemyList = new List<EnemySpawnInfo>();
 }
 
