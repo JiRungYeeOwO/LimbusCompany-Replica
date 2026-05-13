@@ -5,6 +5,7 @@ public class SkillData
 {
     public int SkillID;
     public string SkillName;
+    public int SkillPosition;
     public string SkillType;
     public string SinAttribute;
     public int BasePower;

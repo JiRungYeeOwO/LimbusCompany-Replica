@@ -155,6 +155,7 @@ public class SkillDataViewer : EditorWindow
         {
             GUILayout.BeginVertical(EditorStyles.helpBox);
             GUILayout.Label($"이름: {_selectedSkill.SkillName} (ID: {_selectedSkill.SkillID})", EditorStyles.largeLabel);
+            GUILayout.Label($"스킬 위치: {(_selectedSkill.SkillPosition == 4 ? "방어 스킬" : _selectedSkill.SkillPosition)}");
             GUILayout.Label($"타입: {_selectedSkill.SkillType} | 속성: {_selectedSkill.SinAttribute}");
             GUILayout.Label($"기본 위력: {_selectedSkill.BasePower} | 코인 위력: {_selectedSkill.CoinPower}");
             GUILayout.Label($"공격 가중치: {_selectedSkill.AttackWeight} | 코인 갯수: {_selectedSkill.CoinCount}");
@@ -264,15 +265,16 @@ public class SkillDataViewer : EditorWindow
                     {
                         SkillID = int.Parse(row[0]),
                         SkillName = row[1].Replace("\"", ""),
-                        SkillType = row[2],
-                        SinAttribute = row[3],
-                        BasePower = int.Parse(row[4]),
-                        CoinPower = int.Parse(row[5]),
-                        AttackWeight = int.Parse(row[6]),
-                        CoinCount = int.Parse(row[7])
+                        SkillPosition = int.Parse(row[2]),
+                        SkillType = row[3],
+                        SinAttribute = row[4],
+                        BasePower = int.Parse(row[5]),
+                        CoinPower = int.Parse(row[6]),
+                        AttackWeight = int.Parse(row[7]),
+                        CoinCount = int.Parse(row[8])
                     };
 
-                    skill.Effects = SkillParser.ParseFullEffectString(row[8]);
+                    skill.Effects = SkillParser.ParseFullEffectString(row[9]);
 
                     if (!string.IsNullOrWhiteSpace(row[8]) && skill.Effects.Count == 0)
                     {

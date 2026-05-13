@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -37,7 +38,34 @@ public class BattleManager : MonoSingleton<BattleManager>
 
     void Start()
     {
-        
+        StartCoroutine(TestSkillUI());
+    }
+
+    private IEnumerator TestSkillUI()
+    {
+        yield return null; // DataManager.Awake가 끝날 때까지 대기
+
+        // 2. 씬에 있는 임시 플레이어 오브젝트를 찾습니다.
+        PlayerCharacter testPlayer = FindObjectOfType<PlayerCharacter>();
+
+        if (testPlayer != null)
+        {
+            // 3. 데이터 매니저에서 테스트할 인격 데이터(예: ID 1번)를 가져옵니다.
+            // CSV 파일(Identities.csv)의 첫 번째 열에 있는 ID를 넣으세요.
+            IdentityData sampleIdentity = DataManager.Instance.GetIdentity(101);
+
+            if (sampleIdentity != null)
+            {
+                // 4. 캐릭터 초기화 (이때 비로소 GetSkillList가 작동할 준비가 됨)
+                testPlayer.Initialize(sampleIdentity);
+
+                // 5. UI 매니저에게 리스트를 넘겨서 화면에 그리게 함
+                List<PlayerCharacter> playerList = new List<PlayerCharacter> { testPlayer };
+                BattleUIManager.Instance.ShowSkillSelectionUI(playerList);
+
+                CustomLogger.LogSystem("[Test] 스킬 UI 생성 테스트를 시작합니다.");
+            }
+        }
     }
 
     public void PrepareBattle(List<int> sinnerIds, int stageId)

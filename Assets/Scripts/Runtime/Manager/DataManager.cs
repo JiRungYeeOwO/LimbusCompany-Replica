@@ -54,10 +54,7 @@ public class DataManager : MonoSingleton<DataManager>
     {
         TextAsset csv = Resources.Load<TextAsset>("Data/Identities");
 
-        if (csv == null)
-        {
-            return;
-        }
+        if (csv == null) return;
 
         string[] lines = csv.text.Replace("\r", "").Split('\n');
         for (int i = 1; i < lines.Length; i++)
@@ -66,17 +63,21 @@ public class DataManager : MonoSingleton<DataManager>
 
             string[] row = lines[i].Split(',');
             IdentityData data = new IdentityData
-            { 
+            {
                 IdentityID = int.Parse(row[0]),
                 SinnerID = int.Parse(row[1]),
                 Name = row[2],
                 MaxHP = int.Parse(row[3]),
-                SpeedRange = row[4]
+                SpeedRange = row[4],
+                SkillIDs = new List<int>()
             };
 
-            for (int j = 0; j < data.SkillIDs.Count; j++)
+            for (int j = 5; j <= 9; j++)
             {
-                data.SkillIDs[j] = int.Parse(row[j + 5]);
+                if (j < row.Length && !string.IsNullOrEmpty(row[j]))
+                {
+                    data.SkillIDs.Add(int.Parse(row[j]));
+                }
             }
 
             if (!IdentityTable.ContainsKey(data.IdentityID))
@@ -109,15 +110,16 @@ public class DataManager : MonoSingleton<DataManager>
             {
                 SkillID = int.Parse(row[0]),
                 SkillName = row[1].Replace("\"", ""),
-                SkillType = row[2],
-                SinAttribute = row[3],
-                BasePower = int.Parse(row[4]),
-                CoinPower = int.Parse(row[5]),
-                AttackWeight = int.Parse(row[6]),
-                CoinCount = int.Parse(row[7])
+                SkillPosition = int.Parse(row[2]),
+                SkillType = row[3],
+                SinAttribute = row[4],
+                BasePower = int.Parse(row[5]),
+                CoinPower = int.Parse(row[6]),
+                AttackWeight = int.Parse(row[7]),
+                CoinCount = int.Parse(row[8])
             };
 
-            skill.Effects = SkillParser.ParseFullEffectString(row[8]);
+            skill.Effects = SkillParser.ParseFullEffectString(row[9]);
 
             if (!SkillTable.ContainsKey(skill.SkillID))
             {

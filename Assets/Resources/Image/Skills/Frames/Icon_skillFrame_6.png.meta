@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fa4ffa6240d0b6e46be586721f9eae71
+guid: 3f52f0f6adf6ff24c84a4fb2a9040eb3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,133 +110,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_0
+      name: Skill1_Red
       rect:
         serializedVersion: 2
         x: 0
-        y: 1536
+        y: 1532
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d42e999e6e7d10419d619069d8f447a
-      internalID: -1748680759
+      spriteID: f00ed2dd7a254b243a3a2f249c2b5fdf
+      internalID: -2074382206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_1
+      name: Skill1_Orange
       rect:
         serializedVersion: 2
         x: 512
-        y: 1536
+        y: 1532
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d02386c4a6308fa4981d09a5e8c9b709
-      internalID: -307021032
+      spriteID: eef452b54f9dbde4fb45f7e59c20fb81
+      internalID: 55806536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_2
+      name: Skill1_Yellow
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1536
+        x: 1028
+        y: 1528
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4f00dec944c7ab499991755794723c2
-      internalID: -1700276939
+      spriteID: d56e286c470c78d4dbb4bac6b5d0a7c9
+      internalID: -1302172769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_3
+      name: Skill1_Green
       rect:
         serializedVersion: 2
         x: 1536
-        y: 1536
+        y: 1532
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a76f0124bfb1b14aa2e0d4c18a99df5
-      internalID: 1136759405
+      spriteID: b03f12589e3bb54468bf58c9c6bf22f4
+      internalID: 441822564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_4
+      name: Skill1_Skyblue
       rect:
         serializedVersion: 2
         x: 0
-        y: 1024
+        y: 1020
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31d193acdbbd6794abe5aff9c364ee3c
-      internalID: 1303939748
+      spriteID: 49e5d3358f0773642b59d8f19a9e9ed8
+      internalID: 843719247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_5
+      name: Skill1_Blue
       rect:
         serializedVersion: 2
         x: 512
-        y: 1024
+        y: 1020
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20497ec5e2706044883d8e83bbe57ae1
-      internalID: 169325959
+      spriteID: 5f110cc2aa3aae448918f95c4d352f2b
+      internalID: 1903683983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_6
+      name: Skill1_Purple
       rect:
         serializedVersion: 2
         x: 1024
@@ -244,20 +244,20 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5627cdf7be6226546bc48351d40c523a
-      internalID: 541415849
+      spriteID: 80713bcaf4277e44bbffdc4fd0932fa7
+      internalID: 462469837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_7
+      name: Skill2_Red
       rect:
         serializedVersion: 2
         x: 0
@@ -265,62 +265,62 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bd0624d5310cae40a2f1df166bb06e3
-      internalID: 617135714
+      spriteID: 220ebf3e3ac6f53459ee525abf4dafb3
+      internalID: -274048789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_8
+      name: Skill2_Orange
       rect:
         serializedVersion: 2
         x: 512
-        y: 512
+        y: 508
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c169f180967c5945b182a11064ebd02
-      internalID: -168961033
+      spriteID: 17f13076ecde5dd4b9baf6235587f3d0
+      internalID: 146595209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_9
+      name: Skill2_Yellow
       rect:
         serializedVersion: 2
         x: 1024
-        y: 512
+        y: 508
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 712beb3ddcc5ca54ca2fd6ba3c274e37
-      internalID: -377213863
+      spriteID: fcc470bb51b8feb4786129036d2dbc4d
+      internalID: -1735911021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_10
+      name: Skill2_Green
       rect:
         serializedVersion: 2
         x: 1536
@@ -328,20 +328,20 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d878ebf9428fcf44b5c6d14784095e6
-      internalID: -1204613762
+      spriteID: fa503daa417d7774f8ee3136bc59d341
+      internalID: -220443905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_11
+      name: Skill2_Skyblue
       rect:
         serializedVersion: 2
         x: 0
@@ -349,20 +349,20 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7200e9ec7ba68234f96f6a8d946fa9d3
-      internalID: -717202386
+      spriteID: eaa82a0abc3c0d64194e7543a68298c3
+      internalID: 1718039842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_12
+      name: Skill2_Blue
       rect:
         serializedVersion: 2
         x: 512
@@ -370,20 +370,20 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3589884e64369945be0d9eae44fb096
-      internalID: 1832900486
+      spriteID: 7ced5c337b4d4114bbe07e9fe1d5aced
+      internalID: -395540411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_skillFrame_Invert_3_13
+      name: Skill2_Purple
       rect:
         serializedVersion: 2
         x: 1024
@@ -391,14 +391,14 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2ca9ba9e332c134f9baeb5b0bbf6646
-      internalID: -1491123983
+      spriteID: cec725cdc51fe36478d815136a2ff514
+      internalID: 415840605
       vertices: []
       indices: 
       edges: []
@@ -406,7 +406,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 420dab434454a23499c90950120ac343
+    spriteID: 4f503708f969ae94f9f008829efdea50
     internalID: 0
     vertices: []
     indices: 
@@ -414,20 +414,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Icon_skillFrame_Invert_3_0: -1748680759
-      Icon_skillFrame_Invert_3_1: -307021032
-      Icon_skillFrame_Invert_3_10: -1204613762
-      Icon_skillFrame_Invert_3_11: -717202386
-      Icon_skillFrame_Invert_3_12: 1832900486
-      Icon_skillFrame_Invert_3_13: -1491123983
-      Icon_skillFrame_Invert_3_2: -1700276939
-      Icon_skillFrame_Invert_3_3: 1136759405
-      Icon_skillFrame_Invert_3_4: 1303939748
-      Icon_skillFrame_Invert_3_5: 169325959
-      Icon_skillFrame_Invert_3_6: 541415849
-      Icon_skillFrame_Invert_3_7: 617135714
-      Icon_skillFrame_Invert_3_8: -168961033
-      Icon_skillFrame_Invert_3_9: -377213863
+      Skill1_Blue: 1903683983
+      Skill1_Green: 441822564
+      Skill1_Orange: 55806536
+      Skill1_Purple: 462469837
+      Skill1_Red: -2074382206
+      Skill1_Skyblue: 843719247
+      Skill1_Yellow: -1302172769
+      Skill2_Blue: -395540411
+      Skill2_Green: -220443905
+      Skill2_Orange: 146595209
+      Skill2_Purple: 415840605
+      Skill2_Red: -274048789
+      Skill2_Skyblue: 1718039842
+      Skill2_Yellow: -1735911021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
