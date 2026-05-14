@@ -1,7 +1,0 @@
-fauvism_docent_rodion_front.png
-size:1563,1563
-filter:Linear,Linear
-pma:true
-scale:0.333
-front_hand
-bounds:2,2,1316,1559

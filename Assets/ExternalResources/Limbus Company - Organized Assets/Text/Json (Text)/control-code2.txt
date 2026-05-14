@@ -1,8 +1,0 @@
-{
-  "contentList": [
-    {
-      "targetId": 11009,
-      "targetIntegers": [40, 20]
-    }
-  ]
-}

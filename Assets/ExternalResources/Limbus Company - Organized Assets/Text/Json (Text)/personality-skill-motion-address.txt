@@ -1,5 +1,0 @@
-{
-  "address": [
-    "personality-skill-motion"
-  ]
-}

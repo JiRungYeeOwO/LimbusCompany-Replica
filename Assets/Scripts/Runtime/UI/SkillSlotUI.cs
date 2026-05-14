@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class SkillSlotUI : MonoBehaviour, IPointerClickHandler
+public class SkillSlotUI : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
     [Header("UI 연결")]
     [SerializeField] private Image _frameBaseImage;
@@ -13,10 +13,13 @@ public class SkillSlotUI : MonoBehaviour, IPointerClickHandler
     private SkillData _currentSkillData;
     private PlayerCharacter _ownerCharacter;
 
-    public void SetupSlot(PlayerCharacter owner, SkillData skillData)
+    private int _slotIndex;
+
+    public void SetupSlot(PlayerCharacter owner, SkillData skillData, bool isNextSkill, int index)
     {
         _ownerCharacter = owner;
         _currentSkillData = skillData;
+        _slotIndex = index;
 
         string colorName = GetColorName(skillData.SinAttribute);
 
@@ -49,14 +52,17 @@ public class SkillSlotUI : MonoBehaviour, IPointerClickHandler
 
         _skillIconImage.sprite = BattleUIManager.Instance.GetSkillIconSprite(skillData.SkillID);
 
-        GetComponent<RectTransform>().localRotation = Quaternion.Euler(-45f, 0f, 0f);
-    }
+        GetComponent<RectTransform>().localRotation = Quaternion.Euler(-75f, 0f, 0f);
 
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        if (_currentSkillData == null || _ownerCharacter == null) return;
+        if (isNextSkill)
+        {
+            GetComponent<CanvasGroup>().blocksRaycasts = false;
 
-        BattleUIManager.Instance.OnSkillSelected(_ownerCharacter, _currentSkillData);
+            _frameBaseImage.color *= new Color(0.3f, 0.3f, 0.3f, 0.4f);
+            _frameOverlayImage.color *= new Color(0.3f, 0.3f, 0.3f, 0.4f);
+            _baseMaskImage.color *= new Color(0.3f, 0.3f, 0.3f, 0.4f);
+            _skillIconImage.color *= new Color(0.3f, 0.3f, 0.3f, 0.4f);
+        }
     }
 
     private string GetColorName(string sinAttribute)
@@ -110,7 +116,6 @@ public class SkillSlotUI : MonoBehaviour, IPointerClickHandler
         if (_frameOverlayImage != null) _frameOverlayImage.color = frameColor;
     }
 
-    // 🛠️ 색상을 밝게 만들어주는 헬퍼 함수
     private Color GetLighterColor(Color color, float satAdjustment, float valAdjustment)
     {
         float h, s, v;
@@ -120,5 +125,31 @@ public class SkillSlotUI : MonoBehaviour, IPointerClickHandler
         v *= valAdjustment;
 
         return Color.HSVToRGB(h, Mathf.Clamp01(s), Mathf.Clamp01(v));
+    }
+
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        if (_currentSkillData == null || _currentSkillData.SkillPosition == 4) return;
+
+        // 드래그 시작 시 매니저에게 알림
+        BattleUIManager.Instance.StartTargeting(this, _ownerCharacter, _currentSkillData, _slotIndex);
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        // 드래그 중 마우스 위치 전달
+        BattleUIManager.Instance.UpdateTargetingLine(eventData.position);
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        // 드래그 종료 시 타겟 확인
+        BattleUIManager.Instance.EndTargeting(eventData.position);
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (_currentSkillData == null || _ownerCharacter == null) return;
+        BattleUIManager.Instance.OnSkillSelected(_ownerCharacter, _currentSkillData);
     }
 }
