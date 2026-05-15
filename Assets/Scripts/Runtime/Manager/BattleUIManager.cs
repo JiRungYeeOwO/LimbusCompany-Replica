@@ -10,16 +10,6 @@ public class BattleUIManager : MonoSingleton<BattleUIManager>
     [SerializeField] private GameObject _characterColumnPrefab;
     [SerializeField] private GameObject _slotContainer;
 
-    [Header("테스트 설정")]
-    [SerializeField] private LayerMask _enemyLayer;
-
-    private bool _isDragging = false;
-    private SkillSlotUI _activeSlot;
-    private int _selectedSkillIndex;
-
-    private PlayerCharacter _currentlySelectingPlayer;
-    private SkillData _selectedSkillInfo;
-
     private Dictionary<string, Sprite> _frameSpriteCache = new Dictionary<string, Sprite>();
     private List<GameObject> _spawnedSlots = new List<GameObject>();
 
@@ -74,32 +64,7 @@ public class BattleUIManager : MonoSingleton<BattleUIManager>
         CustomLogger.LogSystem("[UI] 액션 타임라인 패널 활성화.");
     }
 
-    public void OnSkillSelected(PlayerCharacter owner, SkillData skill)
-    {
-        _currentlySelectingPlayer = owner;
-        _selectedSkillInfo = skill;
-        CustomLogger.LogSystem($"[UI] {_currentlySelectingPlayer.gameObject.name}의 '{skill.SkillName}' 스킬 선택됨. 타겟을 지정해주세요.");
-    }
-
-    public void OnTargetSelected(EnemyCharacter target)
-    {
-        if (_currentlySelectingPlayer == null || _selectedSkillInfo == null) return;
-
-        _currentlySelectingPlayer.SetSelectedSkill(_selectedSkillInfo);
-        _currentlySelectingPlayer.SetTarget(target);
-
-        CustomLogger.LogSystem($"[UI] {_currentlySelectingPlayer.gameObject.name} -> {target.gameObject.name} 타겟팅 완료!");
-
-        _currentlySelectingPlayer.UseSkill(_selectedSkillIndex);
-        RefreshSkillUI();
-
-        CustomLogger.LogSystem($"[UI] {_currentlySelectingPlayer.gameObject.name}의 스킬 사용 완료! 덱 갱신 중...");
-
-        _currentlySelectingPlayer = null;
-        _selectedSkillInfo = null;
-    }
-
-    private void RefreshSkillUI()
+    public void RefreshSkillUI()
     {
         List<PlayerCharacter> players = BattleManager.Instance.GetPlayerCharacters();
         ShowSkillSelectionUI(players);
@@ -187,68 +152,6 @@ public class BattleUIManager : MonoSingleton<BattleUIManager>
         }
 
         CustomLogger.Warn($"[Warning] {skillID}번 아이콘 리소스를 찾을 수 없습니다.");
-        return null;
-    }
-
-    public void StartTargeting(SkillSlotUI slot, PlayerCharacter owner, SkillData skill, int index)
-    {
-        _isDragging = true;
-        _activeSlot = slot;
-        _currentlySelectingPlayer = owner;
-        _selectedSkillInfo = skill;
-        _selectedSkillIndex = index;
-
-        // 화살표 시작점 설정 및 활성화
-        // _targetingLine.Show(slot.transform.position);
-        CustomLogger.LogSystem($"[Targeting] {skill.SkillName} 타겟팅 시작");
-    }
-
-    public void UpdateTargetingLine(Vector2 mousePos)
-    {
-        // 마우스 위치로 화살표 끝점 업데이트
-        // _targetingLine.UpdateEndPosition(mousePos);
-    }
-
-    public void EndTargeting(Vector2 mousePos)
-    {
-        _isDragging = false;
-
-        // 마우스 위치에 있는 적 감지 (Raycast)
-        EnemyCharacter target = DetectEnemyAtMouse(mousePos);
-
-        if (target != null)
-        {
-            OnTargetSelected(target);
-        }
-        else
-        {
-            CancelTargeting();
-        }
-    }
-
-    private void CancelTargeting()
-    {
-        // _targetingLine.Hide();
-        _currentlySelectingPlayer = null;
-        _selectedSkillInfo = null;
-        CustomLogger.LogSystem("[Targeting] 타겟팅 취소");
-    }
-
-    private EnemyCharacter DetectEnemyAtMouse(Vector2 mousePos)
-    {
-        Ray ray = Camera.main.ScreenPointToRay(mousePos);
-        RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit, 100f, _enemyLayer))
-        {
-            EnemyCharacter enemy = hit.collider.GetComponent<EnemyCharacter>();
-
-            if (enemy != null)
-            {
-                return enemy;
-            }
-        }
-
         return null;
     }
 }

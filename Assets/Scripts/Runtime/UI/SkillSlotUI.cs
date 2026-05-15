@@ -131,25 +131,60 @@ public class SkillSlotUI : MonoBehaviour, IPointerClickHandler, IBeginDragHandle
     {
         if (_currentSkillData == null || _currentSkillData.SkillPosition == 4) return;
 
-        // 드래그 시작 시 매니저에게 알림
-        BattleUIManager.Instance.StartTargeting(this, _ownerCharacter, _currentSkillData, _slotIndex);
+        EventBus<SkillDragStartedEvent>.Publish(new SkillDragStartedEvent
+        {
+            Slot = this,
+            Player = _ownerCharacter,
+            Skill = _currentSkillData,
+            Index = _slotIndex
+        });
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        // 드래그 중 마우스 위치 전달
-        BattleUIManager.Instance.UpdateTargetingLine(eventData.position);
+        EventBus<SkillDragUpdatedEvent>.Publish(new SkillDragUpdatedEvent
+        {
+            MousePos = eventData.position
+        });
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        // 드래그 종료 시 타겟 확인
-        BattleUIManager.Instance.EndTargeting(eventData.position);
+        EventBus<SkillDragEndedEvent>.Publish(new SkillDragEndedEvent
+        {
+            MousePos = eventData.position
+        });
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         if (_currentSkillData == null || _ownerCharacter == null) return;
-        BattleUIManager.Instance.OnSkillSelected(_ownerCharacter, _currentSkillData);
+
+        EventBus<SKillSelectedEvent>.Publish(new SKillSelectedEvent
+        {
+            Player = _ownerCharacter,
+            Skill = _currentSkillData,
+            Index = _slotIndex
+        });
+    }
+
+    public void SetHighlight(bool isActive)
+    {
+        if (isActive)
+        {
+            Color dimFactor = new Color(0.3f, 0.3f, 0.3f, 1f);
+
+            _frameBaseImage.color *= dimFactor;
+            _frameOverlayImage.color *= dimFactor;
+            _baseMaskImage.color *= dimFactor;
+            _skillIconImage.color *= dimFactor;
+        }
+        else
+        {
+            ApplySinColor(_currentSkillData.SinAttribute);
+
+            _skillIconImage.color = Color.white;
+            _baseMaskImage.color = Color.white;
+        }
     }
 }

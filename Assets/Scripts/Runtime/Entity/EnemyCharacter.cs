@@ -3,6 +3,18 @@ using UnityEngine;
 
 public class EnemyCharacter : BattleCharacter
 {
+    private MeshRenderer _renderer;
+    private Color _originColor;
+
+    private void Awake()
+    {
+        if (IsTestEnvironment)
+        {
+            _renderer = GetComponent<MeshRenderer>();
+            if (_renderer != null) _originColor = _renderer.material.color;
+        }
+    }
+
     public override void Initialize(CharacterBaseData data)
     {
         base.Initialize(data);
@@ -31,5 +43,11 @@ public class EnemyCharacter : BattleCharacter
         CurrentTarget = players[randomIdx];
 
         CustomLogger.LogBattle($"[Enemy] {gameObject.name} -> 기본 패턴 타겟 지정: {CurrentTarget.gameObject.name}");
+    }
+
+    public void SetHighlight(bool isActive)
+    {
+        if (_renderer == null) return;
+        _renderer.material.color = isActive ? Color.yellow : _originColor;
     }
 }

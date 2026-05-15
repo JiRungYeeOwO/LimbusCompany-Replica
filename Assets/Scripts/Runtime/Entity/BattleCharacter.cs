@@ -13,6 +13,9 @@ public abstract class BattleCharacter : MonoBehaviour
     [Header("전투 상태")]
     [SerializeField] private BattleCharacter _currentTarget;
 
+    [Header("테스트 설정")]
+    [SerializeField] private bool _isTestEnvironment = false;
+
     private SkillData _selectedSkill;
 
     private Dictionary<BuffType, int> _activeBuffs = new Dictionary<BuffType, int>();
@@ -23,6 +26,8 @@ public abstract class BattleCharacter : MonoBehaviour
 
     public int Speed { get; private set; }
     public int MaxHp => _characterData != null ? _characterData.MaxHP : 0;
+
+    protected bool IsTestEnvironment => _isTestEnvironment;
 
     public BattleCharacter CurrentTarget
     {

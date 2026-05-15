@@ -329,4 +329,16 @@ public class BattleManager : MonoSingleton<BattleManager>
         CustomLogger.LogBattle("플레이어 스킬 선택 완료. 액션 페이즈로 진입합니다.");
         ChangeState(BattleState.Action);
     }
+
+    public void RegisterAction(PlayerCharacter player, SkillData skill, int slotIndex, EnemyCharacter target)
+    {
+        player.SetSelectedSkill(skill);
+        player.SetTarget(target);
+
+        player.UseSkill(slotIndex);
+
+        CustomLogger.LogBattle($"[Action] {player.name} -> {target.name} 확정 (스킬: {skill.SkillName})");
+
+        BattleUIManager.Instance.RefreshSkillUI();
+    }
 }
