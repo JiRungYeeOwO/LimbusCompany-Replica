@@ -2,18 +2,32 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class SkillSlotUI : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
+public class SkillSlotUI : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [Header("UI 연결")]
-    [SerializeField] private Image _frameBaseImage;
     [SerializeField] private Image _baseMaskImage;
     [SerializeField] private Image _frameOverlayImage;
     [SerializeField] private Image _skillIconImage;
+    [SerializeField] private Image _skillTypeImage;
 
     private SkillData _currentSkillData;
     private PlayerCharacter _ownerCharacter;
 
     private int _slotIndex;
+
+    private Canvas _localCanvas;
+    private bool _isDraggingThis = false;
+    private Vector3 _originalLocalScale;
+
+    private void Awake()
+    {
+        _localCanvas = GetComponent<Canvas>();
+        if (_localCanvas == null)
+        {
+            _localCanvas = gameObject.AddComponent<Canvas>();
+            gameObject.AddComponent<GraphicRaycaster>();
+        }
+    }
 
     public void SetupSlot(PlayerCharacter owner, SkillData skillData, bool isNextSkill, int index)
     {
@@ -21,34 +35,34 @@ public class SkillSlotUI : MonoBehaviour, IPointerClickHandler, IBeginDragHandle
         _currentSkillData = skillData;
         _slotIndex = index;
 
-        string colorName = GetColorName(skillData.SinAttribute);
-
-        string colorSuffix = (skillData.SkillPosition != 4) ? $"_{colorName}" : "";
-
-        string frameBaseName = $"Skill{skillData.SkillPosition}{colorSuffix}_Base";
-        string baseName = "Skill_Base";
-        string overlayName = $"Skill{skillData.SkillPosition}{colorSuffix}";
-
-        Sprite frameBaseSprite = BattleUIManager.Instance.GetFrameSprite(frameBaseName);
-        Sprite baseSprite = BattleUIManager.Instance.GetFrameSprite(baseName);
-        Sprite overlaySprite = BattleUIManager.Instance.GetFrameSprite(overlayName);
-
-        if (_frameBaseImage != null)
-        {
-            _frameBaseImage.sprite = frameBaseSprite;
-        }
+        SkillSpriteSet sprites = SkillUIHelper.GetSkillSprites(skillData);
 
         if (_baseMaskImage != null)
         {
-            _baseMaskImage.sprite = baseSprite;
+            _baseMaskImage.sprite = sprites.BaseSprite;
         }
 
         if (_frameOverlayImage != null)
         {
-            _frameOverlayImage.sprite = overlaySprite;
+            _frameOverlayImage.sprite = sprites.OverlaySprite;
         }
 
-        ApplySinColor(skillData.SinAttribute);
+        if (_skillTypeImage != null)
+        {
+            _skillTypeImage.sprite = sprites.SkillTypeSprite;
+
+            if (SkillUIHelper.GetSkillType(skillData.SkillType) == "Neutral")
+            {
+                _skillTypeImage.enabled = false;
+            }
+            else
+            {
+                _skillTypeImage.enabled = true;
+                _skillTypeImage.color = Color.white;
+            }
+        }    
+
+        SkillUIHelper.ApplySinColor(skillData.SinAttribute, _frameOverlayImage);
 
         _skillIconImage.sprite = BattleUIManager.Instance.GetSkillIconSprite(skillData.SkillID);
 
@@ -58,78 +72,69 @@ public class SkillSlotUI : MonoBehaviour, IPointerClickHandler, IBeginDragHandle
         {
             GetComponent<CanvasGroup>().blocksRaycasts = false;
 
-            _frameBaseImage.color *= new Color(0.3f, 0.3f, 0.3f, 0.4f);
             _frameOverlayImage.color *= new Color(0.3f, 0.3f, 0.3f, 0.4f);
             _baseMaskImage.color *= new Color(0.3f, 0.3f, 0.3f, 0.4f);
             _skillIconImage.color *= new Color(0.3f, 0.3f, 0.3f, 0.4f);
+            _skillTypeImage.color *= new Color(0.3f, 0.3f, 0.3f, 0.4f);
         }
-    }
-
-    private string GetColorName(string sinAttribute)
-    {
-        return sinAttribute switch
-        {
-            "분노" => "Red",
-            "색욕" => "Orange",
-            "나태" => "Yellow",
-            "탐식" => "Green",
-            "우울" => "Skyblue",
-            "오만" => "Blue",
-            "질투" => "Purple",
-            _ => "Red"
-        };
-    }
-
-    private Color GetSinColor(string sinAttribute)
-    {
-        string hexCode = sinAttribute switch
-        {
-            "분노" => "#B20000",
-            "색욕" => "#D56B00",
-            "나태" => "#E2B500",
-            "탐식" => "#59B200",
-            "우울" => "#00B2B2",
-            "오만" => "#1D4678",
-            "질투" => "#6C4581",
-            _ => "#FFFFFF"
-        };
-
-        return GetColorFromHex(hexCode);
-    }
-
-    private Color GetColorFromHex(string hexCode)
-    {
-        if (ColorUtility.TryParseHtmlString(hexCode, out Color color))
-        {
-            return color;
-        }
-        return Color.white;
     }
 
     private void ApplySinColor(string sinAttribute)
     {
-        Color frameColor = GetSinColor(sinAttribute);
+        Color frameColor = SkillUIHelper.GetSinColor(sinAttribute);
 
-        Color baseColor = GetLighterColor(frameColor, 0.8f, 1.3f);
+        Color baseColor = SkillUIHelper.GetLighterColor(frameColor, 0.8f, 1.3f);
 
-        if (_frameBaseImage != null) _frameBaseImage.color = baseColor;
         if (_frameOverlayImage != null) _frameOverlayImage.color = frameColor;
     }
 
-    private Color GetLighterColor(Color color, float satAdjustment, float valAdjustment)
+    private void BringToFront()
     {
-        float h, s, v;
-        Color.RGBToHSV(color, out h, out s, out v);
+        if (_localCanvas != null)
+        {
+            _localCanvas.overrideSorting = true;
+            _localCanvas.sortingOrder = 100;
 
-        s *= satAdjustment;
-        v *= valAdjustment;
+            _originalLocalScale = gameObject.transform.localScale;
 
-        return Color.HSVToRGB(h, Mathf.Clamp01(s), Mathf.Clamp01(v));
+            gameObject.transform.localScale = new Vector3(1, 1, 1);
+        }
+    }
+
+    private void SendToBack()
+    {
+        if (_localCanvas != null)
+        {
+            _localCanvas.overrideSorting = false;
+            _localCanvas.sortingOrder = 0;
+
+            gameObject.transform.localScale = _originalLocalScale;
+        }
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (_currentSkillData == null) return;
+
+        BringToFront();
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (_currentSkillData == null) return;
+
+        if (!_isDraggingThis)
+        {
+            SendToBack();
+        }
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
         if (_currentSkillData == null || _currentSkillData.SkillPosition == 4) return;
+
+        _isDraggingThis = true;
+        BringToFront();
 
         EventBus<SkillDragStartedEvent>.Publish(new SkillDragStartedEvent
         {
@@ -174,10 +179,10 @@ public class SkillSlotUI : MonoBehaviour, IPointerClickHandler, IBeginDragHandle
         {
             Color dimFactor = new Color(0.3f, 0.3f, 0.3f, 1f);
 
-            _frameBaseImage.color *= dimFactor;
             _frameOverlayImage.color *= dimFactor;
             _baseMaskImage.color *= dimFactor;
             _skillIconImage.color *= dimFactor;
+            _skillTypeImage.color *= dimFactor;
         }
         else
         {
@@ -185,6 +190,7 @@ public class SkillSlotUI : MonoBehaviour, IPointerClickHandler, IBeginDragHandle
 
             _skillIconImage.color = Color.white;
             _baseMaskImage.color = Color.white;
+            _skillTypeImage.color = Color.white;
         }
     }
 }
