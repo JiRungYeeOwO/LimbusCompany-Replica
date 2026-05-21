@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class TargetingHandler : MonoSingleton<TargetingHandler>
 {
@@ -101,14 +102,29 @@ public class TargetingHandler : MonoSingleton<TargetingHandler>
         if (!_isDragging) return;
         _isDragging = false;
 
-        EnemyCharacter target = DetectEnemyAtMouse(e.MousePos);
+        OverheadSkillUI targetSlot = DetectOverheadSlotAtMouse(e.MousePos);
 
-        if (target != null)
+        if (targetSlot != null)
         {
-            BattleManager.Instance.RegisterAction(_activePlayer, _activeSkill, _activeSlotIndex, target);
+            EnemyCharacter targetEnemy = targetSlot.OwnerCharacter as EnemyCharacter;
+            int targetSlotIndex = targetSlot.SlotIndex;
+
+            BattleManager.Instance.RegisterAction(_activePlayer, _activeSkill, _activeSlotIndex, targetEnemy, targetSlotIndex);
+        }
+        else
+        {
+            EnemyCharacter targetEnemy3D = DetectEnemyAtMouse(e.MousePos);
+
+            if (targetEnemy3D != null)
+            {
+                int fallbackSlotIndex = 0;
+
+                BattleManager.Instance.RegisterAction(_activePlayer, _activeSkill, _activeSlotIndex, targetEnemy3D, fallbackSlotIndex);
+
+                CustomLogger.LogSystem($"[TargetingHandler] 3D 오브젝트 직접 타겟팅 성공 (임시 0번 슬롯 배정)");
+            }
         }
 
-        // TODO: 화살표 숨기기 (TargetingLine.Hide)
         if (_currentArrow != null)
         {
             _currentArrow.gameObject.SetActive(false);
@@ -131,6 +147,28 @@ public class TargetingHandler : MonoSingleton<TargetingHandler>
         if (Physics.Raycast(ray, out RaycastHit hit, 100f, _enemyLayer))
         {
             return hit.collider.GetComponent<EnemyCharacter>();
+        }
+        return null;
+    }
+
+    private OverheadSkillUI DetectOverheadSlotAtMouse(Vector2 mousePos)
+    {
+        PointerEventData pointerData = new PointerEventData(EventSystem.current)
+        {
+            position = mousePos
+        };
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(pointerData, results);
+
+        foreach (RaycastResult result in results)
+        {
+            OverheadSkillUI slot = result.gameObject.GetComponentInParent<OverheadSkillUI>();
+
+            if (slot != null && slot.OwnerCharacter is EnemyCharacter)
+            {
+                return slot;
+            }
         }
         return null;
     }

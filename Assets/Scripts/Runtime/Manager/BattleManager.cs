@@ -24,6 +24,7 @@ public class BattleManager : MonoSingleton<BattleManager>
     private List<int> _assignedSinnerIds;
     private int _currentStageId;
     private HashSet<BattleCharacter> _processedCharacters = new HashSet<BattleCharacter>();
+    private Dictionary<PlayerCharacter, int> _pendingSkillUses = new Dictionary<PlayerCharacter, int>();
 
     private GameObject _currentBackgroundInstance;
 
@@ -45,28 +46,57 @@ public class BattleManager : MonoSingleton<BattleManager>
 
     private IEnumerator TestSkillUI()
     {
-        yield return null; // DataManager.Awake가 끝날 때까지 대기
+        yield return null;
 
-        // 2. 씬에 있는 임시 플레이어 오브젝트를 찾습니다.
         PlayerCharacter testPlayer = FindObjectOfType<PlayerCharacter>();
+        List<EnemyCharacter> testEnemies = FindObjectsOfType<EnemyCharacter>().ToList();
+
 
         if (testPlayer != null)
         {
-            // 3. 데이터 매니저에서 테스트할 인격 데이터(예: ID 1번)를 가져옵니다.
-            // CSV 파일(Identities.csv)의 첫 번째 열에 있는 ID를 넣으세요.
             IdentityData sampleIdentity = DataManager.Instance.GetIdentity(101);
+
+            _playerCharacters.Clear();
+            _enemyCharacters.Clear();
+            _playerCharacters.Add(testPlayer);
+            _enemyCharacters.AddRange(testEnemies);
+
+            foreach (EnemyCharacter character in testEnemies)
+            {
+                character.Initialize(sampleIdentity);
+                character.DetermineTarget(_playerCharacters.Cast<BattleCharacter>().ToList());
+            }
 
             if (sampleIdentity != null)
             {
-                // 4. 캐릭터 초기화 (이때 비로소 GetSkillList가 작동할 준비가 됨)
                 testPlayer.Initialize(sampleIdentity);
 
-                // 5. UI 매니저에게 리스트를 넘겨서 화면에 그리게 함
                 List<PlayerCharacter> playerList = new List<PlayerCharacter> { testPlayer };
                 _testPlayerList = playerList;
+
+                List<BattleCharacter> testParticipants = new List<BattleCharacter> { testPlayer };
+                testParticipants.AddRange(testEnemies);
+
+                BattleUIManager.Instance.GenerateAllOverheadUIs(testParticipants);
+
+                List<SkillData> sampleSkills = testPlayer.GetSkillQueue(3);
+
+                foreach (EnemyCharacter enemy in testEnemies)
+                {
+                    for (int i = 0; i < sampleSkills.Count; i++)
+                    {
+                        BattleUIManager.Instance.UpdateCharacterOverheadSlot(enemy, i, sampleSkills[i]);
+                    }
+
+                    if (sampleSkills.Count > 0)
+                    {
+                        enemy.SetSelectedSkill(sampleSkills[0]);
+                    }
+                }
+
                 BattleUIManager.Instance.ShowSkillSelectionUI(playerList);
 
-                CustomLogger.LogSystem("[Test] 스킬 UI 생성 테스트를 시작합니다.");
+                CustomLogger.LogSystem("[Test] 스킬 UI 및 오버헤드 UI 생성 테스트를 시작합니다.");
             }
         }
     }
@@ -184,8 +214,35 @@ public class BattleManager : MonoSingleton<BattleManager>
             e.DetermineTarget(_playerCharacters.Cast<BattleCharacter>().ToList());
         }
 
+        List<BattleCharacter> allParticipants = new List<BattleCharacter>();
+        allParticipants.AddRange(_playerCharacters);
+        allParticipants.AddRange(_enemyCharacters);
+
         if (BattleUIManager.Instance != null)
         {
+            BattleUIManager.Instance.GenerateAllOverheadUIs(allParticipants);
+
+            IdentityData sampleIdentity = DataManager.Instance.GetIdentity(101);
+            if (sampleIdentity != null && _playerCharacters.Count > 0)
+            {
+                List<SkillData> sampleSkills = _playerCharacters[0].GetSkillQueue(3);
+                foreach (var enemy in _enemyCharacters.Where(c => c.CurrentHp > 0))
+                {
+                    for (int i = 0; i < 3; i++)
+                    {
+                        if (i < sampleSkills.Count)
+                        {
+                            BattleUIManager.Instance.UpdateCharacterOverheadSlot(enemy, i, sampleSkills[i]);
+                        }
+                    }
+
+                    if (sampleSkills.Count > 0)
+                    {
+                        enemy.SetSelectedSkill(sampleSkills[0]);
+                    }
+                }
+            }
+
             BattleUIManager.Instance.ShowSkillSelectionUI(_playerCharacters);
         }
     }
@@ -195,30 +252,33 @@ public class BattleManager : MonoSingleton<BattleManager>
         CustomLogger.LogBattle("=== 액션 페이즈 시작 ===");
         _processedCharacters.Clear();
 
-        var allParticipants = _playerCharacters.Cast<BattleCharacter>().Concat(_enemyCharacters.Cast<BattleCharacter>()).Where(c => c.CurrentHp > 0).OrderByDescending(c => c.Speed).ToList();
-
-        foreach (var character in allParticipants)
-        {
-            if (_processedCharacters.Contains(character) || character.CurrentHp <= 0) continue;
-            if (character.CurrentTarget == null || character.CurrentTarget.CurrentHp <= 0) continue;
-
-            BattleCharacter target = character.CurrentTarget;
-
-            if (target.CurrentTarget == character)
-            {
-                ResolveClash(character, target);
-            }
-            else
-            {
-                PerformOneSidedAttack(character, target);
-            }
-        }
+        StartCoroutine(ActionSequenceRoutine());
     }
 
 
     private void HandleEnd()
     {
         CustomLogger.LogBattle("턴 종료 페이즈: 버프 갱신 및 상태 체크");
+
+        foreach (var p in _playerCharacters)
+        {
+            if (p != null)
+            {
+                p.SetTarget(null);
+                p.SetSelectedSkill(null);
+            }
+
+        }
+        foreach (var e in _enemyCharacters)
+        {
+            if (e != null)
+            {
+            e.SetTarget(null);
+            e.SetSelectedSkill(null);
+            }
+        }
+
+        ChangeState(BattleState.SelectSkill);
     }
 
     public void ChangeEnvironment(string newBgPrefabPath, string newBgmName = null)
@@ -249,24 +309,38 @@ public class BattleManager : MonoSingleton<BattleManager>
         // }
     }
 
-    private void ResolveClash(BattleCharacter charA, BattleCharacter charB)
+    private IEnumerator ResolveClashRoutine(BattleCharacter charA, BattleCharacter charB)
     {
+        if (charA.SelectedSkill == null || charB.SelectedSkill == null)
+        {
+            CustomLogger.Warn($"[Clash Error] {charA.name} 또는 {charB.name}의 스킬이 null입니다! 합 연산 취소.");
+            yield break;
+        }
+
         CustomLogger.LogBattle($"[Clash] {charA.name} vs {charB.name}");
 
         ClashResult resA = ClashEvaluator.CalculateSkillPower(charA, charA.SelectedSkill);
         ClashResult resB = ClashEvaluator.CalculateSkillPower(charB, charB.SelectedSkill);
 
+        yield return new WaitForSeconds(0.5f);
+
         if (resA.FinalPower > resB.FinalPower)
         {
             CustomLogger.LogBattle($"{charA.name} 승리!");
             charB.LoseCoin();
-            PerformOneSidedAttack(charA, charB);
+
+            CustomLogger.LogBattle($"[Coin] {charA.name} 남은 코인: {charA.CurrentCoinCount}개 / {charB.name} 남은 코인: {charB.CurrentCoinCount}개");
+
+            yield return StartCoroutine(PerformOneSidedAttackRoutine(charA, charB));
         }
         else if (resB.FinalPower > resA.FinalPower)
         {
             CustomLogger.LogBattle($"{charB.name} 승리!");
             charA.LoseCoin();
-            PerformOneSidedAttack(charB, charA);
+
+            CustomLogger.LogBattle($"[Coin] {charB.name} 남은 코인: {charB.CurrentCoinCount}개 / {charA.name} 남은 코인: {charA.CurrentCoinCount}개");
+
+            yield return StartCoroutine(PerformOneSidedAttackRoutine(charB, charA));
         }
         else
         {
@@ -277,11 +351,23 @@ public class BattleManager : MonoSingleton<BattleManager>
         _processedCharacters.Add(charB);
     }
 
-    private void PerformOneSidedAttack(BattleCharacter attacker, BattleCharacter target)
+    private IEnumerator PerformOneSidedAttackRoutine(BattleCharacter attacker, BattleCharacter target)
     {
+        if (attacker.SelectedSkill == null)
+        {
+            CustomLogger.Warn($"[Attack Error] {attacker.name}의 스킬이 null입니다! 일방 공격 취소.");
+            yield break;
+        }
+
         ClashResult result = ClashEvaluator.CalculateSkillPower(attacker, attacker.SelectedSkill);
+
+        CustomLogger.LogBattle($"[Attack] {attacker.name}이(가) {target.name}에게 {result.FinalPower} 만큼의 일방 공격!");
+
         target.TakeDamage(result.FinalPower);
+
         _processedCharacters.Add(attacker);
+
+        yield return null;
     }
 
     private void ClearBattlefield()
@@ -327,18 +413,62 @@ public class BattleManager : MonoSingleton<BattleManager>
     public void ConfirmSkillSelection()
     {
         CustomLogger.LogBattle("플레이어 스킬 선택 완료. 액션 페이즈로 진입합니다.");
+
+        foreach (var kvp in _pendingSkillUses)
+        {
+            kvp.Key.UseSkill(kvp.Value);
+        }
+        _pendingSkillUses.Clear();
+
         ChangeState(BattleState.Action);
     }
 
-    public void RegisterAction(PlayerCharacter player, SkillData skill, int slotIndex, EnemyCharacter target)
+    public void RegisterAction(PlayerCharacter player, SkillData skill, int slotIndex, EnemyCharacter target, int targetSlotIndex)
     {
         player.SetSelectedSkill(skill);
         player.SetTarget(target);
 
-        player.UseSkill(slotIndex);
+        _pendingSkillUses[player] = slotIndex;
 
-        CustomLogger.LogBattle($"[Action] {player.name} -> {target.name} 확정 (스킬: {skill.SkillName})");
+        CustomLogger.LogBattle($"[Action] {player.name}(슬롯{slotIndex}) -> {target.name}(슬롯{targetSlotIndex}) 합 지정 (스킬: {skill.SkillName})");
 
-        BattleUIManager.Instance.RefreshSkillUI();
+        int playerOverheadSlotIndex = 0;
+        BattleUIManager.Instance.UpdateCharacterOverheadSlot(player, playerOverheadSlotIndex, skill);
+
+        EventBus<ActionRegisteredEvent>.Publish(new ActionRegisteredEvent
+        {
+            Attacker = player,
+            AttackerSlotIndex = slotIndex,
+            Target = target,
+            TargetSlotIndex = targetSlotIndex,
+            Skill = skill,
+        });
+    }
+
+    private IEnumerator ActionSequenceRoutine()
+    {
+        var allParticipants = _playerCharacters.Cast<BattleCharacter>().Concat(_enemyCharacters.Cast<BattleCharacter>()).Where(c => c.CurrentHp > 0).OrderByDescending(c => c.Speed).ToList();
+
+        foreach (var character in allParticipants)
+        {
+            if (_processedCharacters.Contains(character) || character.CurrentHp <= 0) continue;
+            if (character.CurrentTarget == null || character.CurrentTarget.CurrentHp <= 0) continue;
+
+            BattleCharacter target = character.CurrentTarget;
+
+            if (target.CurrentTarget == character)
+            {
+                yield return StartCoroutine(ResolveClashRoutine(character, target));
+            }
+            else
+            {
+                yield return StartCoroutine(PerformOneSidedAttackRoutine(character, target));
+            }
+
+            yield return new WaitForSeconds(1.0f);
+        }
+
+        CustomLogger.LogBattle("모든 액션 종료. 턴을 마무리합니다.");
+        ChangeState(BattleState.End);
     }
 }

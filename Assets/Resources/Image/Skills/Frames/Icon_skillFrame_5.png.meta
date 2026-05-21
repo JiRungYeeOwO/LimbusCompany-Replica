@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skill3_Red
+      name: 1
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Orange
+      name: 2
       rect:
         serializedVersion: 2
         x: 512
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Yellow
+      name: 3
       rect:
         serializedVersion: 2
         x: 1024
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Green
+      name: 4
       rect:
         serializedVersion: 2
         x: 1536
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Skyblue
+      name: 5
       rect:
         serializedVersion: 2
         x: 0
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Blue
+      name: 6
       rect:
         serializedVersion: 2
         x: 512
@@ -236,11 +236,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Purple
+      name: 7
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 1024
+        x: 1024
+        y: 1016
         width: 512
         height: 512
       alignment: 0
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill4
+      name: 8
       rect:
         serializedVersion: 2
         x: 1536
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Red_Base
+      name: 9
       rect:
         serializedVersion: 2
         x: 0
@@ -299,11 +299,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Orange_Base
+      name: 10
       rect:
         serializedVersion: 2
         x: 512
-        y: 512
+        y: 508
         width: 512
         height: 512
       alignment: 0
@@ -320,7 +320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Yellow_Base
+      name: 11
       rect:
         serializedVersion: 2
         x: 1024
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Green_Base
+      name: 12
       rect:
         serializedVersion: 2
         x: 1536
@@ -362,7 +362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Skyblue_Base
+      name: 13
       rect:
         serializedVersion: 2
         x: 0
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Blue_Base
+      name: 14
       rect:
         serializedVersion: 2
         x: 516
@@ -404,7 +404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill3_Purple_Base
+      name: 15
       rect:
         serializedVersion: 2
         x: 1024
@@ -425,7 +425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill4_Base
+      name: 16
       rect:
         serializedVersion: 2
         x: 1536
@@ -456,22 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Skill3_Blue: 1917701587
-      Skill3_Blue_Base: -1181337629
-      Skill3_Green: -1827081164
-      Skill3_Green_Base: 970153385
-      Skill3_Orange: -1323322264
-      Skill3_Orange_Base: -532699577
-      Skill3_Purple: 1352911269
-      Skill3_Purple_Base: -981790158
-      Skill3_Red: -111714147
-      Skill3_Red_Base: -322404560
-      Skill3_Skyblue: -801876095
-      Skill3_Skyblue_Base: 1330150670
-      Skill3_Yellow: -1819482305
-      Skill3_Yellow_Base: 951708023
-      Skill4: 1036178934
-      Skill4_Base: -1980296296
+      1: -111714147
+      10: -532699577
+      11: 951708023
+      12: 970153385
+      13: 1330150670
+      14: -1181337629
+      15: -981790158
+      16: -1980296296
+      2: -1323322264
+      3: -1819482305
+      4: -1827081164
+      5: -801876095
+      6: 1917701587
+      7: 1352911269
+      8: 1036178934
+      9: -322404560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

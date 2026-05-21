@@ -10,15 +10,30 @@ public class BattleUIManager : MonoSingleton<BattleUIManager>
     [SerializeField] private GameObject _characterColumnPrefab;
     [SerializeField] private GameObject _slotContainer;
 
-    private Dictionary<string, Sprite> _frameSpriteCache = new Dictionary<string, Sprite>();
+    [Header("오버헤드 UI 연결")]
+    [SerializeField] private GameObject _overheadSkillUIPrefab;
+    [SerializeField] private RectTransform _overheadContainer;
+
+    [Header("스프라이트 캐싱 파일")]
+    [Tooltip("Image/Skills/Frames/ 경로의 아틀라스")]
+    [SerializeField] private Texture2D[] _frameAtlasFiles;
+    [Tooltip("Image/Skills/SkillType/ 경로의 아틀라스")]
+    [SerializeField] private Texture2D[] _skillTypeAtlasFiles;
+
+    private const string FRAME_PATH_PREFIX = "Image/Skills/Frames/";
+    private const string SKILL_TYPE_PATH_PREFIX = "Image/Skills/SkillType/";
+
+    private Dictionary<string, Sprite> _uiSpriteCache = new Dictionary<string, Sprite>();
     private List<GameObject> _spawnedSlots = new List<GameObject>();
 
     private Dictionary<int, Sprite> _skillIconCache = new Dictionary<int, Sprite>();
 
+    private Dictionary<BattleCharacter, OverheadSkillController> _overheadUIDictionary = new Dictionary<BattleCharacter, OverheadSkillController>();
+
     protected override void Awake()
     {
         base.Awake();
-        PreloadFrameSprites();
+        PreloadAllUISprites();
     }
 
     public void ShowSkillSelectionUI(List<PlayerCharacter> players)
@@ -64,6 +79,32 @@ public class BattleUIManager : MonoSingleton<BattleUIManager>
         CustomLogger.LogSystem("[UI] 액션 타임라인 패널 활성화.");
     }
 
+    public void GenerateAllOverheadUIs(List<BattleCharacter> characters)
+    {
+        foreach (var kvp in _overheadUIDictionary)
+        {
+            if (kvp.Value != null)
+            {
+                Destroy(kvp.Value.gameObject);
+            }
+        }
+
+        _overheadUIDictionary.Clear();
+
+        foreach (BattleCharacter character in characters)
+        {
+            GameObject overheadGO = Instantiate(_overheadSkillUIPrefab, _overheadContainer);
+            OverheadSkillController overheadSkillController = overheadGO.GetComponent<OverheadSkillController>();
+
+            if (overheadSkillController != null)
+            {
+                int slotCount = (character is PlayerCharacter) ? 1 : 3;
+                overheadSkillController.Initialize(character, slotCount);
+                _overheadUIDictionary.Add(character, overheadSkillController);
+            }
+        }
+    }
+
     public void RefreshSkillUI()
     {
         List<PlayerCharacter> players = BattleManager.Instance.GetPlayerCharacters();
@@ -72,7 +113,7 @@ public class BattleUIManager : MonoSingleton<BattleUIManager>
 
     public void OnClickStartClashButton()
     {
-        gameObject.SetActive(false);
+        _slotContainer.SetActive(false);
         BattleManager.Instance.ConfirmSkillSelection();
     }
 
@@ -99,34 +140,47 @@ public class BattleUIManager : MonoSingleton<BattleUIManager>
         rect.SetAsLastSibling();
     }
 
-    private void PreloadFrameSprites()
+    private void PreloadAllUISprites()
     {
-        string[] atlasPaths =
-        {
-            "Image/Skills/Frames/Icon_skillFrame",
-            "Image/Skills/Frames/Icon_skillFrame_5",
-            "Image/Skills/Frames/Icon_skillFrame_6",
-            "Image/Skills/Frames/Icon_skillFrame_7"
-        };
+        _uiSpriteCache.Clear();
 
-        foreach (var item in atlasPaths)
+        LoadAtlasGroup(_frameAtlasFiles, FRAME_PATH_PREFIX);
+
+        LoadAtlasGroup(_skillTypeAtlasFiles, SKILL_TYPE_PATH_PREFIX);
+
+        CustomLogger.LogSystem($"[UI] 총 {_uiSpriteCache.Count}개의 UI 스프라이트 캐싱 완료.");
+    }
+
+    private void LoadAtlasGroup(Texture2D[] files, string prefixPath)
+    {
+        if (files == null || files.Length == 0) return;
+
+        foreach (var file in files)
         {
-            Sprite[] loadedSprites = Resources.LoadAll<Sprite>(item);
+            if (file == null) continue;
+
+            string fullPath = prefixPath + file.name;
+            Sprite[] loadedSprites = Resources.LoadAll<Sprite>(fullPath);
+
+            if (loadedSprites == null || loadedSprites.Length == 0)
+            {
+                CustomLogger.Warn($"[UI] 경로에서 스프라이트를 찾을 수 없습니다: {fullPath}");
+                continue;
+            }
+
             foreach (var sprite in loadedSprites)
             {
-                if (!_frameSpriteCache.ContainsKey(sprite.name))
+                if (!_uiSpriteCache.ContainsKey(sprite.name))
                 {
-                    _frameSpriteCache.Add(sprite.name, sprite);
+                    _uiSpriteCache.Add(sprite.name, sprite);
                 }
             }
         }
-
-        CustomLogger.LogSystem($"[UI] 스킬 프레임 스프라이트 {_frameSpriteCache.Count}개 캐싱 완료.");
     }
 
     public Sprite GetFrameSprite(string spriteName)
     {
-        if (_frameSpriteCache.TryGetValue(spriteName, out Sprite sprite))
+        if (_uiSpriteCache.TryGetValue(spriteName, out Sprite sprite))
         {
             return sprite;
         }
@@ -153,5 +207,19 @@ public class BattleUIManager : MonoSingleton<BattleUIManager>
 
         CustomLogger.Warn($"[Warning] {skillID}번 아이콘 리소스를 찾을 수 없습니다.");
         return null;
+    }
+
+    public void UpdateCharacterOverheadSlot(BattleCharacter character, int slotIndex, SkillData skill)
+    {
+        CustomLogger.LogSystem("[UpdateCharacterOverheadSlot] 호출");
+
+        if (_overheadUIDictionary.TryGetValue(character, out OverheadSkillController controller))
+        {
+            controller.SetSkill(slotIndex, skill);
+        }
+        else
+        {
+            CustomLogger.Warn($"[UI] {character.name}의 오버헤드 UI를 찾을 수 없습니다.");
+        }
     }
 }

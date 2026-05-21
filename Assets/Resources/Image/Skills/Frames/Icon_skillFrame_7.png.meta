@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skill1_Red_Base
+      name: 1
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill1_Orange_Base
+      name: 2
       rect:
         serializedVersion: 2
         x: 512
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill1_Yellow_Base
+      name: 3
       rect:
         serializedVersion: 2
         x: 1024
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill1_Green_Base
+      name: 4
       rect:
         serializedVersion: 2
         x: 1536
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill1_Skyblue_Base
+      name: 5
       rect:
         serializedVersion: 2
         x: 0
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill1_Blue_Base
+      name: 6
       rect:
         serializedVersion: 2
         x: 512
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill1_Purple_Base
+      name: 7
       rect:
         serializedVersion: 2
         x: 1024
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill2_Red_Base
+      name: 8
       rect:
         serializedVersion: 2
         x: 0
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill2_Orange_Base
+      name: 9
       rect:
         serializedVersion: 2
         x: 512
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill2_Yellow_Base
+      name: 10
       rect:
         serializedVersion: 2
         x: 1024
@@ -320,7 +320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill2_Green_Base
+      name: 11
       rect:
         serializedVersion: 2
         x: 1536
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill2_Skyblue_Base
+      name: 12
       rect:
         serializedVersion: 2
         x: 0
@@ -362,7 +362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill2_Blue_Base
+      name: 13
       rect:
         serializedVersion: 2
         x: 512
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill2_Purple_Base
+      name: 14
       rect:
         serializedVersion: 2
         x: 1024
@@ -414,20 +414,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Skill1_Blue_Base: 922849048
-      Skill1_Green_Base: -1805195472
-      Skill1_Orange_Base: -1128788117
-      Skill1_Purple_Base: 711946587
-      Skill1_Red_Base: 506953693
-      Skill1_Skyblue_Base: 1410059610
-      Skill1_Yellow_Base: 894563666
-      Skill2_Blue_Base: -854017399
-      Skill2_Green_Base: -1173955001
-      Skill2_Orange_Base: 1395140027
-      Skill2_Purple_Base: -1105141025
-      Skill2_Red_Base: 617647996
-      Skill2_Skyblue_Base: 218236018
-      Skill2_Yellow_Base: -1254610479
+      1: 506953693
+      10: -1254610479
+      11: -1173955001
+      12: 218236018
+      13: -854017399
+      14: -1105141025
+      2: -1128788117
+      3: 894563666
+      4: -1805195472
+      5: 1410059610
+      6: 922849048
+      7: 711946587
+      8: 617647996
+      9: 1395140027
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

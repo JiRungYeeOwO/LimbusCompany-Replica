@@ -17,6 +17,7 @@ public abstract class BattleCharacter : MonoBehaviour
     [SerializeField] private bool _isTestEnvironment = false;
 
     private SkillData _selectedSkill;
+    private int _currentCoinCount;
 
     private Dictionary<BuffType, int> _activeBuffs = new Dictionary<BuffType, int>();
 
@@ -28,6 +29,8 @@ public abstract class BattleCharacter : MonoBehaviour
     public int MaxHp => _characterData != null ? _characterData.MaxHP : 0;
 
     protected bool IsTestEnvironment => _isTestEnvironment;
+
+    public int CurrentCoinCount => _currentCoinCount;
 
     public BattleCharacter CurrentTarget
     {
@@ -82,7 +85,11 @@ public abstract class BattleCharacter : MonoBehaviour
     public void SetTarget(BattleCharacter target)
     {
         _currentTarget = target;
-        CustomLogger.LogBattle($"[Targeting] {gameObject.name}의 타겟이 외부(UI) 조작에 의해 {target.gameObject.name}(으)로 수동 지정되었습니다.");
+
+        if (target != null)
+        {
+            CustomLogger.LogBattle($"[Targeting] {gameObject.name}의 타겟이 외부(UI) 조작에 의해 {target.gameObject.name}(으)로 수동 지정되었습니다.");
+        }
     }
 
     public ClashResult GetCurrentSkillPower(SkillData currentSkill)
@@ -92,13 +99,26 @@ public abstract class BattleCharacter : MonoBehaviour
 
     public void LoseCoin()
     {
-
+        if (_currentCoinCount > 0)
+        {
+            _currentCoinCount--;
+        }
     }
 
     public void SetSelectedSkill(SkillData skill)
     {
         _selectedSkill = skill;
-        CustomLogger.LogBattle($"[Skill] {gameObject.name}이(가) 스킬을 선택했습니다.");
+
+        if (skill != null)
+        {
+            _currentCoinCount = skill.CoinCount;
+        }
+        else
+        {
+            _currentCoinCount = 0;
+        }
+
+            CustomLogger.LogBattle($"[Skill] {gameObject.name}이(가) 스킬을 선택했습니다.");
     }
 
     public abstract void DetermineTarget(List<BattleCharacter> potentialTargets);
