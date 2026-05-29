@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class DataManager : MonoSingleton<DataManager>
 {
-    public Dictionary<int, SinnerData> SinnerTable = new();
-    public Dictionary<int, IdentityData> IdentityTable = new();
-    public Dictionary<int, SkillData> SkillTable = new();
-    public Dictionary<int, EnemyData> EnemyTable = new();
-    public Dictionary<int, StageData> StageTable = new();
+    private Dictionary<int, SinnerData> SinnerTable = new();
+    private Dictionary<int, IdentityData> IdentityTable = new();
+    private Dictionary<int, SkillData> SkillTable = new();
+    private Dictionary<int, EnemyData> EnemyTable = new();
+    private Dictionary<int, StageData> StageTable = new();
 
     protected override void Awake()
     {

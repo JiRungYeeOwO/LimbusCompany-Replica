@@ -5,7 +5,7 @@ public class OverheadSkillController : MonoBehaviour
 {
     [Header("스킬 설정")]
     [SerializeField] private GameObject _overheadSlotPrefab;
-    [SerializeField] private Transform _slotContainer;
+    [SerializeField] private RectTransform _slotContainer;
     [SerializeField] private Vector3 _offset = new Vector3(0, 2.5f, 0);
 
     private BattleCharacter _targetCharacter;
@@ -48,6 +48,8 @@ public class OverheadSkillController : MonoBehaviour
             OverheadSkillUI slotUI = slotGO.GetComponent<OverheadSkillUI>();
             if (slotUI != null)
             {
+                _slotContainer.sizeDelta = new Vector2(150f * (_slots.Count + 1), _slotContainer.sizeDelta.y);
+
                 slotUI.Initialize(character, i);
                 _slots.Add(slotUI);
             }

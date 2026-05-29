@@ -52,7 +52,7 @@ MonoBehaviour:
   _overheadSlotPrefab: {fileID: 5289666856697002004, guid: 430ec42dc918c194f8707a2ed8640ad3,
     type: 3}
   _slotContainer: {fileID: 7291877531568961509}
-  _offset: {x: 0, y: 2.5, z: 0}
+  _offset: {x: 0, y: 1.5, z: 0}
 --- !u!1 &3187493923880945731
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,8 +106,8 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
-  m_Spacing: 0
+  m_ChildAlignment: 1
+  m_Spacing: 10
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
