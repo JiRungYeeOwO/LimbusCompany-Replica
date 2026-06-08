@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public abstract class BattleCharacter : MonoBehaviour
@@ -16,6 +17,9 @@ public abstract class BattleCharacter : MonoBehaviour
     [Header("테스트 설정")]
     [SerializeField] private bool _isTestEnvironment = false;
 
+    [Header("임시 체력 UI")]
+    [SerializeField] private TextMeshPro _hpText;
+
     private SkillData _selectedSkill;
     private int _currentCoinCount;
 
@@ -32,6 +36,7 @@ public abstract class BattleCharacter : MonoBehaviour
 
     public int CurrentCoinCount => _currentCoinCount;
 
+
     public BattleCharacter CurrentTarget
     {
         get { return _currentTarget; }
@@ -44,6 +49,14 @@ public abstract class BattleCharacter : MonoBehaviour
         protected set { _selectedSkill = value; }
     }
 
+    private void UpdateHpText()
+    {
+        if (_hpText != null)
+        {
+            _hpText.text = $"{_currentHp} / {MaxHp}";
+        }
+    }
+
     public virtual void Initialize(CharacterBaseData data)
     {
         _characterData = data;
@@ -51,12 +64,17 @@ public abstract class BattleCharacter : MonoBehaviour
         _currentSp = 0;
 
         _activeBuffs.Clear();
+
+        UpdateHpText();
+
         CustomLogger.LogBattle($"{gameObject.name} 초기화 완료 (HP: {_currentHp}/{MaxHp})");
     }
 
     public virtual void TakeDamage(int damage)
     {
         _currentHp = Mathf.Max(0, _currentHp - damage);
+
+        UpdateHpText();
 
         CustomLogger.LogBattle($"{gameObject.name} 피격! {damage} 피해 (남은 체력: {_currentHp}/{MaxHp})");
 
@@ -105,6 +123,14 @@ public abstract class BattleCharacter : MonoBehaviour
         }
     }
 
+    public void UseCoin()
+    {
+        if (_currentCoinCount > 0)
+        {
+            _currentCoinCount--;
+        }
+    }
+
     public void SetSelectedSkill(SkillData skill)
     {
         _selectedSkill = skill;
@@ -118,7 +144,7 @@ public abstract class BattleCharacter : MonoBehaviour
             _currentCoinCount = 0;
         }
 
-            CustomLogger.LogBattle($"[Skill] {gameObject.name}이(가) 스킬을 선택했습니다.");
+        CustomLogger.LogBattle($"[Skill] {gameObject.name}이(가) 스킬을 선택했습니다. (코인 {_currentCoinCount}개)");
     }
 
     public abstract void DetermineTarget(List<BattleCharacter> potentialTargets);

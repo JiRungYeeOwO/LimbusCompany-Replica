@@ -319,39 +319,58 @@ public class BattleManager : MonoSingleton<BattleManager>
 
         CustomLogger.LogBattle($"[Clash] {charA.name} vs {charB.name}");
 
-        ClashResult resA = ClashEvaluator.CalculateSkillPower(charA, charA.SelectedSkill);
-        ClashResult resB = ClashEvaluator.CalculateSkillPower(charB, charB.SelectedSkill);
+        int clashCount = 1;
 
-        yield return new WaitForSeconds(0.5f);
-
-        if (resA.FinalPower > resB.FinalPower)
+        while (charA.CurrentCoinCount > 0 && charB.CurrentCoinCount > 0)
         {
-            CustomLogger.LogBattle($"{charA.name} 승리!");
-            charB.LoseCoin();
+            CustomLogger.LogBattle($"합 진행 중 {clashCount}합");
 
-            CustomLogger.LogBattle($"[Coin] {charA.name} 남은 코인: {charA.CurrentCoinCount}개 / {charB.name} 남은 코인: {charB.CurrentCoinCount}개");
+            ClashResult resA = ClashEvaluator.CalculateSkillPower(charA, charA.SelectedSkill);
+            ClashResult resB = ClashEvaluator.CalculateSkillPower(charB, charB.SelectedSkill);
 
-            yield return StartCoroutine(PerformOneSidedAttackRoutine(charA, charB));
+            yield return new WaitForSeconds(0.5f);
+
+            if (resA.FinalPower > resB.FinalPower)
+            {
+                CustomLogger.LogBattle($"합 승리: {charA.name} ({resA.FinalPower} > {resB.FinalPower})");
+                charB.LoseCoin();
+            }
+            else if (resB.FinalPower > resA.FinalPower)
+            {
+                CustomLogger.LogBattle($"합 승리: {charB.name} ({resB.FinalPower} > {resA.FinalPower})");
+                charA.LoseCoin();
+            }
+            else
+            {
+                CustomLogger.LogBattle($"무승부! ({resA.FinalPower} == {resB.FinalPower}) 코인 파괴 없음");
+            }
+
+            CustomLogger.LogBattle($"[Coin] {charA.name}: {charA.CurrentCoinCount}개 / {charB.name}: {charB.CurrentCoinCount}개");
+
+            clashCount++;
+            yield return new WaitForSeconds(0.3f);
         }
-        else if (resB.FinalPower > resA.FinalPower)
+
+        if (charA.CurrentCoinCount > 0 && charB.CurrentCoinCount == 0)
         {
-            CustomLogger.LogBattle($"{charB.name} 승리!");
-            charA.LoseCoin();
-
-            CustomLogger.LogBattle($"[Coin] {charB.name} 남은 코인: {charB.CurrentCoinCount}개 / {charA.name} 남은 코인: {charA.CurrentCoinCount}개");
-
-            yield return StartCoroutine(PerformOneSidedAttackRoutine(charB, charA));
+            CustomLogger.LogBattle($"[Clash End] {charA.name} 최종 승리! 일방 공격 전환");
+            yield return StartCoroutine(PerformOneSidedAttackRoutine(charA, charB, clashCount));
+        }
+        else if (charB.CurrentCoinCount > 0 && charA.CurrentCoinCount == 0)
+        {
+            CustomLogger.LogBattle($"[Clash End] {charB.name} 최종 승리! 일방 공격 전환");
+            yield return StartCoroutine(PerformOneSidedAttackRoutine(charB, charA, clashCount));
         }
         else
         {
-            CustomLogger.LogBattle("무승부 (재합 로직 필요)");
+            CustomLogger.LogBattle($"[Clash End] 양측 코인 모두 소진. 타격 없이 종료.");
         }
 
         _processedCharacters.Add(charA);
         _processedCharacters.Add(charB);
     }
 
-    private IEnumerator PerformOneSidedAttackRoutine(BattleCharacter attacker, BattleCharacter target)
+    private IEnumerator PerformOneSidedAttackRoutine(BattleCharacter attacker, BattleCharacter target, int clashCount)
     {
         if (attacker.SelectedSkill == null)
         {
@@ -359,14 +378,26 @@ public class BattleManager : MonoSingleton<BattleManager>
             yield break;
         }
 
-        ClashResult result = ClashEvaluator.CalculateSkillPower(attacker, attacker.SelectedSkill);
+        while (attacker.CurrentCoinCount > 0 && target.CurrentHp > 0)
+        {
+            ClashResult result = ClashEvaluator.CalculateSkillPower(attacker, attacker.SelectedSkill);
 
-        CustomLogger.LogBattle($"[Attack] {attacker.name}이(가) {target.name}에게 {result.FinalPower} 만큼의 일방 공격!");
+            CustomLogger.LogBattle($"[Attack] {attacker.name}이(가) {target.name}에게 {result.FinalPower} 피해!");
 
-        target.TakeDamage(result.FinalPower);
+            int clashDamage = Mathf.FloorToInt(result.FinalPower * (clashCount / 10f));
+
+            int totalDamage = result.FinalPower + clashDamage;
+
+            CustomLogger.LogBattle($"[Attack] {attacker.name}이(가) {target.name}에게 {totalDamage} 피해! (기본 {result.FinalPower} + 합 보너스 {clashDamage})");
+
+            target.TakeDamage(totalDamage);
+
+            attacker.UseCoin();
+
+            yield return new WaitForSeconds(0.4f);
+        }
 
         _processedCharacters.Add(attacker);
-
         yield return null;
     }
 
@@ -462,7 +493,7 @@ public class BattleManager : MonoSingleton<BattleManager>
             }
             else
             {
-                yield return StartCoroutine(PerformOneSidedAttackRoutine(character, target));
+                yield return StartCoroutine(PerformOneSidedAttackRoutine(character, target, 0));
             }
 
             yield return new WaitForSeconds(1.0f);

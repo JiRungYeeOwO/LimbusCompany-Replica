@@ -73,18 +73,29 @@ public class TargetingHandler : MonoSingleton<TargetingHandler>
     {
         if (!_isDragging || _currentArrow == null) return;
 
-        EnemyCharacter target = DetectEnemyAtMouse(e.MousePos);
-        if (target != _currentHoveredEnemy)
-        {
-            if (_currentHoveredEnemy != null) _currentHoveredEnemy.SetHighlight(false);
-            _currentHoveredEnemy = target;
-            if (_currentHoveredEnemy != null) _currentHoveredEnemy.SetHighlight(true);
-        }
-
         Vector2 finalTargetScreenPos = e.MousePos;
-        if (_currentHoveredEnemy != null && _isTestEnvironment)
+
+        OverheadSkillUI hoveredSlot = DetectOverheadSlotAtMouse(e.MousePos);
+
+        if (hoveredSlot != null)
         {
-            finalTargetScreenPos = Camera.main.WorldToScreenPoint(_currentHoveredEnemy.transform.position);
+            Canvas canvas = hoveredSlot.GetComponentInParent<Canvas>();
+            Camera uiCamera = canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera;
+
+            finalTargetScreenPos = RectTransformUtility.WorldToScreenPoint(uiCamera, hoveredSlot.transform.position);
+
+            EnemyCharacter targetEnemy = hoveredSlot.OwnerCharacter as EnemyCharacter;
+            UpdateHoveredEnemy(targetEnemy);
+        }
+        else
+        {
+            EnemyCharacter target3D = DetectEnemyAtMouse(e.MousePos);
+            UpdateHoveredEnemy(target3D);
+
+            if (target3D != null && _isTestEnvironment)
+            {
+                finalTargetScreenPos = Camera.main.WorldToScreenPoint(target3D.transform.position);
+            }
         }
 
         RectTransformUtility.ScreenPointToLocalPointInRectangle(_lineContainer, finalTargetScreenPos, Camera.main, out Vector2 localTargetPos);
@@ -171,5 +182,23 @@ public class TargetingHandler : MonoSingleton<TargetingHandler>
             }
         }
         return null;
+    }
+
+    private void UpdateHoveredEnemy(EnemyCharacter newTarget)
+    {
+        if (newTarget != _currentHoveredEnemy)
+        {
+            if (_currentHoveredEnemy != null)
+            {
+                _currentHoveredEnemy.SetHighlight(false);
+            }
+
+            _currentHoveredEnemy = newTarget;
+
+            if (_currentHoveredEnemy != null)
+            {
+                _currentHoveredEnemy.SetHighlight(true);
+            }
+        }
     }
 }
